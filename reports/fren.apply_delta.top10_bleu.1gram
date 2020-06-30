@@ -1,0 +1,125 @@
+Metric: bleu
+SNMT > UNMT top 10
+==================
+2079, SNMT: 0.03132774065763755, UNMT: 0.006777355791854234, diff: 0.024550384865783315
+Src : Les neuf premiers épisodes de Sheriff Callie's Wild West seront disponibles à partir du 24 novembre sur le site watchdisneyjunior.com ou via son application pour téléphones et tablettes.
+Ref : The first nine episodes of Sheriff Callie's Wild West will be available from November 24 on the site watchdisneyjunior.com or via its application for mobile phones and tablets.
+sys1: The first nine episodes of Sheriff Callie's Wild West will be available from November 24 on the site watchdisneyjunior.com or via its application for phones and tablets.
+sys2: Sheriff first nine episodes of Sheriff Callie' s Wild West will be available as of November 24 on the watchdisneyjunior.com website or via its application for phones and computers.
+------------------
+1795, SNMT: 0.03187335404532732, UNMT: 0.008015965468477049, diff: 0.02385738857685027
+Src : Le président Xi Jinping, qui a pris ses fonctions en mars dernier, a fait de la lutte contre la corruption une priorité nationale, estimant que le phénomène constituait une menace à l'existence-même du Parti communiste.
+Ref : President Xi Jinping, who took office last March, has made the fight against corruption a national priority, believing that the phenomenon is a threat to the very existence of the Communist Party.
+sys1: President Xi Jinping, who took office in March, has made the fight against corruption a national priority, believing that the phenomenon posed a threat to the very existence of the Communist Party.
+sys2: President Xi Jinping, who took office in March, has made fighting corruption a national priority, saying the phenomenon posed a threat to the Communist Party's existence-free existence.
+------------------
+293, SNMT: 0.013446289916689835, UNMT: -0.007821019274668828, diff: 0.021267309191358663
+Src : Un peu plus tôt, sur la route menant à Bunagana, poste-frontière avec l'Ouganda, des militaires aidés de civils chargeaient un lance-roquettes multiple monté sur un camion flambant neuf des FARDC, devant assurer la relève d'un autre engin pilonnant les positions du M23 sur les collines.
+Ref : A little earlier, on the road to Bunagana, the frontier post with Uganda, soldiers assisted by civilians loaded up a multiple rocket launcher mounted on a brand new truck belonging to the FARDC, intended to take over from another device pounding the positions of the M23 in the hills.
+sys1: Earlier, on the road leading to Bunagana border post with Uganda, soldiers helped civilians loaded a multiple rocket launcher mounted on a truck brand new FARDC, to ensure succession of another engine pounding the positions of the M23 in the hills.
+sys2: A day earlier, on the road leading to Bunagana, a postcode with Uganda, military personnel aided by civilians were loading a multiple rocket lance-roquettes fire on a flambant neuf FARDC truck, expected to provide the lead for another device pilfering M23 positions on the hills.
+------------------
+2356, SNMT: 0.015205499732822148, UNMT: -0.005927590703816321, diff: 0.02113309043663847
+Src : Il y a, avec la crémation, "une violence faite au corps aimé", qui va être "réduit à un tas de cendres" en très peu de temps, et non après un processus de décomposition, qui "accompagnerait les phases du deuil".
+Ref : With cremation, there is a sense of "violence committed against the body of a loved one", which will be "reduced to a pile of ashes" in a very short time instead of after a process of decomposition that "would accompany the stages of grief".
+sys1: There, with the cremation, "a violence made to the beloved body", which will be "reduced to a pile of ashes" in a very short time, and not after a process of decomposition, which "would accompany the phases of mourning".
+sys2: There is, with cremation, "violence done to the loved one," which is going to be "reduced to a tas of ashes" in very little time, and not after a process of disablement, which would "accompany the phases of grief."
+------------------
+2935, SNMT: 0.025584314605875846, UNMT: 0.005042494374784212, diff: 0.020541820231091634
+Src : Dans "Les Fous de Benghazi", il avait été le premier à révéler l'existence d'un centre de commandement secret de la CIA dans cette ville, berceau de la révolte libyenne.
+Ref : In "Les Fous de Benghazi", he was the first to reveal the existence of a secret CIA command centre in the city, the cradle of the Libyan revolt.
+sys1: In "Les Fous de Benghazi", he was the first to reveal the existence of a secret CIA command center in this town, cradle of the Libyan revolt.
+sys2: In "The Facts of Libya," he had been the first to reveal the existence of a secret CIA command center in that city, the birthplace of the Libyan uprising.
+------------------
+2713, SNMT: 0.006898814700988964, UNMT: -0.012270589489709494, diff: 0.019169404190698458
+Src : France Voiselle, porte-parole du Service de protection contre les incendies de Québec, a précisé que l'intervention rapide des pompiers a permis d'éviter la propagation des flammes aux bâtiments adjacents, un défi de taille pour ce secteur de la ville où les immeubles sont construits de manière rapprochée.
+Ref : France Voiselle, spokesperson for the Quebec Fire Protection Service, said that the quick intervention of the fire brigade prevented the fire spreading to adjacent buildings, a major challenge in this part of town where the buildings are very close together.
+sys1: France Voiselle, spokesperson for the Québec fire protection Service, said that the quick intervention of firefighters allowed to prevent the spread of flames to adjacent buildings, a major challenge for this sector of the city where buildings are built in a close manner.
+sys2: France Voiselle, a spokeswoman for the New York Fire Department, said the firefighters' quick intervention helped prevent the spread of the flames to nearby buildings, a challenge of taille for this area of the city where buildings are built in close quarters.
+------------------
+2085, SNMT: 0.02412671650329301, UNMT: 0.005025439872230919, diff: 0.019101276631062092
+Src : Un sondage publié en début de semaine par Common Sense Media montrait une explosion de l'usage des appareils mobiles par les jeunes enfants aux États-Unis: 38% des moins de 2 ans se sont déjà servis d'une tablette ou d'un téléphone, et 72% des moins de 8 ans, contre respectivement 10% et 38% il y a deux ans.
+Ref : A survey published by Common Sense Media at the beginning of the week showed an explosion in the use of mobile devices by young children in the United States: 38% of children under 2 already use a tablet or mobile phone, and 72% of under 8s, compared to 10% and 38% respectively two years ago.
+sys1: A poll published earlier this week by Common Sense Media showed an explosion in the use of mobile devices by young children in the United States: 38% of less than 2 years have already used a tablet or a phone, and 72% of less than 8 years, compared respectively 10% and 38% two years ago.
+sys2: A poll released in early May by Common Sense Media showed an explosion in mobile devices use by young children in the United States: 38 percent of children under 2 have already been using a laptop or phone, and 72 percent of under 8, up from respectivement 10 percent and 38 percent two years ago.
+------------------
+2516, SNMT: 0.019781404080184473, UNMT: 0.0029112414160437083, diff: 0.016870162664140764
+Src : Le bénéfice net de sa principale filiale, Cogeco Câble, a été de 43,9 millions, ou 90 ¢ par action, en recul par rapport aux 45,7 millions, ou 93 ¢ par action, de la même période l'an dernier.
+Ref : The net profit of its principal subsidiary, Cogeco Cable, was CAD 43.9 million, or 90¢ per share, down from CAD 45.7 million, or 93¢ per share, for the same period last year.
+sys1: The net profit of its main subsidiary, Cogeco Cable, was 43.9 million, or 90 ¢ per share, down from 45.7 million, or 93 ¢ per share, for the same period last year.
+sys2: Net income at its main subsidiary, Cogeco Câble, was $43.9 million, or 90 cents per share, down from $45,713 million, or 93 cents per share, in the same period last year.
+------------------
+378, SNMT: 0.0137582256344011, UNMT: -0.002788431184367113, diff: 0.016546656818768213
+Src : Coulson et Brooks nient avoir conspiré avec d'autres pour pirater des téléphones entre le 3 octobre 2000 et le 9 août 2006.
+Ref : Coulson and Brooks deny conspiring with others to hack phones between October 3 2000 and August 9 2006.
+sys1: Coulson and Brooks deny conspiring with others to hack phones between October 3, 2000 and August 9, 2006.
+sys2: Coulson and Brooks deny conspirging with others to pirater phones between Oct. 3, 2000 and Aug. 9, 2006.
+------------------
+199, SNMT: 0.014604191443314818, UNMT: -0.0011889023909965601, diff: 0.015793093834311378
+Src : La Federal Aviation Administration américaine a laissé la porte ouverte aux transporteurs américains pour un changement de leurs procédures afin que les passagers puissent lire des livres électroniques, regarder des vidéos ou jouer à des jeux sur leurs appareils pendant les phases de vol critiques à condition qu'ils soient en mode « avion ».
+Ref : The US Federal Aviation Administration has left the way open for American carriers to change their procedures so that passengers will be able to read e-books, watch videos or play games on their devices during critical phases of flight provided they remain in "airplane" mode.
+sys1: The Federal Aviation Administration left the door open for U.S. carriers to change their procedures so that the passengers can read e-books, watch videos or play games on their devices during phases of flight critical provided that they are in "airplane" mode
+sys2: The U.S. Federal Aviation Administration has left the door open for U.S. carriers for a change in their procedures so passengers can read electronic books, watch videos or play games on their aircraft during critical flight phases as long as they are in "airplane mode."
+------------------
+UNMT > SNMT top 10
+==================
+1544, SNMT: -0.004450123151777063, UNMT: 0.02116514566368366, diff: -0.025615268815460723
+Src : Mais le représentant Bill Shuster (R-Pa.), président du Comité des transports de la Chambre des représentants, a déclaré qu'il le considérait aussi comme l'alternative la plus viable à long terme.
+Ref : But Rep. Bill Shuster (R-Pa.), chairman of the House Transportation Committee, has said he, too, sees it as the most viable long-term alternative.
+sys1: But Congressman Bill Shuster (R - PA.), Chairman of the House of representatives Transportation Committee, said that he considered as the most viable alternative in the long term.
+sys2: But Rep. Bill Shuster (R-Pa.), chairman of the House Transportation Committee, said he also considered it the most viable long-term alternative.
+------------------
+752, SNMT: -0.004618415753444793, UNMT: 0.016492319081500284, diff: -0.021110734834945077
+Src : Scott Brown, le capitaine du Celtic Glasgow, a vu son appel rejeté et sera bien suspendu pour les deux prochains matches de Ligue des champions de son club, contre l'Ajax et l'AC Milan.
+Ref : Scott Brown, Glasgow Celtic captain, has had his appeal rejected and will miss his club's next two Champion's League matches, against Ajax and AC Milan.
+sys1: Scott Brown, the captain of the Glasgow Celtic, saw his appeal dismissed and will be well suspended for the next two matches of the champions League for his club against Ajax and AC Milan.
+sys2: Scott Brown, the Celtic captain, has had his appeal rejected and will be well suspended for his club's next two Champions League matches, against Ajax and AC Milan.
+------------------
+283, SNMT: -0.000993698939673493, UNMT: 0.019948060928868472, diff: -0.020941759868541965
+Src : Les irréductibles du M23, soit quelques centaines de combattants, étaient retranchés à près de 2000 mètres d'altitude sur les collines agricoles de Chanzu, Runyonyi et Mbuzi, proches de Bunagana et Jomba, deux localités situées à environ 80 km au nord de Goma, la capitale de la province du Nord-Kivu.
+Ref : The diehards of the M23, who are several hundreds in number, had entrenched themselves at an altitude of almost 2,000 metres in the farmland hills of Chanzu, Runyonyi and Mbuzi, close to Bunagana and Jomba, two towns located around 80km north of Goma, the capital of North Kivu province.
+sys1: The irreducible m23, or a few hundred fighters, were cut off to nearly 2000 metres above sea level on the hills agricultural Chanzu, Runyonyi and Mbuzi, near Bunagana and Jomba, located about 80 km north of Goma, the capital of the province of North Kivu.
+sys2: The irréductibles M23, or some hundred fighters, were retranchés at nearly 2000 feet of altitude on the agricultural hills of Chanzu, Runyonyi and Mbuzi, close to Bunagana and Jomba, two towns located about 80 miles north of Goma, the capital of North Kivu province.
+------------------
+1840, SNMT: -0.004756254434774121, UNMT: 0.015937443198634327, diff: -0.020693697633408448
+Src : Il a indiqué que le nouveau tribunal des médias « sera toujours partial car il s'agit d'un prolongement du gouvernement » et que les restrictions relatives au contenu et à la publicité nuiraient à la place du Kenya dans l'économie mondiale.
+Ref : He said the new media tribunal "will always be biased because it's an extension of the government," and that restrictions on content and advertising would damage Kenya's place in the global economy.
+sys1: He said as the new media tribunal ' will be always partial because it is an extension of the Government "and content and advertising restrictions hurt instead of the Kenya into the world economy.
+sys2: He said the new media tribunal "will always be partial because it is a extension of the government" and that restrictions relating to content and advertising would hurt Kenya's place in the global economy.
+------------------
+1549, SNMT: -0.0029010807989742204, UNMT: 0.016886866337234352, diff: -0.019787947136208572
+Src : Le Sénat américain a approuvé un projet pilote de 90 M$ l'année dernière qui aurait porté sur environ 10 000 voitures.
+Ref : The U.S. Senate approved a $90-million pilot project last year that would have involved about 10,000 cars.
+sys1: The US Senate has approved a pilot project of 90 M$ last year which would have covered about 10,000 cars.
+sys2: The U.S. Senate approved a $90 million pilot project last year that would have focused on about 10,000 cars.
+------------------
+335, SNMT: 0.011622801057090015, UNMT: 0.030832385872496815, diff: -0.0192095848154068
+Src : « Il ne veut pas d'une démocratie multipartite, il ne veut pas d'élections transparentes, il ne veut pas la paix car il ne veut pas quitter la présidence », a déclaré M. Mazanga.
+Ref : "He does not want multi-party democracy, he does not want transparent elections he does not want peace because he does not want to leave the presidency," Mr Mazanga said.
+sys1: "He doesn't want a multi-party democracy, he doesn't want transparent elections, he does not want peace because he does not want to leave the Presidency," said Mr. Mazanga.
+sys2: "He does not want multipartite democracy, he does not want transparent elections, he does not want peace because he does not want to leave the presidency," Mr Mazanga said.
+------------------
+1482, SNMT: -0.010747837425515883, UNMT: 0.007821621984888338, diff: -0.01856945941040422
+Src : Me Ruby a qualifié d'"inexplicable" le fait que la police n'ait jamais fouillé le véhicule de Rob Ford ou son domicile, ou mis sur écoute son téléphone, soutenant que le chef de police Bill Blair a choisi en connaissance de cause de ne pas agir contre le maire.
+Ref : Ruby says it is "inexplicable" that the police have never searched Rob Ford's vehicle or home, or tapped his telephone, saying that chief of police Bill Blair knowingly decided not to act against the mayor.
+sys1: Me Ruby described as "inexplicable" the fact that the police had never searched the vehicle of Rob Ford or domicile, or bugged his phone, supporting chosen by the Chief of police Bill Blair informed of not taking action against the Mayor.
+sys2: Mr Ruby described as "inexplicable" the fact that police have never searched Rob Ford's vehicle or home, or put on his phone, arguing that police chief Bill Blair has chosen in due course not to act against the mayor.
+------------------
+879, SNMT: -0.0018429709252885118, UNMT: 0.016673584295489263, diff: -0.018516555220777775
+Src : Sur ordre de l'Office fédéral de protection de la Constitution (BfV), l'agence nationale de renseignements allemande, sa mission était de photographier le toit de l'avant-poste américain, situé à moins de 5 km de la Banque centrale européenne et de la Bundesbank.
+Ref : On the instruction of the Office for the Protection of the Constitution (BfV), Germany's domestic intelligence agency, its mission was to photograph the rooftop of the US outpost, which is located less than 5km from the European Central Bank and Bundesbank.
+sys1: Order of the federal Office for protection of the Constitution (BfV), the national agency of information German, his mission was to photograph the roof of the American outpost located within 5 km of the Central Bank European and the Bundesbank.
+sys2: On order of the Federal Office for the Protection of the Constitution (BfV), the German national intelligence agency, its mission was to photograph the roof of the American avant-garth, located less than 5 miles from the European Central Bank and the Bundesbank.
+------------------
+178, SNMT: -0.004270047843181857, UNMT: 0.01418055048121758, diff: -0.018450598324399436
+Src : Des détracteurs tels que la sénatrice Claire McCaskill, D-Mo., soutiennent qu'il n'existe aucune raison de sécurité valable pour ces interdictions.
+Ref : Critics such as Sen. Claire McCaskill, D-Mo., contend there is no valid safety reason for the prohibitions.
+sys1: Critics such as Senator Claire McCaskill, D - MO., argued that there is no reason valid security for these bans.
+sys2: Critics such as Sen. Claire McCaskill, D-Mo., argue that there is no valid safety reason for these interdictions.
+------------------
+316, SNMT: 0.002123788213321376, UNMT: 0.020239753806929883, diff: -0.018115965593608507
+Src : L'enjeu est considérable pour l'économie en pleine croissance puisque la découverte d'énormes réserves de gaz offshore et de gisements de charbon dans le nord-ouest pourrait attirer plus de 50 Md$ d'investissements au cours des prochaines années provenant de sociétés comme Rio Tinto, Vale du Brésil, Eni d'Italie et Anadarko des États-Unis.
+Ref : The stakes are high for the fast-growing economy as the discovery of huge offshore gas reserves and coal deposits in the northwest could bring in more than $50bn of investment over the next few next years from companies including Rio Tinto, Vale of Brazil, Eni of Italy and Anadarko of the US.
+sys1: The stakes are considerable for the economy growing since the discovery of huge reserves of deposits of coal in the Northwest and offshore gas could attract more than 50 Md$ investment in the coming years from companies such as Rio Tinto, Vale of the Brazil, Eni of Italy and Anadarko of the United States.
+sys2: The issue is considerable for the growing economy because the discovery of huge offshore gas reserves and coal reserves in the northwest could attract more than $50 Md in investment over the next few years from companies like Rio Tinto, Vale of Brazil, Eni of Italy and Anadarko of the United States.
+------------------

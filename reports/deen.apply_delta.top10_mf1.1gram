@@ -1,0 +1,125 @@
+Metric: mf1
+SNMT > UNMT top 10
+==================
+1211, SNMT: 0.0405819243931802, UNMT: -0.030530877097930897, diff: 0.0711128014911111
+Src : Es wird davon ausgegangen, dass sie über eine leistungsstarke Kanone, eine Reihe von Flugabwehr- und Schiffsabwehrraketen sowie einige Stealth-Technologien verfügen, wie z. B. reduzierte Radar-, Infrarot- und akustische Signaturen.
+Ref : It is understood they will feature a powerful cannon, an array of anti-aircraft and anti-ship missiles as well as some stealth technologies, such as reduced radar, infrared and acoustic signatures.
+sys1: It is assumed that they have a powerful cannon, a series of anti-aircraft and anti-ship missiles, as well as some steam technologies, such as reduced radar, infrared and acoustic signatures.
+sys2: It is understood they have a powerful canon, a number of fluke and ship fire systems and some stealth-controlled technologies, such as reduced radar, infrarot and akustic signposts.
+------------------
+280, SNMT: 0.02637701385941682, UNMT: -0.03733860288682678, diff: 0.0637156167462436
+Src : Eine Gruppe maskierter Pro-Separatisten, die von der Bereitschaftspolizei zurückgehalten wurden, bewarfen sie mit Eiern und schleuderte Pulverfarbe und erzeugte in den Straßen, die normalerweise von Touristen überfüllt waren, dunkle Staubwolken.
+Ref : A group of masked pro-separatists held back by riot police pelted them with eggs and hurled powder paint, creating dark clouds of dust in streets that would usually be thronged with tourists.
+sys1: A group of masked pro-separatists held hostage by the riot police brought them to eggs and ignited powder paint and produced dark clouds in the streets that were usually crowded by tourists.
+sys2: A group of masked pro-independence separforces, who were kept away by the Bereitschaftpolice, beheaded them with evocative paint and poured pulverforce paint and created dark Staubations in the streets normally clogged by tourists.
+------------------
+779, SNMT: 0.04198105111873218, UNMT: -0.009546865574961316, diff: 0.0515279166936935
+Src : In einem Abschnitt gibt es ein Bild eines Schlafsaals, in dem die Studenten auf Kaffeetassen, Vorhänge, Trainer und Bücher klicken, um über die Auswirkungen von Koffein und Licht informiert zu werden und darüber, wie sich die sportliche Leistung durch Schlafmangel und die Bedeutung einer Schlafenszeitroutine beeinflusst.
+Ref : In one section there is an image of a dorm room, where students click on coffee cups, curtains, trainers and books to be told about the effects of caffeine and light and how athletic performance is impacted by sleep deficiency, and the importance of a bedtime routine.
+sys1: In a section there is an image of a bedroom where students click on coffee cups, curtains, trainers, and books to be informed about the effects of caffeine and light, and about how sporting performance is affected by lack of sleep and the importance of sleeping time routine.
+sys2: In one section, there is a picture of a sleeping sauna where students click on coffee cups, forecourts, coaches and books to be educated about the impact of Koffein and light and about how athletic performance is influenced by sleep loss and the importance of a sleep day routine.
+------------------
+578, SNMT: 0.005679885884269709, UNMT: -0.03873470429012826, diff: 0.04441459017439797
+Src : Vor 32 Jahren schloss ich mich als Schüler, wegen der Vernachlässigung der Thatcher-Regierung, Labour an. Diese Vernachlässigung hatte dazu geführt, dass mein Klassenzimmer buchstäblich zusammengebrochen war. Infolgedessen habe ich versucht, mich für bessere öffentliche Dienstleistungen für diejenigen einzusetzen, die sie am meisten brauchen. Egal ob als Gemeinderat oder Minister.
+Ref : Ever since I joined Labour 32 years ago as a school pupil, provoked by the Thatcher government's neglect that had left my comprehensive school classroom literally falling down, I've sought to champion better public services for those who need them most - whether as a local councillor or government minister.
+sys1: 32 years ago, I joined Labour as a student because of the neglect of the Thatcher government, which had led to my classroom literally collapsed, and as a result I tried to promote better public services for those who need it most, whether as a local council or ministers.
+sys2: Last 32 years ago, as a student, because of the disdain for the Thatcher-era government, Labour joined Labour.
+------------------
+1475, SNMT: 0.043022043368679874, UNMT: -0.0012647886166945455, diff: 0.04428683198537442
+Src : UN-Gesandter Staffan de Mistura hofft, bald die ersten Treffen eines neuen Ausschusses aus Regierungs- und Oppositionsmitgliedern einzuberufen, um eine Nachkriegsverfassung für Syrien zu entwerfen und den Weg zu Wahlen zu ebnen.
+Ref : UN envoy Staffan de Mistura is hoping to soon convene the first meetings of a new committee comprised of government and opposition members to draft a post-war constitution for Syria and pave the way to elections.
+sys1: UN envoy Staffan de Mistura hopes to convene soon the first meetings of a new committee of government and opposition members to draw up a post-war constitution for Syria and pave the way for elections.
+sys2: U.N. Secretary General Staffan de Mistura hopes to soon join the first meetings of a new committee of government and opposition leaders to design a Nachkriegsrewrite for Syria and clear the path to elections.
+------------------
+237, SNMT: 0.024571959657450293, UNMT: -0.01880042546621752, diff: 0.04337238512366781
+Src : CBS hatte 3,1 Millionen, NBC 2,94 Millionen, MSNBC 2,89 Millionen und CNN 2,52 Millionen, so Nielsen.
+Ref : CBS had 3.1 million, NBC had 2.94 million, MSNBC had 2.89 million and CNN had 2.52 million, Nielsen said.
+sys1: CBS had 3.1 million, NBC 2.94 million, MSNBC 2.89 million and CNN 2.52 million, says Nielsen.
+sys2: CBS had 3.8 million, NBC 3.94 million, MSNBC 3.89 million and CNN 3.52 million, Nielsen said.
+------------------
+142, SNMT: 0.02664835527797038, UNMT: -0.014219756198087907, diff: 0.04086811147605829
+Src : Liverpool tritt am MIttwoch um 15.00 Uhr im Stadio San Paolo in Neapel, Italien, gegen Napoli an.
+Ref : Liverpool battles Napoli in the group stage of the Champions League at 3 p.m. on Wednesday at Stadio San Paolo in Naples, Italy.
+sys1: Liverpool will take place at 3 p.m. at the Stadio San Paolo in Naples, Italy, against Napoli.
+sys2: Liverpool v Napoli at the MItch Stadium at 15.00 pm in Neapel, Italy, on MItch.
+------------------
+1394, SNMT: 0.027936299590741953, UNMT: -0.008710018075639425, diff: 0.03664631766638138
+Src : Der Coffer Peach Tracker-Branchenmonitor für den britischen Pub-, Bar-und Restaurantsektor sammelt und analysiert Leistungsdaten von 47 Betriebsgruppen mit einem Gesamtumsatz von über 9 Milliarden Pfund und ist der etablierte Branchenmaßstab.
+Ref : The Coffer Peach Tracker industry sales monitor for the UK pub, bar and restaurant sector collects and analyses performance data from 47 operating groups, with a combined turnover of over £9 billion, and is the established industry benchmark.
+sys1: The Coffer Peach Tracker industry monitor for the UK pub, bar and restaurant sector collects and analyzes performance data from 47 operating groups with a total turnover of over 9 billion pounds and is the established industry standard.
+sys2: The Coffer Peach Tracker-industry monitor for the British Pub-, bargain and restaurant sector collects and analyzed performance data from 47 operating groups with a total revenue of over 9 billion pounds and is the established industry's largest maßstab.
+------------------
+758, SNMT: 0.024167486748488898, UNMT: -0.01245807907024954, diff: 0.03662556581873844
+Src : Trotzdem war der Ton von Ri's Rede dramatisch anders als letztes Jahr, als er es der U.N. berichtete. Die Generalversammlung, die das US-Festland mit Nordkoreas Raketen ins Visier nahm, war unvermeidlich, nachdem „Mr. Evil President“ Trump Kim als „Raketenmann“ auf einer Selbstmordmission bezeichnete.
+Ref : Even so, the tone of Ri's speech was dramatically different from last year, when he told the U.N. General Assembly that targeting the U.S. mainland with North Korea's rockets was inevitable after "Mr Evil President" Trump called Kim a "rocket man" on a suicide mission.
+sys1: However, the tone of Ri's speech was dramatically different from last year when he reported it to the U.N., and the General Assembly, targeting the US mainland with North Korea ’ s missiles, was inevitable after “Mr. Evil President ” Trump called Kim a“ missile man ” on a suicide mission.
+sys2: Nonetheless, the tone of Ri's speech was dramatically different from last year when he reported it to the U.N. General Assembly.
+------------------
+1232, SNMT: 0.011807681043336515, UNMT: -0.02425051140088641, diff: 0.036058192444222925
+Src : Eine fachkundige Tonanalyse aller Aufnahmen ermittelt die Häufigkeit der Fledermausrufe und ordnet die Rufe den Arten zu.
+Ref : Expert sound analysis of all recordings will ascertain the frequency of the bat calls and which species are doing what.
+sys1: An expert sound analysis of all the recordings determine the frequency of bat calls and assign the calls to the species.
+sys2: A professional audio analysis of all the footage determine the Häufigkeit of Fledermauspicking and ordnen the calls to species.
+------------------
+UNMT > SNMT top 10
+==================
+680, SNMT: -0.03502045579813995, UNMT: 0.019817192410563678, diff: -0.05483764820870363
+Src : Il faut bien le faire.
+Ref : Il faut bien le faire.
+sys1: La gentillesse du personnel et la disponibil.
+sys2: Il faut bien faire.
+------------------
+1592, SNMT: -0.020008696951684612, UNMT: 0.02454358648028432, diff: -0.04455228343196893
+Src : Nickelbergbau ist auch in der Provinz wichtig, wird aber hauptsächlich in Morowali betrieben, an der gegenüberliegenden Küste von Sulawesi.
+Ref : Nickel mining is also important in the province, but is mostly concentrated in Morowali, on the opposite coast of Sulawesi.
+sys1: Nickelergbau is also important in the province, but is mainly operated in Morewali, on the opposite coast of Sulawesi.
+sys2: Nickel mining is also important in the province, but is mostly operated in Morowali, on the opposite coast of Sulawesi.
+------------------
+803, SNMT: -0.03679697858615327, UNMT: 0.00451094051939549, diff: -0.04130791910554876
+Src : Den Rangers gelangen nur zwei Schüsse in der ersten Hälfte, aber der ehemalige Ibrox-Torhüter Liam Kelly war kaum von Lassana Coulibalys Kopfsprung und dem Treffer eines bisslosen Ovie Ejaria aus der Ruhe zu bringen.
+Ref : Rangers managed just two first-half shots on target but former Ibrox goalkeeper Liam Kelly was barely troubled by Lassana Coulibaly's header and a tame Ovie Ejaria strike.
+sys1: The Ranners only reach two shots in the first half, but the former Ibrox-Torkeeper Liam Kelly was hardly the head of Lassanna Coulibys and the hit of a bissloze Ovi Ejaria.
+sys2: The Rangers managed only two shots in the first half but former Ibrox goalkeeper Liam Kelly was unlikely to be helped by Lassana Coulibaly's headfirst tackle and the goal of a bisected Ovie Ejaria.
+------------------
+987, SNMT: 0.005316420042824177, UNMT: 0.04529350117768871, diff: -0.039977081134864534
+Src : werden unter anderem die Stars Janet Jackson, Weeknd, Shawn Mendes, Cardi B und Janelle Monáe bei der diesjährigen Veranstaltung in New York auftreten, die von Deborra-Lee Furness und Hugh Jackman moderiert wird.
+Ref : Janet Jackson, the Weeknd, Shawn Mendes, Cardi B, Janelle Monáe are among some of the acts performing at this year's event in New York, which will be hosted by Deborra-Lee Furness and Hugh Jackman.
+sys1: The stars Janet Jackson, Weegd, Shawn Mendes, Cardi B and Janelle Monáe will be present at this year ’ s New York event, hosted by Abe Lee ra-Furness and Hugh Jackman.
+sys2: Will appear among the stars Janet Jackson, Weeknd, Shawn Mendes, Cardi B and Janelle Monáe at the annual event in New York, which is hosted by Deborra-Lee Furness and Hugh Jackman.
+------------------
+955, SNMT: -0.017909497409910102, UNMT: 0.0215898697161947, diff: -0.0394993671261048
+Src : Er bestätigte auch die Pläne Arbeitnehmer in die Unternehmungsleitungen zu berufen und Inclusive Ownership Funds zu schaffen, um 10% des Eigenkapitals von Unternehmen des Privatsektors an die Mitarbeiter, die jährliche Dividenden von bis zu 500 Pfund erhalten, zu verteilen.
+Ref : He also confirmed plans to put workers on company boards and create Inclusive Ownership Funds to hand 10 per cent of private-sector firms' equity to employees, who stand to pocket annual dividends of up to £500.
+sys1: He also confirmed plans to put workers into business management and to create inclusive ownership funds to allocate 10% of private-sector equity to employees receiving annual dividends of up to <unk> 500.
+sys2: He also confirmed plans to appoint workers to the Unternehmung boards and create Inclusive Ownership Funds to distribute 10% of the equity of companies in the private sector to staff who receive annual dividends of up to £500.
+------------------
+593, SNMT: -0.050488734061403306, UNMT: -0.0154026516690422, diff: -0.035086082392361106
+Src : Es gab dann eine längere Unterbrechung wegen der schweren Verletzung von Ruaridh Knott, der auf einer Trage das Spielfeld verließ. Nach dem Neustart baute Ayr die Führung aus, als ein Try von Stafford McDowall-von Climo verwandelt wurde.
+Ref : There was then a lengthy hold-up for a serious injury to Ruaridh Knott, who was stretchered off, and from the restart, Ayr surged further ahead through a Stafford McDowall try, converted by Climo.
+sys1: After the reboot, Ayr built the lead as a drummer of Climo's lord Tom McCormick.
+sys2: There was then a longer Unterbrechung over the heavy injury of Ruaridh Knott, who left the field on a tracksuit after the Neustart.
+------------------
+1859, SNMT: -0.02908362769701256, UNMT: 0.005018044243385589, diff: -0.03410167194039815
+Src : Frau Davis, 45 Jahre alt und aus Lydney, beschrieb ihren Sohn als vielversprechenden Koch mit ansteckendem Lächeln.
+Ref : Ms Davis, aged 45, who lives in Lydney, said her son was a promising chef with an infectious grin.
+sys1: Mrs. Davis, 45 years old and from LySidney, described her son as a promising cook with contagious smile.
+sys2: Ms. Davis, 45, and of Lydney, described her son as a promising chef with anticlimactic smile.
+------------------
+1874, SNMT: -0.003728323488587648, UNMT: 0.030253188476898174, diff: -0.03398151196548582
+Src : Wenn es Ihnen schwer fällt damit fertig zu werden, können Sie die Samariter kostenlos über 116 123 anrufen (Großbritannien und Irland), eine E-mail an jo@samaritans.org schreiben, oder die Samariter-Website hier besuchen.
+Ref : If you are struggling to cope, you can call Samaritans free on 116 123 (UK and Ireland), email jo@samaritans.org, or visit the Samaritans website here.
+sys1: If it's hard to get done, you can call the samariter free of charge over 116 123 (UK and Ireland), write an e-mail to jo <unk> samaritan.org, or visit the samariter-website here.
+sys2: If it's hard to get away with it, you can call Samaritans free through 116 123 (Britain and Ireland), write an E-mail to jo @ samaritans.org, or visit the Samaritans website here.
+------------------
+1484, SNMT: 0.04740719021013717, UNMT: 0.0800195355551594, diff: -0.03261234534502222
+Src : Nell Scovell, ein Veteran der Comedy-Schriftsteller und Autor von „Just the Funny Parts“: Und „Few Hard Truths About Sneaking Into the Hollywood Boys Club“ hat eine andere Theorie.
+Ref : Nell Scovell, a veteran comedy writer and author of "Just the Funny Parts: And a Few Hard Truths About Sneaking Into the Hollywood Boys" Club," has another theory.
+sys1: Nell Scovell, a veteran of the comedy writer and author of “Just the Funny Parts ”: And“ Few Hard Truth out of Sneaking Into the Hollywood Boys Club ” has a different theory.
+sys2: Nell Scovell, a veteran of comedy writer and author of "Just the Funny Parts," said: "And Few Hard Truths About Sneaking Into the Hollywood Boys Club" has a different theory.
+------------------
+1256, SNMT: -0.008198438076078673, UNMT: 0.02292136968707581, diff: -0.031119807763154483
+Src : Dem Stürmer aus Portugal und Juventus wurde vorgeworfen, er habe 2009 eine Amerikanerin namens Kathryn Mayorga in einem Hotelzimmer in Las Vegas vergewaltigt.
+Ref : The Portugal and Juventus forward has been accused of raping an American woman, named as Kathryn Mayorga, in a Las Vegas hotel room in 2009.
+sys1: He was accused of having raped an American woman named Kathryn Mayorga in a hotel hotel hotel in Las Vegas in 2009.,, and.
+sys2: The striker from Portugal and Juventus was accused of raping an American called Kathryn Mayorga in a hotel in Las Vegas in 2009.
+------------------

@@ -1,0 +1,125 @@
+Metric: bleu
+SNMT > UNMT top 10
+==================
+577, SNMT: 0.119466787490488, UNMT: 0.005102876627553599, diff: 0.1143639108629344
+Src : David Grimal are o cariera internationala de violonist solo, de-a lungul careia a sustinut regulat concerte în ultimii 20 de ani pe principalele scene de muzica clasica ale lumii și cu orchestre prestigioase cum ar fi Orchestre de Paris, Orchestre Philharmonique de Radio France, Russian National Orchestra, Orchestre National de Lyon, Chamber Orchestra of Europe, Berliner Symphoniker, New Japan Philharmonic, Orchestre de l'Opera de Lyon, Mozarteum Orchestra Salzburg, Jerusalem Symphony Orchestra și Sinfonia Varsovia, sub conducerea unor dirijori precum Christoph Eschenbach, Michel Plasson, Michael Schￃnwandt, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Rafael Fruￌhbeck de Burgos și Peter Eotvos, Andris Nelsons, Christian Arming.
+Ref : David Grimal has an international career as a solo violinist. During the last 20 years he held regular concerts on the main classical music stages of the world with prestigious orchestras such as the Orchestre de Paris, Orchestre Philharmonique de Radio France, Russian National Orchestra, Orchestre National de Lyon, Chamber Orchestra of Europe, Berliner Symphoniker, New Japan Philharmonic, Orchestre de l'Opera de Lyon, Salzburg Mozarteum Orchestra, Jerusalem Symphony Orchestra and Sinfonia Varsovia under the direction of conductors such as Christoph Eschenbach, Michel Plasson, Michael Schￃnwandt, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Rafael Fruￌhbeck de Burgos and Peter Eotvos, Andris Nelsons, Christian Arming.
+sys1: David Grimal has an international career as a solo violinist, along which claimed concerts regularly in the past 20 years in key scenes of classical music of the world and with prestigious orchestras such as the Orchestre de Paris, Orchestre Philharmonique de Radio France, Russian National Orchestra, Orchestre National de Lyon, the Chamber Orchestra of Europe, the Berliner Symphoniker, the New Japan Philharmonic, Orchestre de l'Opera de Lyon The Salzburg Mozarteum Orchestra, the Jerusalem Symphony Orchestra, and Sinfonia Varsovia, under the direction of conductors such as Christoph Eschenbach, Michel Plasson, Michael Schㅐnwandt, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Rafael Fruㅗhbeck de Burgos, and Peter Eotvos, Andris Nelsons, Christian Arming.
+sys2: David Grimal has an international solo violinist, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Mikhail Fruyhbeck Orchestra of Burgos and Peter Eotvos, Andris Philharmonique de Radio France, Russian National Orchestra, the French National Orchestra of Lyon, the Berliner Symphoniker, the New Japan Philharmonic, the Orchestre de l'Opera of Lyon, the Mozarteum Orchestra of Lyon, the Jerusalem Symphony Orchestra and Sinfonia of Paris, under the direction of conductor like Orchestra: the National Orchestra, the National Orchestra, the French Chamber Orchestra, the Berliner Symphoniology Orchestra and Sinfonia Sinfonia and Sinfonia Sinfonia Sinfonia, the Orchestra of the Paris Symphony Orchestra, the Russian National Orchestra, the National Orchestra, the National Opera of Europe, the Berliner Symphoniker, the Berliner Symphoniker Orchestra, the Orchestra of Lyon, the Mozarteum and Sinfonia Sinfonia Sinfonia.
+------------------
+1175, SNMT: 0.06989802036562764, UNMT: -0.018963258213560152, diff: 0.0888612785791878
+Src : Editia de toamna va avea loc la Chisinau (Casa Armatei, 2-3 octombrie), Iasi (Palas, 6-7 octombrie), Brasov (Casa Armatei, 14-15 octombrie), Cluj Global (Sala Polivalenta, 20-21 octombrie), Cluj IT (Sala Polivalenta, 22-23 octombrie), Sibiu (Centrul de Afaceri, 28-29 octombrie) și Targu-Mures (Teatrul National, 5 noiembrie).
+Ref : The autumn edition will take place in Chisinau (Army House 2-3 October), Iasi (Palas 6-7 October), Brasov (Army House 14-15 October), Cluj Global (Polyvalent Hall 20-21 October) Cluj IT (Polyvalent Hall 22-23 October), Sibiu (Business Centre 28-29 October) and Targu-Mures (National Theatre, November 5).
+sys1: Autumn edition will take place in Chisinau (Army House, 2-3 October), Iasi (Palas, 6-7 October), Brasov (Army House, 14-16 October), Global (Sala Polivalenta, 20-21 October), Cluj (Sala Polivalenta, 22-23 October), Sibiu (Business Centre, 28-29 October) and Targu-Mures (National Theatre, November 5).
+sys2: The fall season will be in Washington (House, 2-3), Washington (Palas, Oct. 6-7), Brasov (House, Oct. 14-15), San Francisco Global (East Coast, Oct. 20-21), San Francisco IT (East Coast, Oct. 22-23), Sibiu (Center for Business, Oct. 28-29) and Targu-Mures (the National Center, Nov. 5).
+------------------
+1636, SNMT: 0.04054579443925732, UNMT: 0.0017659277802017925, diff: 0.03877986665905553
+Src : "Persoanele interesate vor putea să afle cum să realizeze creații sculpturale florale armonioase (ikebana), cum să surprindă sufletul elementelor înconjurătoare în compoziții plastice folosind arta japoneză a pictării în tuș (Sumie) sau cum să își exprime propria individualitate și creativitate prin universul plurivalent al artelor frumoase (grafic, desen, pictură) ", a declarat Sorin Mazilu, profesorul acestor cursuri.
+Ref : "Those interested will find out how to make harmonious sculptural floral creations (ikebana), how to capture the soul of the surrounding elements in plastic compositions using the Japanese ink painting art (Sumie) or how to express their own individuality and creativity through the multifaceted universe of Fine Arts (graphic, drawing, painting)" said Sorin Mazilu, the teacher of these courses.
+sys1: "Persons interested will be able to learn how to achieve harmonious sculptural floral design (ikebana), how to capture the soul of the surrounding elements in plastic compositions using the Japanese art of painting in India ink (Sumie) or how to express their own individuality and creativity through the universe plurivalent of fine arts (painting, drawing, graphics)," said Sorin Mazilu, teacher of such courses.
+sys2: "People interested will be able to learn how to complete armonious creative contrasting (grafic, drawing, painting) Creations, how to capture the hearts of surrounding elements in artistic compositions using the Japanese art of painting in tus (Sumie) or how to express their own individualistic identity through the plurivalent universe of beautiful arts (grafic, drawing, painting, painting)," said Mr. Mazilu, the professor of these courses.
+------------------
+1161, SNMT: 0.0361262866231975, UNMT: 0.00024351290904434109, diff: 0.03588277371415316
+Src : Companiile au vacante cateva mii de locuri de munca, oportunitati de internship și stagii de practica, iar o parte dintre ele sunt deja anuntate pe site-ul oficial www.targuldecariere.ro.
+Ref : Companies have thousands of vacant jobs, internship opportunities and internships, and some of them are already posted on the official website www.targuldecariere.ro.
+sys1: Companies have thousands of vacant jobs, internship opportunities, and internships, and some of them are already announced on the official website www.targuldecariere.ro.
+sys2: Companies have filled several thousand jobs, internships and training trips, and a number of them are already announced on the official website www.targuldecarier.com.
+------------------
+550, SNMT: 0.0406410786558844, UNMT: 0.00675357682453992, diff: 0.03388750183134448
+Src : David Grimal recunoaste ca Les Dissonaces reprezinta "un lux", precizand ca niciunul dintre muzicienii care fac parte din orchestra nu depinde de succesul acestui proiect pentru a trai.
+Ref : David Grimal admits that Les Dissonaces is "a luxury", adding that none of the musicians who are part of the orchestra does not depend on the success of this project to make a living.
+sys1: David Grimal admits that Les Dissonaces represents "a luxury", stating that none of the musicians who are part of the orchestra does not depend on the success of this project for living.
+sys2: David Grimal admits Les Dissonaces represent "a luxury," saying none of the musicians who make up the orchestra depinde of the success of this project to live.
+------------------
+1163, SNMT: 0.052740861998493926, UNMT: 0.019572406897843564, diff: 0.03316845510065036
+Src : Potrivit statisticilor realizate în urma celor 100 de editii de pana acum ale Targului de Cariere, cele mai multe companii sunt interesate, pe langa recrutarea efectiva, sa isi dezvolte un brand de angajator puternic în randul tinerilor: 97% dintre reprezentantii lor au declarat ca doresc sa revina la editiile viitoare, în timp ce 94% declara ca recomanda TdC ca solutie de recrutare și employer branding.
+Ref : According to the statistics made after the 100 editions of the Career Fair which were held so far, most companies are concerned, in addition to actual recruitment, to develop a strong employer brand among young people: 97% of their representatives have stated that they wish to return for future editions, while 94% said that they recommend CF as a recruitment and employer branding solution.
+sys1: According to statistics conducted in 100 editions so far of the Career Fair, most companies are concerned, in addition to actual recruitment, to develop a strong employer brand among young people: 97% of theirs have stated that they wish to return to future editions, while 94% said that recommend T.r recruitment solution and as employer branding.
+sys2: According to statistics made available in the 100 years to date of the Career Awards, most companies are keen, along with actual recruiting, to develop a strong angajator brand among young people: 97% of their representatives said they wanted to return to future editii, while 94% declared they were recomanda TdC as a recruitment and employer branding solution.
+------------------
+1867, SNMT: 0.038501926152843424, UNMT: 0.005355431302085378, diff: 0.033146494850758046
+Src : Chiar și astăzi, după ce el a devenit noul lider al Partidului Laburist din Marea Britanie, mulți se întreabă în ce măsură ne poate afecta alegerea unui politician care, la urma urmei, nu se află într-o poziție de decizie.
+Ref : Even today, after he became the new leader of the Labour Party in Britain, many are asking to what extent can we be affected by the choice of a politician who, after all, is not in a position to take decisions.
+sys1: Even today, after he became the new leader of the labour party from United Kingdom, many are asking to what extent we can affect the choice of a politician who, after all, is not in a decision-making position.
+sys2: Even today, after he became Britain's new leader, many wonder in Britain's ruling Labouring party can affect us the selection of a politician who, at the very least, is not in a position of decision making.
+------------------
+1356, SNMT: 0.018080419142449955, UNMT: -0.013923079512995429, diff: 0.032003498655445384
+Src : "În fapt, în contabilitatea companiei ar fi fost inregistrate achizitii fictive de servicii, care, în realitate, nu au fost prestate, bugetul de stat fiind astfel prejudiciat cu aproximativ 600.000 de euro", a explicat Politia Romana intr-un comunicat de presa.
+Ref : "In fact, the company's accounts registered fictitious acquisitions of services, which in reality were not provided, the state budget being thus so prejudiced with about 600,000 euros" explained the Romanian Police in a press release.
+sys1: "In fact, the company's accounts had been registered the fictitious services acquisitions, which in reality were not provided, the State budget and thus compromising with about 600,000 euros," explained Romanian police in a press release.
+sys2: "In fact, in the company's contexts there had been fictive purchases of services, which, in fact, were not performed, the state's tax bill ultimately being prejudicied with approximately £600.000 in costs," the force explained in a statement.
+------------------
+1719, SNMT: 0.04884079682635445, UNMT: 0.017644815153676774, diff: 0.031195981672677675
+Src : În următoarele decenii, suprapopularea, sărăcia, schimbarea climei, epuizarea resurselor etc. vor împinge milioane de migranți disperați, din Asia și mai ales din Africa, spre o viață mai bună.
+Ref : In the following decades, overpopulation, poverty, climate change, resource depletion, etc. will push millions of desperate migrants from Asia and especially Africa to a better life.
+sys1: In the following decades, overpopulation, poverty, climate change, resource depletion, etc. will push millions of desperate migrants from Asia and especially Africa, towards a better life.
+sys2: Over the next few decades, suprapopulence, poverty, climate change, water shortages etc. will push millions of desperate migrants, from Asia and especially Africa, toward a better life.
+------------------
+598, SNMT: 0.03688888324725781, UNMT: 0.006142412509110073, diff: 0.030746470738147735
+Src : "Copiii se vor distra și vor avea parte de o șansă reală de a face parte dintr-o echipă de actori", a declarat Ioana Ionescu, Marketing Manager al Cinema City România.
+Ref : "The children will have fun and will get a real chance to be part of a team of actors," said Ioana Ionescu, Marketing Manager of Cinema City Romania.
+sys1: "Children will have fun and will have a real chance to be part of a team of actors," said Ioana Ionescu, Marketing Manager of the Cinema City Romania.
+sys2: "Children will enjoy themselves and have a real chance to make a difference in a cast of actors," said Ms. Ionescu, Marketing Manager of Cinema City Inc.
+------------------
+UNMT > SNMT top 10
+==================
+1198, SNMT: 0.0554160207242127, UNMT: 0.12696049082630623, diff: -0.07154447010209353
+Src : Realizatorii studiului mai transmit ca "romanii simt nevoie de ceva mai multa aventura în viata lor (24%), urmat de afectiune (21%), bani (21%), siguranta (20%), nou (19%), sex (19%), respect 18%, incredere 17%, placere 17%, conectare 17%, cunoastere 16%, protectie 14%, importanta 14%, invatare 12%, libertate 11%, autocunoastere 10% și control 7%".
+Ref : The study's conductors transmit that "Romanians feel the need for a little more adventure in their lives (24%), followed by affection (21%), money (21%), safety (20%), new things (19%), sex ( 19%) respect 18%, confidence 17%, pleasure 17%, connection 17%, knowledge 16%, protection 14%, importance 14%, learning 12%, freedom 11%, self-awareness 10% and control 7% ".
+sys1: The filmmakers may study transmitted as "Romanians feel in need of something more adventure in their lives (24%), followed by affection (21%), money (21%), security (20%), new (19%), sex (19%), respect, trust and 18% 17% 17% pleasure, 17%, 16%, knowledge protection 14%, 14%, 12%, liberty learning 11%, self-awareness and control 10% 7%".
+sys2: Reporters also deliver that "Americans feel need for some more adventure in their lives (24%), followed by affection (21%), money (21%), safety (20%), new (19%), sex (19%), respect 18%, confidence 17%, pleasure 17%, connection 17%, knowledge 14%, protection 14%, importance 14%, learning 12%, freedom 11%, autocunoastere 10% and control 7%."
+------------------
+667, SNMT: -0.007370825523445035, UNMT: 0.03793879143860934, diff: -0.04530961696205438
+Src : Fed ar trebui să pună problema stabilității financiare pe primul loc doar în cazul unei crize majore, cum a fost cutremurul de pe piață din 2008, a declarat Adam S. Posen, fost membru al comisiei de stabilire a ratei dobânzii din cadrul Bank of England.
+Ref : The Fed should put financial stability concerns first only during a major crisis, such as the 2008 market meltdown, said Adam S. Posen, a former member of the Bank of England's rate-setting committee.
+sys1: The Fed should put the issue of financial stability in the first place only in the event of major crises such as the earthquake in the market since 2008, "said Adam s. Posen, a former member of the Commission for determining the interest rate within the Bank of England.
+sys2: The Fed should put financial stability first only in a major crisis, such as the 2008 credit crunch, said Adam S. Posen, a former member of the Bank of England's stabilisation committee.
+------------------
+130, SNMT: -0.008428008674556509, UNMT: 0.03247694675607704, diff: -0.04090495543063355
+Src : Atunci când susținătorilor lui Clinton li se adresează o întrebare deschisă referitor la motivul pentru care ar dori ca ea să câștige cursa, răspunsul majoritar este că deține experiența adecvată (16%), urmat de faptul că a venit momentul ca o femeie să fie președinte (13%) și că este cel mai bun candidat pentru această funcție (10%).
+Ref : When Clinton's supporters are asked in an open-ended question why they want her to be the nominee, the top answer is that she has the right experience (16 percent), followed by it's time for a woman president (13 percent), and that she is the best candidate for the job (10 percent).
+sys1: When Clinton supporters are asked to answer an open question regarding why you want her to win the race, the answer is that majority holds appropriate experience (16%), followed by the fact that the time has come for a woman to be President (13%), and that is the best candidate for this position (10%).
+sys2: When Clinton supporters are asking an open question as to why she would like to win the race, the majoritar answer is that she holds the right experience (16 percent), followed by the fact that it has come time for a woman to be president (13 percent) and that she is the best candidate for the job (10 percent).
+------------------
+114, SNMT: -0.01193219330561135, UNMT: 0.02766777380088925, diff: -0.0395999671065006
+Src : Clinton este acum susținută de 47% din alegătorii democrați (în scădere de la 58%), în timp ce Sanders este pe locul doi, cu 27% (în urcare față de 17%).
+Ref : Clinton now has the backing of 47 percent of Democratic primary voters (down from 58 percent), while Sanders comes in second, with 27 percent (up from 17 percent).
+sys1: Clinton is now supported by 47% of the voters Democrats (down 62%), while Sanders is in second place with 27% (in relation to climb 17%).
+sys2: Clinton is now backed by 47 percent of Democratic voters (down from 58 percent), while Sanders is second with 27 percent (up from 17 percent).
+------------------
+965, SNMT: -0.011057241549778496, UNMT: 0.02371752492523882, diff: -0.034774766475017316
+Src : Antrenorul celor de la Brisbane Broncos, Wayne Bennett, a făcut o ușoară referire la Storm după victoria echipei sale în meciul de calificare cu North Queensland Cowboys, jucat sâmbătă seară, când a numit meciul respectiv o „demonstrație” a ligii de rugby și a declarat că cele două echipe din Queensland nu se prea pricep la wrestling.
+Ref : Brisbane Broncos coach Wayne Bennett made a thinly veiled reference to the Storm after his side's qualifying final win over North Queensland Cowboys on Saturday night when he called that game a "showcase" of the rugby league and said the two Queensland weren't "too big" into wrestling.
+sys1: The coach of the Brisbane Broncos, Wayne Bennett, made a slight reference to the Storm after his team's victory in the qualifying match with North Queensland Cowboys, played Saturday night, when he called the match a "demonstration" of rugby league and said that the two teams from Queensland is not too good at wrestling.
+sys2: Brisbane Broncos coach Wayne Bennett made a slight reference to the Storm after their team's victory in the qualifying match against the North Queensland Cowboys on Saturday night when he called the game a "demonstration" of the rugby league league league and said the two Queensland sides were not really pricep to wrestling.
+------------------
+855, SNMT: -0.00673532574160518, UNMT: 0.02479606204594731, diff: -0.03153138778755249
+Src : Hearts conduceau cu 2-1 când a fost eliminat Paterson și au pierdut cu 3-2, însă cartonașul roșu al fundașului a fost anulat apoi - al treilea cartonaș roșu anulat în opt luni.
+Ref : Hearts were leading 2-1 when Paterson was dismissed and went on to lose 3-2, but the defender's red card was later overturned - the third Collum red card in eight months to be rescinded.
+sys1: Hearts led 2-1 when he was removed for Paterson and lost 3-2, but had no red of the Center back has been cancelled then their third red card overturned in eight months.
+sys2: Hearts were leading 2-1 when Paterson was eliminat and they lost 3-2, but the defender's red card was then overturned - the third yellow card cancelled in eight months.
+------------------
+1065, SNMT: -0.015923573327370377, UNMT: 0.010638253322788671, diff: -0.02656182665015905
+Src : Luna trecută când a fost transferat de la Manchester United, mijlocașul ofensiv argentinian a fost numit omul care va duce PSG la nivelul următor în Europa și a demonstrat acest lucru atunci când a țâșnit la pasa lui Marco Verratti în spatele apărării lui Malmo înainte să șuteze incredibil peste Johan Wiland, în colțul lung din dreapta porții.
+Ref : The Argentina winger was labelled as the man to take PSG to the next level in Europe when he was signed from Manchester United last month, and he indicated why as he ran onto Marco Verratti's pass in behind the Malmo defence before angling a beautiful finish past Johan Wiland and into the far corner of the net.
+sys1: Last month, when he was transferred from Manchester United, midfielder of the Argentine playmaker was named the man who will lead PSG to the next level in Europe and showed this when he shot out the care of Marco Verratti behind his defence Malmo before șuteze Johan Wiland, incredibly over in the right corner in the gate.
+sys2: Last month when he was signed from Manchester United, the Argentine defensive midfielder was named the man to take PSG to the next level in Europe and demonstrated this when he tasked at Marco Verratti's cross behind Malmo's defence before uriating repeatedly past Johan Wiland in the left corner of the far post.
+------------------
+310, SNMT: -0.008232699291841783, UNMT: 0.01810712201529796, diff: -0.026339821307139744
+Src : De exemplu ROBOR la trei luni este acum 1,44%, insa în 2013 ajunsese la valoarea de 6%, în 2009, la peste 15%, iar în cateva zile din 2008 a depasit 40%!
+Ref : For example the current three months ROBOR is 1.44%, but in 2013 it had reached 6%, in 2009 to over 15%, and within a few days of 2008 it exceeded 40%!
+sys1: For example, three months is BOREN now 1.44% in 2013, but reached the value of 6% in 2009 to more than 15%, and in the few days since 2008 has surpassed 40%!
+sys2: Of course the ROBOR at three months is now 1.44%, but in April it was reaching the 6%, in 2009 at over 15%, and within days of 2008 it exceeded 40%!
+------------------
+1246, SNMT: -0.0072139376800208765, UNMT: 0.018938937956125557, diff: -0.026152875636146433
+Src : În plus, australianul este și comentator sportiv, o meserie la care n-ar vrea sa renunte în momentul de fata.
+Ref : In addition, the Australian is also a sports commentator, a job he wouldn't want to quit now.
+sys1: In addition, Australian Sports commentator, and a craft to which he would never want to drop in.
+sys2: In addition, the Australian is also a sports commentator, a meserie to which he wouldn't want to quit in the moment.
+------------------
+137, SNMT: -0.010422435776884953, UNMT: 0.015399624784024013, diff: -0.025822060560908966
+Src : 55% dintre alegătorii democrați o consideră pe Clinton candidatul cu cele mai mari șanse să câștige alegerile generale; însă cifrele au scăzut de la 78% cât erau luna trecută.
+Ref : Fifty-five percent of Democratic voters see Clinton as the candidate with the best chance of winning the general election; however that figure is down from 78 percent last month.
+sys1: 55% of the voters Democrats consider Clinton's nominee with the most likely to win the general election; but the figures fell from 78% as they were last month.
+sys2: 55 percent of Democratic voters consider Clinton the candidate with the best chance of winning the general election; but the numbers have dropped from 78 percent as they were last month.
+------------------

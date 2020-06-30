@@ -1,0 +1,125 @@
+Metric: mf1
+SNMT > UNMT top 10
+==================
+495, SNMT: 0.011341715630415194, UNMT: -0.032180237181741234, diff: 0.04352195281215643
+Src : Il ne fallait qu'en déployer les accidents, et l'affaire, jacobinisme oblige, était confiée aux préfets et aux sous-préfets, interprètes autorisés.
+Ref : All it took was to highlight its mistakes and, in keeping with Jacobinism, the issue would be entrusted to prefects and sub-prefects - the authorised interpreters.
+sys1: It should deploy the accidents, and the case, Jacobinism obliges, was entrusted to the prefects and the sub-prefects, authorized interpreters.
+sys2: It only took to deploy the accidents, and the matter, jacobinite oblige, was handed to the préfets and the sous-préfets, authorized interprètes.
+------------------
+980, SNMT: -0.00027226024236881585, UNMT: -0.035546783609405, diff: 0.03527452336703618
+Src : Ils sont intersexués, l'intersexualité faisant partie du groupe de la soixantaine de maladies diagnostiquées comme désordres du développement sexuel, un terme générique désignant les personnes possédant des chromosomes ou des gonades (ovaires ou testicules) atypiques ou des organes sexuels anormalement développés.
+Ref : They are intersex, part of a group of about 60 conditions that fall under the diagnosis of disorders of sexual development, an umbrella term for those with atypical chromosomes, gonads (ovaries or testes), or unusually developed genitalia.
+sys1: They are intersex, intersex forming part of the Group of 60 diseases diagnosed as disorders of sexual development, a generic term for people with chromosomes or atypical gonads (ovaries or testes) or abnormally developed sexual organs.
+sys2: They are intersexuzed, with intersexuality making up the group of the soixantaine of diseases diagnosed as disordered sexual development, a generic term dissignant people possessing chromosomes or gonades (ovaries or testicules) atypiques or anormally developed sexual organs.
+------------------
+4, SNMT: 0.02025366439158205, UNMT: -0.012633133415782538, diff: 0.03288679780736459
+Src : N'est-il pas surprenant de lire dans les colonnes du Monde à quelques semaines d'intervalle d'une part la reproduction de la correspondance diplomatique américaine et d'autre part une condamnation des écoutes du Quai d'Orsay par la NSA ?
+Ref : And is it not surprising to read in the pages of Le Monde, on the one hand, a reproduction of diplomatic correspondence with the US and, on the other, condemnation of the NSA's spying on the Ministry of Foreign Affairs on the Quai d'Orsay, within a matter of weeks?
+sys1: Is it not surprising to read in the columns of the world a few weeks apart on the one hand the reproduction of American diplomatic correspondence and on the other hand a condemnation of the Quai d'Orsay by the NSA listens?
+sys2: Isn't it surprising to read in the Times' pages just weeks apart of one side's reproduction of the American diplomatic correspondance and of another a condamnation of the Quai d' Orsay's écoutes by the NSA?
+------------------
+99, SNMT: -0.00591358685657184, UNMT: -0.03796828769763039, diff: 0.03205470084105855
+Src : Les ministères appellent à présent les personnes qui auraient été mordues, griffées, égratignées, ou léchées sur une muqueuse ou sur une peau lésée par ce chaton ou dont l'animal aurait été en contact avec ce chaton entre le 8 et le 28 octobre à contacter le 08.11.00.06.95 entre 10 heures et 18 heures à partir du 1er novembre.
+Ref : The ministries are currently asking anyone who might have been bitten, clawed, scratched or licked on a mucous membrane or on damaged skin by the kitten, or who own an animal that may have been in contact with the kitten between 08 to 28 October, to contact them on 08 11 00 06 95 between 10am and 6pm from 01 November.
+sys1: Departments now call people who have been bitten, scratched, scratched or licked on mucous membranes or skin injured by this kitten or where the animal would have been in contact with this kitten between 8 and 28 October to contact the 08.11.00.06.95 between 10 a.m. and 6 p.m. from November 1.
+sys2: The at present call on people who may have been morbid, griffon, egregious or layed on a mug or on a skin léché by this chateau or whose animal may have been in contact with that chateau between 8 and 28 October to contact 08.11.00.095 between 10 and 18 November.
+------------------
+516, SNMT: 0.00015191202550823846, UNMT: -0.029973166760619563, diff: 0.0301250787861278
+Src : A cette IIIe République, moment central et créateur, Pierre Nora a montré beaucoup d'intérêt et même de tendresse: saluant ceux qui se sont alors employés à réparer la fracture révolutionnaire, en enseignant aux écoliers tout ce qui dans l'ancienne France préparait obscurément la France moderne et en leur proposant une version unifiée de leur histoire.
+Ref : Pierre Nora has shown has shown great interest and even tenderness for this Third Republic: he salutes those who tried at the time to repair the divide created by the Revolution by teaching students about everything in the former France that obscurely paved the way for the modern France, and by offering them a unified version of their history.
+sys1: This third Republic, while central and creator, Pierre Nora has shown great interest and even tenderness: saluting those who then worked to repair the revolutionary divide, by teaching students what in the former France preparing darkly modern France and offering them a version unified in their history.
+sys2: At this IIIe République, central and creator moment, Pierre Nora showed much interest and even tendresse: praising those who then helped to repair the revolutionary fracture, teaching schoolchildren everything in the former French Republic that obscurantly prepared modern France and offering them a unifying version of their history.
+------------------
+1008, SNMT: 0.01868827373698423, UNMT: -0.011312884371740495, diff: 0.030001158108724724
+Src : La théorie dominante sur la façon de traiter les enfants pourvus d'organes sexuels ambigus a été lancée par le Dr John Money, de l'université Johns-Hopkins, qui considérait que le genre est malléable.
+Ref : The prevailing theory on how to treat children with ambiguous genitalia was put forward by Dr. John Money at Johns Hopkins University, who held that gender was malleable.
+sys1: The prevailing theory about how to treat children with ambiguous sexual organs was launched by Dr. John Money of the Johns Hopkins University, who considered that the genre is malleable.
+sys2: The dominant theory about how to treat children armed with ambigüous sex organs was launched by Dr. John Money, of Johns-Hopkins University, who considered the genre maudlin.
+------------------
+2935, SNMT: 0.0253010193042158, UNMT: -0.00385891944345218, diff: 0.02915993874766798
+Src : Dans "Les Fous de Benghazi", il avait été le premier à révéler l'existence d'un centre de commandement secret de la CIA dans cette ville, berceau de la révolte libyenne.
+Ref : In "Les Fous de Benghazi", he was the first to reveal the existence of a secret CIA command centre in the city, the cradle of the Libyan revolt.
+sys1: In "Les Fous de Benghazi", he was the first to reveal the existence of a secret CIA command center in this town, cradle of the Libyan revolt.
+sys2: In "The Facts of Libya," he had been the first to reveal the existence of a secret CIA command center in that city, the birthplace of the Libyan uprising.
+------------------
+2568, SNMT: 0.011375288789430726, UNMT: -0.016389295960628658, diff: 0.027764584750059385
+Src : Meng Jianzhu, qui est membre du Bureau politique du Parti communiste chinois (PCC), s'exprimait à Tachkent lors d'une visite officielle en Ouzbékistan.
+Ref : Meng Jianzhu, a member of the Policy Bureau of the Communist Party of China (CPC) made the statement in Tashkent while on an official visit to Uzbekistan.
+sys1: Meng Jianzhu, who is a member of the political Bureau of the Chinese Communist Party (CPC), was speaking at Tashkent during an official visit to Uzbekistan.
+sys2: Meng Jianzhu, who is a member of the Communist Party's Central Committee (PCC), was speaking in Tachkent during an official visit to Ouzbékistan.
+------------------
+293, SNMT: 0.010029234505623208, UNMT: -0.01756424276467783, diff: 0.027593477270301037
+Src : Un peu plus tôt, sur la route menant à Bunagana, poste-frontière avec l'Ouganda, des militaires aidés de civils chargeaient un lance-roquettes multiple monté sur un camion flambant neuf des FARDC, devant assurer la relève d'un autre engin pilonnant les positions du M23 sur les collines.
+Ref : A little earlier, on the road to Bunagana, the frontier post with Uganda, soldiers assisted by civilians loaded up a multiple rocket launcher mounted on a brand new truck belonging to the FARDC, intended to take over from another device pounding the positions of the M23 in the hills.
+sys1: Earlier, on the road leading to Bunagana border post with Uganda, soldiers helped civilians loaded a multiple rocket launcher mounted on a truck brand new FARDC, to ensure succession of another engine pounding the positions of the M23 in the hills.
+sys2: A day earlier, on the road leading to Bunagana, a postcode with Uganda, military personnel aided by civilians were loading a multiple rocket lance-roquettes fire on a flambant neuf FARDC truck, expected to provide the lead for another device pilfering M23 positions on the hills.
+------------------
+839, SNMT: 0.023064289442878305, UNMT: -0.004234659807721641, diff: 0.027298949250599946
+Src : Le recours souligne par ailleurs que la congrégation de Sainte-Croix et l'oratoire Saint-Joseph, qui est une entité distincte, "ont permis que des sévices sexuels soient perpétrés à l'encontre d'enfants", qu'ils "ont exercé une contrainte morale, religieuse et psychologique sur les victimes", qu'ils "étaient au courant des sévices sexuels perpétrés et les ont néanmoins étouffés", et qu'ils ont "sciemment et consciemment choisi d'ignorer la problématique".
+Ref : Moreover, the action specifies that the Congregation of the Holy Cross and the Saint-Joseph Oratory, which is a separate entity, "allowed acts of sexual abuse to be committed against children", that they "exercised moral, religious and psychological constraint over the victims," and that they "knew about sexual assaults committed but kept quiet" and "deliberately and consciously chose to ignore the problem".
+sys1: The use also stresses that the congregation of Holy Cross and the St. Joseph's oratory, which is a separate entity, "have enabled sexual abuse are perpetrated against children", that they "exercised a moral, religious and psychological victims constraint", that they "were aware of sexual abuse perpetrated and them have nevertheless choked", and that they have "knowingly and consciously chose to ignore the problem".
+sys2: The suit noted by contrast that the St. Croix congregation and Saint-Joseph's oratory, which is a separate entity, "allowed sexual sévices to be committed upon children," that they "performed moral, religious and psychological contrainte on victims," that they "were aware of the sexual sévices commis and nonetheless strangled them," and that they "sciemment and consciously chose to ignore the issue."
+------------------
+UNMT > SNMT top 10
+==================
+1156, SNMT: -0.025040150737247302, UNMT: 0.013070805177896716, diff: -0.03811095591514402
+Src : Les spécialistes disent que les personnes sont systématiquement contraintes à faire leurs aveux, malgré un changement dans la loi qui a été voté plus tôt dans l'année interdisant aux autorités de forcer quiconque à s'incriminer lui-même.
+Ref : Experts say confessions are still routinely coerced, despite a change in the law earlier this year banning the authorities from forcing anyone to incriminate themselves.
+sys1: The experts say that people are systematically forced to make their confessions, despite a change in the law which was passed earlier this year prohibiting the authorities to force anyone to incriminating himself.
+sys2: Experts say people are routinely forced to make their confessions, despite a change in the law that was passed earlier in the year banning officials from forcing anyone to incriminate themselves.
+------------------
+28, SNMT: -0.02230524950768853, UNMT: 0.011869100854362102, diff: -0.03417435036205063
+Src : Ces violences sont de plus en plus meurtrières en dépit de mesures de sécurité renforcées et d'opérations militaires d'envergure lancées depuis des mois par le gouvernement de Nouri Al Maliki, dominé par les chiites.
+Ref : The violence is becoming more and more deadly in spite of reinforced security measures and large-scale military operations undertaken in recent months by Nouri Al Maliki's government, which is dominated by Shiites.
+sys1: Such violence are more lethal despite measures enhanced security and large-scale military operations launched by the Government of Nouri Al Maliki, the Shia-dominated for months.
+sys2: Those violence is increasingly deadly in the face of increased security measures and major military operations launched for months by Nouri Al Maliki's government, dominated by Shiites.
+------------------
+2308, SNMT: -0.020999970891999453, UNMT: 0.013015420532852318, diff: -0.03401539142485177
+Src : Du côté du gouvernement, on estime que 29 954 membres des forces armées du président Bachar el-Assad ont trouvé la mort, dont 18 678 étaient des combattants des forces pro-gouvernementales et 187 des militants du Hezbollah libanais.
+Ref : On the government side, it said 29,954 are members of President Bashar Assad's armed forces, 18,678 are pro-government fighters and 187 are Lebanese Hezbollah militants.
+sys1: On the side of the Government, it is estimated that 29 954 members of the armed forces of president Bachar Al-Assad died, whose 18 678 were 187 Lebanese Hezbollah militants and fighters of the pro-Government forces.
+sys2: On the government side, one estimate says 29,954 members of President Bachar al-Assad's armed forces have found their way, including 18,678 were fighters from pro-government forces and 187 from Lebanese Hezbollah militants.
+------------------
+217, SNMT: -0.01453089045460132, UNMT: 0.01894841285320581, diff: -0.03347930330780713
+Src : Mercredi, le Centre américain de contrôle et de prévention des maladies a publié une série de directives indiquant comment gérer les allergies alimentaires des enfants à l'école.
+Ref : On Wednesday, the Centers for Disease Control and Prevention released a set of guidelines to manage children's food allergies at school.
+sys1: Wednesday, the US Centre of disease prevention and control issued a set of guidelines indicating how to manage food allergies of children at the school.
+sys2: Wednesday, the U.S. Centers for Disease Control and Prevention issued a series of directives indicating how to handle children's food allergies at school.
+------------------
+178, SNMT: -0.008867679696329844, UNMT: 0.020868088743490887, diff: -0.02973576843982073
+Src : Des détracteurs tels que la sénatrice Claire McCaskill, D-Mo., soutiennent qu'il n'existe aucune raison de sécurité valable pour ces interdictions.
+Ref : Critics such as Sen. Claire McCaskill, D-Mo., contend there is no valid safety reason for the prohibitions.
+sys1: Critics such as Senator Claire McCaskill, D - MO., argued that there is no reason valid security for these bans.
+sys2: Critics such as Sen. Claire McCaskill, D-Mo., argue that there is no valid safety reason for these interdictions.
+------------------
+930, SNMT: 0.011631963198368567, UNMT: 0.03999683194691528, diff: -0.028364868748546712
+Src : Les analystes anticipaient en moyenne 15,4 millions de ventes en rythme annualisé et corrigé des variations saisonnières mais le marché s'est établi à 15,3 millions selon les estimations d'Adam Jonas, analyste de Morgan Stanley.
+Ref : Analysts had forecast average sales of 15.4 million units (annualised rate, adjusted with seasonal variations), but the market settled at 15.3 million, according to estimates by Adam Jonas, an analyst at Morgan Stanley.
+sys1: Analysts anticipated an average 15.4 million sales annualized and seasonally adjusted pace but the market amounted to 15.3 million estimated Adam Jonas of Morgan Stanley analyst.
+sys2: Analysts in the survey forecast 15.4 million sales in an annualised and adjusted seasonal variations but the market was up 15.3 million according to estimates by Adam Jonas, a Morgan Stanley analyst.
+------------------
+1544, SNMT: -0.005748560562594207, UNMT: 0.022441226261392444, diff: -0.02818978682398665
+Src : Mais le représentant Bill Shuster (R-Pa.), président du Comité des transports de la Chambre des représentants, a déclaré qu'il le considérait aussi comme l'alternative la plus viable à long terme.
+Ref : But Rep. Bill Shuster (R-Pa.), chairman of the House Transportation Committee, has said he, too, sees it as the most viable long-term alternative.
+sys1: But Congressman Bill Shuster (R - PA.), Chairman of the House of representatives Transportation Committee, said that he considered as the most viable alternative in the long term.
+sys2: But Rep. Bill Shuster (R-Pa.), chairman of the House Transportation Committee, said he also considered it the most viable long-term alternative.
+------------------
+140, SNMT: -0.004811881520929262, UNMT: 0.021251002531990082, diff: -0.026062884052919344
+Src : Elle enquête désormais sur les allégations selon lesquelles M. Tripodi était au courant de l'intérêt secret de M. Obeid dans ces propriétés, suite au témoignage de l'ancienne secrétaire générale adjointe de M. Tripodi, Lynne Ashpole, jeudi.
+Ref : It's now investigating allegations Mr Tripodi knew of Mr Obeid's secret interest in the properties, after evidence given by Mr Tripodi's former deputy chief of staff, Lynne Ashpole, on Thursday.
+sys1: It is now investigating the allegations that Mr. Tripodi was aware of Mr. Obeid secret interest in these properties, following the testimony of the former Under-Secretary-General Mr. Tripodi, Lynne Ashpole, Thursday.
+sys2: It is now investigating allegations that Mr Tripodi was aware of Mr Obeid's secret interest in these properties, following the testimony of Mr Tripodi's former deputy general secretary, Lynne Ashpole, on Thursday.
+------------------
+2120, SNMT: -0.010869417338952303, UNMT: 0.015075640904825605, diff: -0.025945058243777908
+Src : Des policiers du service antiterroriste se sont dépêchés sur l'avenue centrale de la banlieue Néo Iraklio, où l'incident a eu lieu et ont bouclé le quartier.
+Ref : Anti-terrorist service police rushed to the main avenue in the suburb of Neo Iraklio, where the incident took place, and sealed off the area.
+sys1: The police's anti-terrorist unit is were dispatched to central avenue in the suburbs neo Iraklio, where the incident took place and have cordoned off the area.
+sys2: Police from the antiterroriste service were dispatched to central street avenue in Neo Iraklio, where the incident took place and sealed off the neighborhood.
+------------------
+1639, SNMT: -0.04191325646976907, UNMT: -0.01639117574281812, diff: -0.025522080726950946
+Src : La NSA autrefois ultra secrète, un temps surnommée la « No Such Agency », s'est retrouvée sous le feu des projecteurs et fortement critiquée au cours des derniers mois suite à une vague de révélations à propos de ses vastes programmes de surveillance des communications au niveau national et à l'étranger – qui font partie des fichiers secrets de la NSA volés à l'agence et divulgués par l'ancien consultant désabusé de la NSA, Edward Snowden.
+Ref : The formerly super secretive NSA, once nicknamed No Such Agency, has found itself in very public light, and amid vicious criticism, in past months following a stream of revelations about is vast foreign and domestic surveillance programs - collectively the product of secret NSA files stolen from the agency and leaked by disenchanted former NSA contractor Edward Snowden.
+sys1: Formerly ultra secret NSA, dubbed time "No Such Agency", is found under the fire of projectors and sharply criticized in recent months following a wave of revelations about its extensive monitoring programmes presentations nationally and internationally - that are part of the secret files of the stolen from the Agency and disclosed by former NSA disillusioned NSA consultantEdward Snowden.
+sys2: The once ultra secret NSA, a time dubbed the "No Such Agency," has been under scrutiny and heavily criticized over the past few months following a wave of revelations about its vast surveillance programs at the national and abroad - which are among the classified data of the NSA stolen from the agency and divulged by the former CIA consultant Edward espie.
+------------------

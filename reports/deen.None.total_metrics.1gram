@@ -1,0 +1,4 @@
+mf1_SNMT: ReBLEU 38.45 ( BP = 1.000 ratio = 1.005 hyp_len = 47921 ref_len = 47673 )
+mf1_UNMT: ReBLEU 33.60 ( BP = 1.000 ratio = 1.007 hyp_len = 48018 ref_len = 47673 )
+bleu_SNMT: BLEU = 32.68 63.9/39.0/25.9/17.7 (BP = 1.000 ratio = 1.005 hyp_len = 47921 ref_len = 47673)
+bleu_UNMT: BLEU = 33.87 64.2/40.0/27.1/18.9 (BP = 1.000 ratio = 1.007 hyp_len = 48018 ref_len = 47673)

@@ -1,0 +1,128 @@
+SNMT better: 971, UNMT better: 1028, Equal: 0
+
+SNMT > UNMT median 10
+==================
+1634, SNMT: 0.01229815045761029, UNMT: 0.006695458742278504, diff: 0.005602691715331787
+Src : În afară de lecțiile de artă, participanții vor putea lua parte la realizarea unor expoziții și a altor activități culturale de promovare a frumosului.
+Ref : In addition to art lessons, participants will take part in the development of exhibitions and other cultural activities to promote beauty.
+sys1: In addition to art lessons, participants will be able to take part in the development of exhibitions and other cultural activities to promote beauty.
+sys2: In addition to art lessons, participants will be able to take part in making exhibitions and other cultural activities to promote frumosul.
+------------------
+1951, SNMT: -0.015214001966562307, UNMT: -0.02080901377988198, diff: 0.0055950118133196725
+Src : Momentul este reprodus în lucrarea "Brâncuși. O biografie", scrisă de Alexandru Buican.
+Ref : The moment is reproduced in "Brancusi. A Biography" by Alexandru Buican.
+sys1: The moment is reproduced in the paper "Animation. A biography, written by Darlene Bailey.
+sys2: The moment is retold in the "Brancusi's A biography," written by Mr. Buick.
+------------------
+1236, SNMT: 0.0013370893244513127, UNMT: -0.0042501597598629814, diff: 0.005587249084314294
+Src : A fost fondatorul Partidului Romania Mare, fost membru al Parlamentului European și fost senator.
+Ref : He was the founder of the Romania Mare Party, former member of the European Parliament and former senator.
+sys1: He was the founder of the Great Romania Party, former member of the European Parliament and former senator.
+sys2: He was fondatorul of the United States, a former member of the European Parliament and a former senator.
+------------------
+901, SNMT: 0.0017505830903772335, UNMT: -0.003827686575313294, diff: 0.005578269665690527
+Src : I-am spus că mă poate elimina din lista de martori oricând.
+Ref : I've told him he can remove me from his list of witnesses at any time.
+sys1: I said that I can remove it from the list of witnesses.
+sys2: I told him he could remove me from the witness list anytime.
+------------------
+344, SNMT: -0.002583599909364409, UNMT: -0.008143314842115501, diff: 0.005559714932751092
+Src : Știri similare: Manchester United lovită de accidentarea lui Luke Shaw în înfrângerea de la PSV
+Ref : Related: Manchester United suffer Luke Shaw blow in defeat at PSV
+sys1: Similar news: injury-hit Manchester United of Luke Shaw in the defeat at PSV
+sys2: Similar news: Manchester United hit by Luke Shaw's injury in PSV defeat
+------------------
+91, SNMT: 0.01579401874694497, UNMT: 0.01023775423863782, diff: 0.005556264508307152
+Src : „I was shot în Joburg” este un studio non-profit care îi învață pe tinerii fără adăpost să facă fotografii ale zonelor în care trăiesc și să câștige bani din asta.
+Ref : "I was shot in Joburg" is a non-profit studio that teaches homeless youngsters how to take photographs of their neighbourhood and make a profit from it.
+sys1: "I was shot in Joburg" is a non-profit organization that teaches them homeless youths to take photographs of the areas in which they live and to earn money out of it.
+sys2: "I was shot in Joburg" is a non-profit studio that teaches young people without shelter to make photos of the areas where they live and earn money from that.
+------------------
+1166, SNMT: -0.0044786515724055675, UNMT: -0.010006861604125561, diff: 0.005528210031719993
+Src : Profilul candidatului TdC
+Ref : CF Candidate Profile
+sys1: T.r candidate profile
+sys2: Profiler of TdC candidate
+------------------
+1568, SNMT: 0.005463587964037231, UNMT: -5.428639630622456e-05, diff: 0.0055178743603434555
+Src : Firma a intrat însă în insolvență, și acest contract fiind reziliat, după ce se făcuseră plăți de 1,5 milioane lei.
+Ref : The company became insolvent and this contract was also terminated after payments of 1.5 million lei had been made.
+sys1: The company went into insolvency, however, and this contract being terminated, after they had made payments of 1.5 million lei.
+sys2: The firm also went public, with that contract ending after it was making payments of £1.5 million.
+------------------
+1745, SNMT: 0.004283034112461337, UNMT: -0.0012281045451700834, diff: 0.00551113865763142
+Src : Atunci, din cauza unei probleme de sănătate, fata a trebuit să fie internată în spital, la oraș.
+Ref : Due to health problems, the girl had to be hospitalized in the city.
+sys1: Then, due to health problems, the girl had to be hospitalized in a hospital in the city.
+sys2: Then, because of a health problem, the girl had to be admitted to the hospital at the city.
+------------------
+878, SNMT: 0.003119790444863213, UNMT: -0.002387664101149767, diff: 0.00550745454601298
+Src : Dacă se întâmplă, și sper să nu se întâmple, voi sta într-o încăpere pentru observatori din sala de execuție a Penitenciarului statului Oklahoma și voi vedea cum Richard Glossip este executat prin administrarea injecției letale.
+Ref : If it happens, and I hope it won't, I will sit in a viewing gallery in the death chamber at Oklahoma State Penitentiary as Richard Glossip is executed by lethal injection.
+sys1: If this happens, and I hope that it doesn't happen, I'll just sit in a room for observers of the execution of the Oklahoma State Penitentiary and I'll see how Richard Glossip is executed through the administration of lethal injection.
+sys2: If it happens, and hopefully it doesn't happen, I will sit in a room for observers in the state prison room and see how Richard Glossip is executed by administered the lettuce injection.
+------------------
+UNMT > SNMT median 10
+==================
+1149, SNMT: -0.008928952882449437, UNMT: -0.0041567754491182995, diff: -0.004772177433331137
+Src : PSD a anuntat cand va face congres - ce se va decide atunci
+Ref : PSD announced it will organise a Congress - and that this issue will be decided then
+sys1: PSD announced when it will make Congress-what will decide then
+sys2: Labour has announced when the election will be held - what will happen then
+------------------
+1736, SNMT: -0.009301355385616716, UNMT: -0.00455474315151605, diff: -0.004746612234100667
+Src : Copiii au fost duși de urgență la spitalul "Sfânta Maria" din Iași.
+Ref : The children were rushed to "Sfanta Maria" hospital in Iași.
+sys1: The children were taken to the emergency hospital "St. Mary" in Iași.
+sys2: The children were taken off the hospital at St. John's Hospital in Washington.
+------------------
+595, SNMT: 0.0018987439566586772, UNMT: 0.006590434398020761, diff: -0.004691690441362084
+Src : Cinema City România însă dorește să descopere noi voci și de aceea demarăm o campanie inedită.
+Ref : However, Cinema City Romania wishes to discover new voices and this is why we are launching this unique campaign.
+sys1: Cinema City Romania but wishes to discover new voices, and that's why we dive in a unique campaign.
+sys2: Cinema City's also seeks to discover new voices and so we are launching an unusual campaign.
+------------------
+1914, SNMT: -0.004288784669967072, UNMT: 0.00038682076768736806, diff: -0.00467560543765444
+Src : Se cheamă "trudă".
+Ref : It's called "hard work".
+sys1: Is called "toil".
+sys2: It's called "trite."
+------------------
+1723, SNMT: 0.0007673045743104012, UNMT: 0.0054354987497831075, diff: -0.004668194175472706
+Src : Licitația pentru concesionare vizează o perioadă de 10 ani.
+Ref : The tender for concession covers 10 years.
+sys1: The tender for the concession is for a period of 10 years.
+sys2: The auction for the concessionary covers a period of 10 years.
+------------------
+874, SNMT: 0.0007697229312526588, UNMT: 0.005413122849716956, diff: -0.004643399918464297
+Src : A trecut aproape fix un an de când Scoția a luat decizia istorică de a rămâne parte din Regatul Unit.
+Ref : It is almost exactly a year since Scotland made the historic decision to remain part of the UK.
+sys1: Passed almost a year fixed when historic Scotland took the decision to remain part of the United Kingdom.
+sys2: It has been almost a year since Scotland took the historic step of remaining part of the United Kingdom.
+------------------
+753, SNMT: -0.009139825650180455, UNMT: -0.0045139099067199595, diff: -0.004625915743460496
+Src : De-a lungul anilor, chirurgia bariatrică s-a dovedit eficientă în tratamentul diabetului zaharat de tip 2, însă majoritatea studiilor s-au derulat pe persoane cu obezitate morbidă, cu un indice de masă corporală (IMC) 35 sau superior.
+Ref : Over the years, bariatric surgeries have proved effective for treating type 2 diabetes, but most studies were done in people who are morbidly obese, with a body mass index (BMI) of 35 or above.
+sys1: Along the years, bariatric surgery has proven to be effective in the treatment of diabetes mellitus type 2, but most studies have been conducted on persons with morbid obesity with a body mass index (BMI) 35 or higher.
+sys2: Over the years, bariatrical surgery has proven effective in the treatment of type 2 diabetes, but most studies have been conducted on people with morbid obesity, with a body mass index (IMC) 35 or superior.
+------------------
+1619, SNMT: 0.018789586561794636, UNMT: 0.023396736720066258, diff: -0.004607150158271622
+Src : Selecționerul echipei naționale a României, Lynn Howells, aflat la prima experiență ca antrenor la Cupa Mondială, speră să-i facă pe români mândri de selecționata de rugby: "E o mare onoare pentru noi să participăm la această Cupă Mondială".
+Ref : The coach of the national team of Romania, Lynn Howells, who is at his first experience as a coach at the World Cup, hopes to make the Romanians proud of the national rugby team: "It is a great honour for us to participate in this World Cup."
+sys1: Romania's national team coach, Lynn Howells, who was at first experience as a coach at the World Cup, hopes to make the Romanian rugby team pride: "it is a great honour for us to participate in this World Cup."
+sys2: England coach Lynn Howells, on his first experience as coach at the World Cup, hopes to make the Scots proud of the rugby selectionata: "It's a great honour for us to participate in this World Cup."
+------------------
+203, SNMT: -0.024686182334065165, UNMT: -0.02007979999799403, diff: -0.004606382336071135
+Src : „În studiul nostru derulat după 1950, toate ciclurile de creștere a ratei dobânzii până în prezent s-au aflat într-un super ciclu de creștere a profitului, PIB-ul eclipsând vârfurile dinainte recesiunii foarte rapid după începerea recuperării”, a declarat raportul.
+Ref : "In our study since 1950, all hiking cycles to date have been in a super cycle of increasing leverage with GDP eclipsing prerecession peaks very quickly post the recovery commencing," the report said.
+sys1: "In our study conducted after 1950, all cycles of increase in interest rates so far have been in a super cycle of profit growth, dwarfing the GDP tops in advance very quickly after the start of recession recovery," said the report.
+sys2: "In our study conducted after 1950, all the rate cycle growth rates to date were in a super cycle of profit growth, with GDP eclipsa the varicele dinainte recessions very quickly after the start of recovery," said the report.
+------------------
+766, SNMT: -0.009049663637611616, UNMT: -0.004466489379197469, diff: -0.004583174258414147
+Src : Însă în grupul tratat prin metode medicale, s-a menținut la aproximativ 8%.
+Ref : In the medical therapy group, however, it remained steady at about 8 percent.
+sys1: But in the group treated by medical methods has been maintained at about 8%.
+sys2: But in the group treated by medical methods, it held at around 8 percent.
+------------------
+UNMT = SNMT median 10
+==================

@@ -1,0 +1,125 @@
+Metric: mf1
+SNMT > UNMT top 10
+==================
+577, SNMT: 0.19421925012677121, UNMT: 0.06347779601789938, diff: 0.13074145410887184
+Src : David Grimal are o cariera internationala de violonist solo, de-a lungul careia a sustinut regulat concerte în ultimii 20 de ani pe principalele scene de muzica clasica ale lumii și cu orchestre prestigioase cum ar fi Orchestre de Paris, Orchestre Philharmonique de Radio France, Russian National Orchestra, Orchestre National de Lyon, Chamber Orchestra of Europe, Berliner Symphoniker, New Japan Philharmonic, Orchestre de l'Opera de Lyon, Mozarteum Orchestra Salzburg, Jerusalem Symphony Orchestra și Sinfonia Varsovia, sub conducerea unor dirijori precum Christoph Eschenbach, Michel Plasson, Michael Schￃnwandt, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Rafael Fruￌhbeck de Burgos și Peter Eotvos, Andris Nelsons, Christian Arming.
+Ref : David Grimal has an international career as a solo violinist. During the last 20 years he held regular concerts on the main classical music stages of the world with prestigious orchestras such as the Orchestre de Paris, Orchestre Philharmonique de Radio France, Russian National Orchestra, Orchestre National de Lyon, Chamber Orchestra of Europe, Berliner Symphoniker, New Japan Philharmonic, Orchestre de l'Opera de Lyon, Salzburg Mozarteum Orchestra, Jerusalem Symphony Orchestra and Sinfonia Varsovia under the direction of conductors such as Christoph Eschenbach, Michel Plasson, Michael Schￃnwandt, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Rafael Fruￌhbeck de Burgos and Peter Eotvos, Andris Nelsons, Christian Arming.
+sys1: David Grimal has an international career as a solo violinist, along which claimed concerts regularly in the past 20 years in key scenes of classical music of the world and with prestigious orchestras such as the Orchestre de Paris, Orchestre Philharmonique de Radio France, Russian National Orchestra, Orchestre National de Lyon, the Chamber Orchestra of Europe, the Berliner Symphoniker, the New Japan Philharmonic, Orchestre de l'Opera de Lyon The Salzburg Mozarteum Orchestra, the Jerusalem Symphony Orchestra, and Sinfonia Varsovia, under the direction of conductors such as Christoph Eschenbach, Michel Plasson, Michael Schㅐnwandt, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Rafael Fruㅗhbeck de Burgos, and Peter Eotvos, Andris Nelsons, Christian Arming.
+sys2: David Grimal has an international solo violinist, Peter Csaba, Heinrich Schiff, Lawrence Foster, Emmanuel Krivine, Mikhail Pletnev, Mikhail Fruyhbeck Orchestra of Burgos and Peter Eotvos, Andris Philharmonique de Radio France, Russian National Orchestra, the French National Orchestra of Lyon, the Berliner Symphoniker, the New Japan Philharmonic, the Orchestre de l'Opera of Lyon, the Mozarteum Orchestra of Lyon, the Jerusalem Symphony Orchestra and Sinfonia of Paris, under the direction of conductor like Orchestra: the National Orchestra, the National Orchestra, the French Chamber Orchestra, the Berliner Symphoniology Orchestra and Sinfonia Sinfonia and Sinfonia Sinfonia Sinfonia, the Orchestra of the Paris Symphony Orchestra, the Russian National Orchestra, the National Orchestra, the National Opera of Europe, the Berliner Symphoniker, the Berliner Symphoniker Orchestra, the Orchestra of Lyon, the Mozarteum and Sinfonia Sinfonia Sinfonia.
+------------------
+687, SNMT: 0.011012810368548287, UNMT: -0.051729678508017685, diff: 0.06274248887656597
+Src : O parte importantă a magazinului este dedicată raionului uriaș de congelatoare, unde veți găsi frunze de curry, pepene și ghimbir congelate, rațe întregi, pește, sânge și bilă de vită, carcase de porc, chiftele de pește, cârnați tradiționali, semi-preparate și multe altele.
+Ref : A good portion of the store is given over to the massive freezer section, where you'll find frozen curry leaves, bitter melon and galangal, whole ducks, fish, beef blood and bile, pork casings, fish balls, regional sausages, commercially-prepared foods and more.
+sys1: An important part of the store is devoted to giant rayon of freezers, where you'll find curry leaves, melon and Ginger frozen whole fish, ducks, beef bile and blood, carcasses of pork, fish balls, sausages, traditional dishes and more.
+sys2: A significant part of the store is devoted to the huge frozen fried chicken county, where you will find curry leaves, peach and frozen ghrelish, whole fish, fish, blood and bone stock, pork carcass, traditional fish carnouts, semi-cooked carnacies and many others.
+------------------
+1636, SNMT: 0.03917429619223611, UNMT: -0.02253609169748927, diff: 0.06171038788972538
+Src : "Persoanele interesate vor putea să afle cum să realizeze creații sculpturale florale armonioase (ikebana), cum să surprindă sufletul elementelor înconjurătoare în compoziții plastice folosind arta japoneză a pictării în tuș (Sumie) sau cum să își exprime propria individualitate și creativitate prin universul plurivalent al artelor frumoase (grafic, desen, pictură) ", a declarat Sorin Mazilu, profesorul acestor cursuri.
+Ref : "Those interested will find out how to make harmonious sculptural floral creations (ikebana), how to capture the soul of the surrounding elements in plastic compositions using the Japanese ink painting art (Sumie) or how to express their own individuality and creativity through the multifaceted universe of Fine Arts (graphic, drawing, painting)" said Sorin Mazilu, the teacher of these courses.
+sys1: "Persons interested will be able to learn how to achieve harmonious sculptural floral design (ikebana), how to capture the soul of the surrounding elements in plastic compositions using the Japanese art of painting in India ink (Sumie) or how to express their own individuality and creativity through the universe plurivalent of fine arts (painting, drawing, graphics)," said Sorin Mazilu, teacher of such courses.
+sys2: "People interested will be able to learn how to complete armonious creative contrasting (grafic, drawing, painting) Creations, how to capture the hearts of surrounding elements in artistic compositions using the Japanese art of painting in tus (Sumie) or how to express their own individualistic identity through the plurivalent universe of beautiful arts (grafic, drawing, painting, painting)," said Mr. Mazilu, the professor of these courses.
+------------------
+1941, SNMT: 0.023948524982436936, UNMT: -0.023974359618151198, diff: 0.047922884600588134
+Src : Constantin Brâncuși se naște la 19 februarie 1876, în Hobița, un mic sat din comuna Peștișani, județul Gorj, la poalele Carpaților.
+Ref : Constantin Brancusi was born on 19 February 1876 in Hobița, a small village from Peștișani, Gorj county, at the foot of the Carpathians.
+sys1: Constantin Brâncuși February 19, was born in 1876, a small Certified village in Peștișani commune, Gorj County, at the foot of the Carpathians.
+sys2: Mr. Brancusi was born Feb. 19, 1876, in Hobson, a small village in the town of Peston, Pa., at the foot of the mountains.
+------------------
+1758, SNMT: 0.02075520981354373, UNMT: -0.02277275457836936, diff: 0.04352796439191309
+Src : Pentru că nimeni nu s-a mai interesat de soarta copilului în tot acest timp, ea a fost preluată de Direcția Generală de Asistență Socială și Protecția Copilului Iași, care apoi a dat-o spre îngrijire Centrului de Plasament din Bucium.
+Ref : Because during all this time nobody came to ask about the fate of the child, she was taken by the General Directorate of Social Assistance and Child Protection in Iași, who then gave her to the Foster Care Centre in Bucium.
+sys1: Because no one has been more interested in the fate of the child during this time, she was taken over by the General Directorate of Social Assistance and Child Protection, which then gave it to the care Centre Bucium from placement.
+sys2: Because nobody else was interested in the child's fate throughout the process, she was taken over by the D.C. Children's Health and Family Services Administration, which then gave it for adoption to the Bucium Children's Hospital.
+------------------
+1577, SNMT: -0.04112099318646756, UNMT: -0.08374596438682858, diff: 0.04262497120036102
+Src : În ceea ce privește faptele imputate lui Dascălu, procurorii au precizat că acesta, în calitate de consilier al Oficiului de Cadastru, împreună cu alți colegi, "a întocmit în fals mai multe procese-verbale de acceptanță, pri­vind contractele de prestări servicii în­cheiate anterior de către O.C.P.I. Iași cu administratorii firmelor SC Gauss SRL, SC Grup Cinci SRL, SC Topo Euro Cad SRL, SC Agenția de Ca­dastru și Topografie SRL și PFA Lipșa Ștefan, care atestau, în mod nereal, faptul că serviciile contractate au fost realizate în totalitate, în condițiile în care acestea nu erau efectuate și nu erau depuse la O.C.P.I. Iași".
+Ref : Regarding the alleged acts of Dascalu, the prosecutors said that, as adviser within the Office of Cadastre, together with other colleagues, he "has forged several minutes of acceptance on service contracts priorly concluded by OCPI of Iași county with the directors of SC Gauss SRL, SC Grup Cinci SRL, SC Topo Euro Cad SRL, SC Agenția de Cadastru și Topografie SRL and PFA Lipșa Ștefan attesting the false fact that the contracted services have been performed in full, although they were not carried out and were not submitted to OCPI of Iași county;
+sys1: As regards the facts imputed to his prosecutors Dascălu noted that it, in its capacity as Adviser to the cadastral Office, together with other colleagues, "drew in several false reports of acceptance, service contracts previously concluded by the Iași with the managers of the companies O.C.P.I. SC Gauss Ltd Group Five Ltd Topo Euro Cad Ltd Cadastre Agency and Surveying LLC and PFA Lipșa Stefan that proved, in the way that illusive, contracted services were conducted entirely under the conditions in which they were made and were not submitted to O.C.P.I. Iași ".
+sys2: In connection with the charges imputed to Dascalu, the indictment said he, as a state office assistant, with several other colleagues, "allegedly prepared in fals more than a dozen approved form processions, pri alizing the contract acts in chain-of-contract with the O.C.P.I. 's directors, the Gauss' firms, the SC Group of Five, the Topo Euro Cad Company, the State Department of Ca dents and Topography, which allegedly stated that the services were completed in a manner that was not fully approved by the O.C.P.I. and the Company's directors."
+------------------
+714, SNMT: 0.02250136302411221, UNMT: -0.019484650037966844, diff: 0.04198601306207905
+Src : Prima jumătate de oră (17:00 până la 17:30) a noului show de cultură generală moderat de Andrew O'Keefe a avut în medie 446.000 de telespectatori.
+Ref : The first half-hour (5pm to 5.30pm) of the new quiz show hosted by Andrew O'Keefe averaged 446,000 viewers.
+sys1: The first half hour (17:00 to 17:30) of the new quiz show hosted by Andrew O'Keefe had averaged 446,000 viewers.
+sys2: The first half (17: 00 to 17: 30 p.m.
+------------------
+206, SNMT: 0.019838860685737814, UNMT: -0.020456802503545646, diff: 0.04029566318928346
+Src : Venitul fix a fost de asemenea volatil având în vedere că piața anticipează o creștere a ratei dobânzii iar tiparul este oarecum similar cu cel al dividendelor.
+Ref : Fixed income also has been volatile as the market anticipates a rate hike, and the pattern is somewhat similar to what equities experience.
+sys1: Fixed income has been volatile since the market anticipates a rise in interest rates and the pattern is somewhat similar to that of dividends.
+sys2: The net income was likely to be voluble given that the market expects a rate increase and the tiparnita is somewhat similar to the dividend.
+------------------
+944, SNMT: 0.015049099405644029, UNMT: -0.02509192896270207, diff: 0.0401410283683461
+Src : Moody, al cărui nume este cel mai des asociat cu antrenarea campionului neînvins Black Caviar, a etichetat regula tratamentului din ziua cursei ca fiind „ridicolă” după ce s-a aplicat pe picioarele cailor o cataplasmă cu nămol sau argilă, ceea ce încalcă regulile.
+Ref : Moody, best known for preparing unbeaten champion Black Caviar, labelled the race-day treatment rule "ridiculous" after a mud or clay poultice had been applied to the horses legs, which is against the rules.
+sys1: Moody, whose name is most often associated with the training of champion unbeaten Black Caviar, has labeled the treatment rule the day as "ridiculous" after it has been applied to the feet of the horse a mud or clay poultice, which violates the rules.
+sys2: Moody, whose name is most commonly associated with training the untrained Black Caviar champion, labeled the treatment rule of the day's race as "riddled" after he applied on the horses' feet a cath of name-brand namesake or argila, which violates the rules.
+------------------
+1180, SNMT: 0.01047388261300597, UNMT: -0.02892236461948272, diff: 0.03939624723248869
+Src : La controlul specific, politistii de frontiera au observat, în cabina camionului, o geanta mare de voiaj, în care se aflau lucruri personale pentru mai multe persoane, motiv pentru care au efectuat un control amanuntit asupra mijlocului de transport.
+Ref : During the routine control, the border policemen observed in the truck's cab, a large travel bag, which contained personal things of many people, which is why they conducted a thorough check on the means of transport.
+sys1: Specific control, border police had observed, in the truck, a large travel bag, which included personal things for more people, which is why they have conducted a thorough control over means of transport.
+sys2: At the specific check, the officers noticed in the camper's cabin a large listening bag, containing personal items for more than a dozen people, motiv for which they conducted an amanian search of the vehicle's mijB.
+------------------
+UNMT > SNMT top 10
+==================
+1042, SNMT: -0.04922284859981829, UNMT: 0.002799490291018003, diff: -0.052022338890836295
+Src : Umorul îmbrățișărilor frecvente ale lui Joey și Chandler, momentele în care se uită la fotbal în fotoliile comode și pasiunea lui Ross pentru Rachel au venit din faptul că se știe că bărbații se pot asocia cu această situație, chiar dacă adesea se feresc să își exploreze complet sentimentele.
+Ref : The humour of Joey and Chandler's frequent hugs, moments watching football on the comfy chairs, and Ross's pining for Rachel, came from the knowledge that yes, men can all relate to this, even if they often hold back from fully exploring their feelings.
+sys1: His humor frequently asked îmbrățișărilor of Joey and Chandler, the times when looking at football in comfortable armchairs and Ross's passion for Rachel came from the fact that it is known that men may be associated with this case, even if often keep out to explore fully the sentiments.
+sys2: Ummaline frequent imbratisations of Joey and Chandler, the moments when he looks at football in his comfy fotoland Ross's passion for Rachel came from knowing that men can assimilate with the situation, even though often they are shy about fully exploring their feelings.
+------------------
+1646, SNMT: -0.036865565446071, UNMT: 0.015029473225773415, diff: -0.05189503867184442
+Src : "În plus, zilele următoare vom face recepția lucrărilor de la pasarela care leagă UPU de clinicile de cardiologie, hepatologie și gastroenterologie pentru a asigura transportul în condiții decente a bolnavului din UPU în clinicile vecine", a mai explicat managerul unității medicale.
+Ref : "In addition, in the coming days we will accept the works from the bridge linking the ER to the cardiology, hepatology and gastroenterology clinics to ensure the proper transfer of patients from the ER to the neighbouring clinics" explained the manager of the medical unit.
+sys1: "In addition, the coming days we will make the reception of the works from the footbridge linking the UPU of Cardiology clinics, Hepatology and gastroenterology to ensure decent conditions of transportation of the patient from the UPU in neighboring clinics," explained Manager medical unit.
+sys2: "In addition, next week we will make the receptia work on the pasarela linking the UPU to the cardiology, hepatology and gastroenterology clinicians to ensure the transport in decent manner of the patient from the UPU to neighbouring clinicians," the hospital's chief executive explained.
+------------------
+1359, SNMT: -0.05179318769511099, UNMT: -5.1750823871543616e-05, diff: -0.05174143687123944
+Src : Desi presa araba anunta ca despartirea lui Sanmartean de Ittihad e iminenta, impresarul antreorului Ladislau Boloni, Arcadie Zaporojanu, spune ca acest lucru nu se va mai intampla.
+Ref : Although Arab media announced that the separation between Sanmartean and Ittihad is imminent, coach Ladislau Boloni's agent, Arcadia Zaporojanu, says this will no longer happen.
+sys1: Although the Arabic press announces that the breakup of his impending Sanmartean Ittihad e, impresario, Arcadie antreorului Baghery Isaac says that this will no longer happen.
+sys2: While the Arab media say Sanmartean's departure from Ittihad is imminent, impressions of coach Ladislau Boloni's agent Arcadie Zaporojanu say this will never happen.
+------------------
+1168, SNMT: -0.03491464170855352, UNMT: 0.0155771794359012, diff: -0.05049182114445472
+Src : Cei mai putini sunt cei care au finalizat doctoratul - 0,67 - și tinerii care au terminat liceul ori scoala generala - 6,20%.
+Ref : The least numerous are those who completed the doctorate courses - 0.67 - and young people who have finished high school or middle school - 6.20%.
+sys1: Most are few people who have completed their Ph.d.-0.67-and young people who have completed grade school-high school times 6,20%.
+sys2: Most are those who completed their degree - 0.67 - and young people who finished college or high school - 6.20 percent.
+------------------
+1421, SNMT: -0.03436526202826684, UNMT: 0.015559396628653133, diff: -0.049924658656919974
+Src : Politica clubului a facut din Viitorul o echipa de urmarit pentru echipele din strainatate, astfel ca Hagi a vandut în aceasta vara de 1,5 milioane de euro - Ianis Hagi (Fiorentina - 1 milion de euro) și Alexandru Mitrita (Bari - 500 mii euro).
+Ref : The club's policy made Viitorul a team to be watched by foreign teams, and so Hagi has sold this summer in the amount of 1.5 million Euros - Ianis Hagi (Fiorentina - 1 million euro) and Alexandru Mitrita (Bari - 500 thousand euro).
+sys1: The Club's policy has made the team watched for foreign teams, such as Hagi has sold in this summer of 1.5 million euros-Ibarra H (Fiorentina-EUR 1 million) and Alexander Duane (Bari-500 thousand euros).
+sys2: The club's policy made the Viitorul a team to watch for overseas teams, so Hagi sold him for £1.5 million - Ianis Hagi (Fiorentina - £1 million) and John Mitrita (Bari - £500 million).
+------------------
+412, SNMT: -0.04704112838084029, UNMT: 0.0015841778551433094, diff: -0.0486253062359836
+Src : Au inclus amestecul de pungași neplătitori de taxe, străini care fraudau telefonic și pseudo non-domi care dețin majoritatea ziarelor importante.
+Ref : They included the medley of tax-shy rascals, phone-hacking foreigners and pseudo non-doms who own most of our great newspapers.
+sys1: They included a mixture of tax revenue, pungași foreign fraudau telephone and non-pseudo domi who hold most major newspapers.
+sys2: They included the mixture of unpaid tax pungas, foreigners who telephone and pseudo non-doms who own most of the key newspapers.
+------------------
+416, SNMT: -0.03390487518159091, UNMT: 0.01361781861682232, diff: -0.04752269379841323
+Src : Însă Jeremy Corbyn, care m-a atins prietenește pe spate luni la Westminster - i-am spus să nu își mai consume timpul cu mine - pare a fi în pericol să adopte din ou strategia Murdoch de boicotare a lui Neil Kinnock din anii 80, o greșeală atunci și acum.
+Ref : But nice Jeremy Corbyn, who gave me a friendly pat on the back at Westminster on Monday - I told him he no longer has time to waste on me - seems to be in danger of re-adopting Neil Kinnock's boycott Murdoch strategy of the 80s, a mistake then and now.
+sys1: However, Jeremy Corbyn, who touched me prietenește back on Monday at Westminster-i told him to no longer consume your time with me-it seems to be threatening to adopt the strategy of boycott of Murdoch's Neil Kinnock from the 80 's, a mistake then and now.
+sys2: But Jeremy Corbyn, who touched my friend on the back of my neck Monday in Westminster - I told him not to waste his time with me - appears to be in danger of adopting the Murdoch leadership's £80 million boycott of the 1980s, a mistake then and now.
+------------------
+103, SNMT: -0.00844251468405588, UNMT: 0.03127475577188932, diff: -0.0397172704559452
+Src : Adolescentul se află în prezent în Glasgow, unde se luptă cu Sam Groth pentru locul doi la individual, după Bernard Tomic în semifinala Cupei Davis împotriva Angliei.
+Ref : The teenager is currently in Glasgow, competing with Sam Groth for the second singles berth behind Bernard Tomic in the Davis Cup semi-final against Britain.
+sys1: The teenager is currently in Glasgow, where they fight with Sam for second place at Gaser Abdallah individually after Bernard Tomic in the Davis Cup semifinal against England.
+sys2: The teenager is currently in Glasgow, where he is competing against Sam Groth for second place at the individual compus after Bernard Tomic in the Davis Cup semi-final against England.
+------------------
+681, SNMT: -0.041649033945653, UNMT: -0.004207240559409797, diff: -0.037441793386243205
+Src : Raionul interior de mâncare al magazinului (bună, accesibilă ca preț) se află aproape de case și oferă mai multe opțiuni de preparate care pot fi luate la pachet.
+Ref : The store's indoor food stall (good, inexpensive) is near the registers, and has various takeout options.
+sys1: The district dish of the shop interior (good, affordable price) is close to houses and offers several choices of dishes that can be taken.
+sys2: The store's interior food store (good, accessible as price) is close to the houses and offers more menu options that can be taken at once.
+------------------
+424, SNMT: -0.030842353651848953, UNMT: 0.006259743008804719, diff: -0.03710209666065367
+Src : Însă lupta pentru a rămâne „în orice situație” - expresia lui Benn - nu corespunde cu ce a spus McDonnell și nici cu ce a spus JC colegilor și parlamentarilor în cadrul întâlnirii private de luni noapte.
+Ref : But fighting to stay in "in all circumstances" - Benn's phrase - was not what McDonnell was saying, nor what JC told peers and MPs at their private meeting on Monday night, by all accounts.
+sys1: But the struggle to remain "under all circumstances"-his expression Benn-does not correspond with what he said McDonnell nor with what JC said colleagues and lawmakers in private meeting Monday night.
+sys2: But the struggle to stay "in any situation" - Benn's phrase - does not match what McDonnell said and nor what JC colleagues and lawmakers said during the private meeting Monday night.
+------------------

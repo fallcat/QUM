@@ -1,0 +1,128 @@
+SNMT better: 963, UNMT better: 1036, Equal: 0
+
+SNMT > UNMT median 10
+==================
+1876, SNMT: 0.001981240908413895, UNMT: -0.002124812923700148, diff: 0.004106053832114043
+Src : Sumele suplimentare sunt repede înghițite de promisiunile generoase, fără acoperire, făcute de demagogii populiști.
+Ref : Additional amounts are quickly swallowed by generous unsubstantiated pledges, made by populist demagogues.
+sys1: Additional amounts are quickly swallowed by the generous promises without coverage, made by leftist demagogues populiști.
+sys2: Additional amounts are quickly eaten away by generous, without acoperire promises made by populace demagogues.
+------------------
+1519, SNMT: 0.005209413297226462, UNMT: 0.0011039397723493494, diff: 0.004105473524877112
+Src : Probabil ca Putin asteapta sa i se faca oferte, sa apese el pe butoane pentru a rezolva situatia.
+Ref : Perhaps Putin expects to receive offers, to press buttons in order to resolve the situation.
+sys1: Probably Least expect to be offered, to press him on the buttons in order to resolve the situation.
+sys2: Perhaps Putin expects to be made offers, to press himself on the butoane to solve the situation.
+------------------
+1220, SNMT: -0.003083327455168927, UNMT: -0.007184941311859205, diff: 0.004101613856690278
+Src : Aproximativ 300 de oameni pe ora au trecut miercuri pe la sicriul cu trupul neinsufletit al lui Corneliu Vadim Tudor.
+Ref : On Wednesday, approximately 300 people per hour came to pay their respects to Corneliu Vadim Tudor.
+sys1: Approximately 300 people per hour were passed Wednesday on the coffin with the body of his neinsufletit Corneliu Vadim Tudor.
+sys2: About 300 people an hour passed Tuesday on the grave of Corneliu Vadim Tudor's body.
+------------------
+72, SNMT: -0.00700154935096009, UNMT: -0.011092982998853529, diff: 0.004091433647893439
+Src : Confruntarea va fi primul test parlamentar al Dl Corbyn în poziție de lider, venind după ce a numit un „cabinet fantomă” și după discursul pe care l-a ținut marți la congresul anual TUC.
+Ref : The encounter will be the first parliamentary test of Mr Corbyn's leadership, coming after his appointment of a shadow cabinet and his speech to the TUC annual congress on Tuesday.
+sys1: The confrontation will be the first parliamentary test of Mr. Corbyn in the leading position, coming after what he called a "ghost cabinet" and after the speech that he delivered Tuesday at the TUC's annual Congress.
+sys2: Confruntations will be Mr Corbyn's first parliamentary test of Mr Corbyn in a position of leader, coming after he called a "fraudulent cabinet" and following the speech he gave at the annual TUC conference on Wednesday.
+------------------
+919, SNMT: 0.003450600805681603, UNMT: -0.0006145646827100393, diff: 0.004065165488391642
+Src : Moody a declarat pentru Fairfax Media că a încercat întotdeauna să facă ce este mai bun pentru domeniul curselor și că este pus într-o situație dificilă când vine vorba de rezultatul pozitiv la testul pentru cobalt al lui Lidari, pentru care nu are explicație.
+Ref : Moody told Fairfax Media he had always tried to do what is best for racing and has found himself in difficult circumstances when it comes to Lidari's positive swab to cobalt, which he can not explain.
+sys1: Moody told Fairfax Media that has always tried to do what is best for racing and that is put in a difficult situation when it comes to the positive result in the test for cobalt, for his Lidari that has no explanation.
+sys2: Moody told Fairfax Media he had always tried to do what was best for the cursory field of curses and that he was put in a difficult position when it came to the positive test for Lidari's cobalt, for which he had no explanation.
+------------------
+833, SNMT: 0.0037635807066997984, UNMT: -0.00029923987800017926, diff: 0.004062820584699978
+Src : Se vorbește despre Old Firm.
+Ref : They talk about the Old Firm.
+sys1: It speaks about the Old Firm.
+sys2: "It's about Old Firm.
+------------------
+1837, SNMT: 0.00961921321181336, UNMT: 0.005600950573530383, diff: 0.004018262638282977
+Src : Cele două zile de discuții din weekend au dus doar la concluzia că nimic cert nu a fost stabilit.
+Ref : The two days of discussions over the weekend led only to the conclusion that nothing certain has been established.
+sys1: The two days of weekend discussions have led only to the conclusion that nothing certain was not established.
+sys2: The two days of weekend talks only led to the conclusion that nothing certain had been determined.
+------------------
+493, SNMT: -0.013489491670497955, UNMT: -0.017489780627162332, diff: 0.004000288956664377
+Src : Acestea animă conversația și vă ajută să diferențiați persoanele de care vă place de cele cu care nu ați sta de vorbă nici dacă ar veni potopul și ei ar fi singurii care ar avea bărci.
+Ref : It steers the conversation and helps you to scout out the people you like versus those you wouldn't talk to even if your eyelashes were on fire and they were dispensing extinguishers.
+sys1: They revive the conversation and helps differentiate people who you like those with whom you chat neither the flood would come would be the only ones who would have the boats.
+sys2: They animate the conversation and help differentiate people from whom you like from those with whom you would not stand any chance if the pound-for-tat came and they would be the only ones to have boats.
+------------------
+1284, SNMT: 0.001984728143419545, UNMT: -0.002001296748716186, diff: 0.003986024892135731
+Src : 'A fost ingrozitor, nu-mi aminteam nimic'.
+Ref : "It was awful, I do not remember anything."
+sys1: ' It was awful, I don't remembered nothing.
+sys2: 'It was terrible, I didn't remember anything. '
+------------------
+249, SNMT: -0.0042483138910043294, UNMT: -0.00823142369396379, diff: 0.003983109802959461
+Src : Vânzările online au luat avânt în urmă cu trei ani, datorită utilizării telefonului mobil pentru a face cumpărături.
+Ref : Online sales bolstered three years ago by the use of mobile for shopping
+sys1: Online sales have picked up momentum three years ago, thanks to the use of mobile phones to shop.
+sys2: Online sales took off in the early 1980s due to the use of cell phones to make purchases.
+------------------
+UNMT > SNMT median 10
+==================
+1851, SNMT: -0.00019459679564448606, UNMT: 0.0038191719356142073, diff: -0.004013768731258693
+Src : "Însă, pe de altă parte, există mai multe variante privind intențiile legate de candidatura la președinția PSD Iași, lista rămânând deschisă", a comentat Stanciu.
+Ref : "But on the other hand, there are many variants on the PSD presidential candidacy intentions in Iași county, as the list is still open," said Stanciu.
+sys1: "But, on the other hand, there are many variations regarding the intentions of the candidacy related PSD Presidency, the list of remaining open," commented on Safari.
+sys2: "But on the other hand, there are more options on the intentions about the Democratic presidential nomination, with the field remaining open," he commented.
+------------------
+1587, SNMT: -0.009242150416909567, UNMT: -0.005241293336510466, diff: -0.004000857080399101
+Src : El vrea antrenor secund, medic, doi masori, antrenor de portari, preparator fizic, șef de delegație.
+Ref : He wants a deputy coach, a physician, two masseurs, goalkeepers coach, physical coach, head of delegation.
+sys1: He wants assistant coach, doctor, do you measure, coach of goalkeepers, Assistant Chief of delegation, physically.
+sys2: He wants a assistant coach, a doctor, two masseuses, a defensive coordinator, a head coach.
+------------------
+854, SNMT: -0.004037491054305065, UNMT: -4.9003390060420315e-05, diff: -0.003988487664244644
+Src : Hearts înfruntă cu SFA referitor la comentariile lui Neilson
+Ref : Hearts set for SFA battle over Neilson comments
+sys1: Hearts beat with the SFA regarding comments by Neilson
+sys2: Hearts face SFA over Neilson comments
+------------------
+242, SNMT: -0.00830544247964582, UNMT: -0.004320523483873018, diff: -0.0039849189957728015
+Src : Înțelegeți de ce există adesea discuții legate de emisiunea respectivă din cauză că nu este originală și nu se distinge prin nimic?
+Ref : Can you see why that programme is often discussed because it is not original and it is not particularly distinctive?
+sys1: Understand why there are often discussions related to the issue in question because it is not the original and is not distinguished by anything?
+sys2: "Do you understand why there are often discussions about the show because it is not original and doesn't distinguish itself by anything?"
+------------------
+1475, SNMT: -0.006471628183952305, UNMT: -0.0024937966233942177, diff: -0.003977831560558087
+Src : Pana sa apara solutii, vedem fortarete în cadrul Europei.
+Ref : Until solutions are created, we will see fortresses in Europe.
+sys1: To defend the solutions, we see the fortresses on the European continent.
+sys2: Until solutions emerge, we see fortareata within Europe.
+------------------
+1371, SNMT: -0.014870490853432727, UNMT: -0.010897149663676942, diff: -0.003973341189755786
+Src : De altfel, liberalii au criticat numirea lui Sarbu în aceasta functie și au anuntat ca o vor contesta la CCR, în conditiile în care el are un dosar la DNA, dar nu are pregatirea și experienta necesara.
+Ref : In fact, the Liberals criticized Sarbu's appointment to this position and announced that they would submit an appeal to the Romanian Constitutional Court, given that he has a DNA (National Anticorruption Directorate) file, and because he does not have appropriate expertise and experience.
+sys1: Moreover, the Liberals have criticized the appointment of S in this function and have announced that they will challenge the CCR, the conditions in which he has a file from MS, but does not have the necessary training and experience.
+sys2: Of course, Democrats criticized Craig's appointment to the Senate and said they would challenge it to the court, as he has a federal case but does not have the training and experience.
+------------------
+792, SNMT: -0.008321528724277272, UNMT: -0.004363384977622786, diff: -0.0039581437466544855
+Src : Creștere de patru ori a numărului de copii care au ingerat detergent de mâini în ultimii 4 ani
+Ref : Fourfold increase in children ingesting hand sanitizer in last 4 years
+sys1: Increase four-fold the number of children who have ingested hand detergent for the past 4 years
+sys2: Growth four times in children ingested cleaning detergent over 4 years
+------------------
+175, SNMT: -0.006201448197604265, UNMT: -0.00224600900426708, diff: -0.003955439193337185
+Src : Facultatea Baruch a interzis frăția iar frăția națională și-a retras afilierea cu reprezentanța locală.
+Ref : Baruch College banned the fraternity and the national fraternity revoked its affiliation with the local chapter.
+sys1: Baruch faculty has banned the brotherhood and National Brotherhood withdrew affiliation with local representation.
+sys2: Baruch College banned the framing and its national framing withdrew its affiliated affiliate.
+------------------
+1351, SNMT: -0.010546670517221912, UNMT: -0.006601043203527723, diff: -0.003945627313694189
+Src : Ginerele lui Vasile Blaga, Ionut Andrei Rudeanu, a fost trimis în judecata, miercuri, de procurorii Parchetului de pe langa Curtea de Apel Bucuresti.
+Ref : Vasile Blaga's son in law, Ionut Andrei Rudeanu, was indicted Wednesday by the prosecutors of the Court of Appeal Bucharest.
+sys1: Son-in-law of Vasile Blaga, Ionut Andrei, Keller was sent off in Wednesday's judgment of prosecutors's Office near the Bucharest Court of appeal.
+sys2: Mr Justice O'Connor's Ginn was sent to the High Court on Tuesday.
+------------------
+1051, SNMT: -0.003318605580592049, UNMT: 0.0006153243131450381, diff: -0.003933929893737087
+Src : Nu se știe niciodată ce diferență ar putea face prietenia dumneavoastră.
+Ref : You never know what difference your friendship could make.
+sys1: Never knows what difference it might make your friendship.
+sys2: It's never known what difference your friendship might make.
+------------------
+UNMT = SNMT median 10
+==================

@@ -1,0 +1,128 @@
+SNMT better: 1543, UNMT better: 1460, Equal: 0
+
+SNMT > UNMT median 10
+==================
+1511, SNMT: 0.002135914108130521, UNMT: -0.0003761376525339699, diff: 0.002512051760664491
+Src : La grand-mère a été projetée par l'explosion et est grièvement brûlée.
+Ref : The grandmother was thrown across the room by the explosion and seriously burnt.
+sys1: The grandmother was thrown by the explosion and was seriously burned.
+sys2: The grandmother was thrown by the blast and is seriously burned.
+------------------
+2393, SNMT: 0.01046711264330824, UNMT: 0.007964692258184414, diff: 0.002502420385123827
+Src : Retour en noir et blanc pour Marie Chouinard, qui présente à Danse Danse ses deux nouvelles chorégraphies de groupe: la première inspirée des encres et poèmes d'Henri Michaux, la deuxième insufflée par les fameux solos de piano Gymnopédies de Satie.
+Ref : It's a comeback in black and white for Marie Chouinard, who is staging "A Danse Danse", her two new group choreographies: the first inspired by the ink drawings and poems of Henri Michaux, the second inspired by the famous piano solos of Gymnopédies de Satie.
+sys1: Back in black and white for Marie Chouinard, which presents two new choreographies of group to dance dance: the first inspired by the inks and poems of Henri Michaux, the second blown through the famous Gymnopédies of Satie piano solos.
+sys2: Back in black and white for Marie Chouinard, who is presenting at Danse Danse her two new group chorégraphies: the first inspired by Henri Michaux's encores and poems, the second insuffled by Satie's so-called piano Gymnopédies.
+------------------
+1942, SNMT: -0.004848814360421727, UNMT: -0.0073269351533191696, diff: 0.0024781207928974425
+Src : Peu à peu, par petites apparitions diurnes ou nocturnes, un peu timides, un peu effacées, elle est vite revenue dans mon esprit, évoluant au fur et à mesure qu'elle reprenait sa place dans le paysage de ma pensée qui se croyait en deuil.
+Ref : Gradually, by way of tiny and slightly faint or faded appearances during the day and night, she soon came back into my life, evolving as she took back her place in the landscape of my mind which thought it was still in mourning.
+sys1: Gradually, by small diurnal or nocturnal, a little shy, a little erased appearances, she is quickly back in my mind, evolving as it took its place in the landscape of my thought that believed in mourning.
+sys2: Little to no, by little dieting or late-night, a little timid, a little effacing, she soon returned to my mind, operating over and over as she resumed her place in the landscape of my thinking that was believed to be in mourning.
+------------------
+392, SNMT: -0.006675474890418087, UNMT: -0.009133564831770968, diff: 0.002458089941352881
+Src : M. Wilkie a dit aujourd'hui que les 325 M$ ne compteront pas pour grand-chose « à moins qu'ils soient suivis d'une réforme véritable permettant de consolider le système de santé public de Tasmanie ».
+Ref : Mr Wilkie today said the $325 million would count for little "unless it's followed by genuine reform to put Tasmania's public health system on a more sustainable footing."
+sys1: Mr Wilkie said today that 325 M$ will not count for much "unless they are followed by a genuine reform to strengthen the public health system in Tasmania.
+sys2: Mr Wilkie said today that the £325 million will not count for much "at least until they are followed by a true reform helping to consolidate Tasmanian public health system."
+------------------
+495, SNMT: -0.007554054941444122, UNMT: -0.010009919726169159, diff: 0.002455864784725037
+Src : Il ne fallait qu'en déployer les accidents, et l'affaire, jacobinisme oblige, était confiée aux préfets et aux sous-préfets, interprètes autorisés.
+Ref : All it took was to highlight its mistakes and, in keeping with Jacobinism, the issue would be entrusted to prefects and sub-prefects - the authorised interpreters.
+sys1: It should deploy the accidents, and the case, Jacobinism obliges, was entrusted to the prefects and the sub-prefects, authorized interpreters.
+sys2: It only took to deploy the accidents, and the matter, jacobinite oblige, was handed to the préfets and the sous-préfets, authorized interprètes.
+------------------
+2130, SNMT: 0.01207721470457912, UNMT: 0.009622925934458237, diff: 0.0024542887701208826
+Src : « Ils ont envoyé leur fils à l'école avec un cartable et on le leur a rendu dans un sac mortuaire », a-t-il ajouté.
+Ref : "They sent their son to school with a book-bag and he was returned to them in a body bag," he said.
+sys1: "They sent their son to school with a satchel and it rendered it them in a body bag," he added.
+sys2: "They sent their son to school with a carol and we handed him in a mortuary bag," he said.
+------------------
+2918, SNMT: -0.003966644496443905, UNMT: -0.006409382860663726, diff: 0.002442738364219821
+Src : Il venait alors de passer dix jours en Afghanistan, théâtre des 198 et 199es opus de la célèbre série de romans d'espionnage.
+Ref : He had just spent ten days in Afghanistan, the setting of numbers 198 and 199 of his celebrated spy novel series.
+sys1: He then had to spend ten days in Afghanistan, theatre of the 198 and 199es installment in the famous series of espionage novels.
+sys2: He was then about to spend 10 days in Afghanistan, home to the 198 and 199th installment of the famous series of espionnage novels.
+------------------
+1407, SNMT: 0.0005505379950854206, UNMT: -0.0018867767158532445, diff: 0.002437314710938665
+Src : Même en Allemagne, le parti eurosceptique Alternative pour l'Allemagne, fondé seulement cette année et arrivé de nulle part, a rassemblé presque cinq millions de voix lors des élections fédérales de septembre et a sorti le Parti libéral démocrate (équivalent de nos libéraux-démocrates) du Bundestag.
+Ref : Even in Germany, the Eurosceptic Alternative for Germany Party - founded only this year - came from nowhere to grab nearly five million votes in September's federal elections, thus effectively knocking the Free Democrats (equivalent to our own Lib Dems) out of the Bundestag.
+sys1: Even in Germany, the Eurosceptic party Alternative to the Germany, founded only this year and come from nowhere, brought together nearly five million votes in the federal election of September and released (equivalent to our Liberal-Democrats) liberal democratic party in the Bundestag.
+sys2: Even in Germany, the eurosceptique Alternative for Germany, founded only this year and coming from nowhere, gathered almost five million votes in the September federal elections and pulled the Democratic Party (equivalent of our libérBertrand) from the Bundestag.
+------------------
+1676, SNMT: -0.0001268505300338063, UNMT: -0.0025519468085200003, diff: 0.002425096278486194
+Src : Le ring a été fermé à la circulation, jusqu'à 9h00, à l'endroit de l'accident, le temps que la route soit déblayée et qu'un expert détermine les circonstances de l'accident.
+Ref : The section of the ring road where the accident occurred was closed to traffic until 9am for the road to be cleared and for an expert to establish the circumstances of the accident.
+sys1: The ring was closed to traffic until 9:00, at the scene of the accident, the time that the road is cleared and an expert determines the circumstances of the accident.
+sys2: The ring was closed off, until 9am, at the scene of the accident, the time the road was cleared and an expert determine the circumstances of the accident.
+------------------
+2978, SNMT: -0.001002032716186818, UNMT: -0.003425777153662324, diff: 0.0024237444374755057
+Src : Il est grand temps d'arrêter le cheval de Troie de la Flandre.
+Ref : It is high time the Flemish Trojan Horse was stopped.
+sys1: It is high time to stop the Trojan horse of Flanders.
+sys2: It is grand time to stop Flandre's horse of Trophus.
+------------------
+UNMT > SNMT median 10
+==================
+608, SNMT: 0.0018591785913422143, UNMT: 0.004395141210771669, diff: -0.002535962619429455
+Src : US Airways a brièvement tenté de faire payer pour les boissons en 2008 mais est revenue en arrière sept mois plus tard après que les passagers se sont plaints et alors qu'aucune autre grande compagnie aérienne n'avait suivi.
+Ref : US Airways briefly tried charging for beverages in 2008 but backed down seven months later after passengers complained and no other major airline followed.
+sys1: US Airways has briefly attempted to pay for the drinks in 2008 but came back seven months later after passengers complained and while no other major airline had followed.
+sys2: US Airways briefly tried to get the drinks to pay for in 2008 but came back down seven months later after passengers complained and as no other major airline had followed suit.
+------------------
+2025, SNMT: 0.004797383438852165, UNMT: 0.007332650896717752, diff: -0.0025352674578655865
+Src : Un scandale sur la présence de viande de cheval dans des plats cuisinés a éclaté en Europe au début de l'année, à la suite de tests effectués en Irlande.
+Ref : A scandal on the presence of horse meat in prepared meals had broken out in Europe at the beginning of the year, following tests carried out in Ireland.
+sys1: A scandal on the presence of horse in cooked dishes meat erupted in Europe earlier this year, as a result of tests carried out in Ireland.
+sys2: A scandal over the presence of horse meat in raw food erupted in Europe at the start of the year, following tests conducted in Ireland.
+------------------
+2045, SNMT: 0.004995574807175274, UNMT: 0.007527787916146167, diff: -0.0025322131089708932
+Src : Elle a ajouté, « C'était il y a longtemps, et il a été très gentil. »
+Ref : She added, "That was a long time ago, and he's been very kind."
+sys1: She added, "it was a long time ago, and it was very nice."
+sys2: She said, "It was a long time ago, and he's been very nice."
+------------------
+79, SNMT: 0.004522905525334409, UNMT: 0.007052590210928855, diff: -0.0025296846855944466
+Src : Des scientifiques britanniques ont déclaré que les résultats étaient intéressants mais ont signalé que des recherches bien plus approfondies étaient nécessaires.
+Ref : British scientists said the results were interesting but warned far more research was needed.
+sys1: British scientists said that the results were interesting but reported that much more research was needed.
+sys2: British scientists said the results were interesting but reported that far more extensive research was needed.
+------------------
+1583, SNMT: 0.001173785425741869, UNMT: 0.0036962711113126545, diff: -0.0025224856855707856
+Src : Si on fait ça, des centaines de millions d'automobilistes s'inquiéteront de la protection de leur vie privée et d'un tas d'autres choses.
+Ref : If we do this, hundreds of millions of drivers will be concerned about their privacy and a host of other things.
+sys1: If it did that, hundreds of millions of motorists will care of the protection of their privacy and a bunch of other things.
+sys2: If we do that, hundreds of millions of motorists will worry about protecting their privacy and a tas of other things.
+------------------
+1983, SNMT: -0.0005783245811024074, UNMT: 0.001942219676365653, diff: -0.0025205442574680603
+Src : Je vois ses yeux se poser sur moi.
+Ref : I see her eyes resting on me.
+sys1: I see his eyes land on me.
+sys2: I see her eyes laid on me.
+------------------
+888, SNMT: 0.001639588291784122, UNMT: 0.004158730584979509, diff: -0.0025191422931953866
+Src : « L'Allemagne doit se réveiller », déclare Oliver Grün, président de BITMi, qui représente les PME allemandes du secteur des TI.
+Ref : "Germany must wake up," says Oliver Grün, president of BITMi, which represents small and medium sized German IT companies.
+sys1: "The Germany needs to wake up," said Oliver Grün, president of BITMi, representing German SMEs in the it sector.
+sys2: "Germany needs to wake up," declared Oliver Grün, president of BITMi, which represents German small business small businesses in the TI sector.
+------------------
+234, SNMT: 0.009506918217301319, UNMT: 0.012025879779553605, diff: -0.0025189615622522865
+Src : La majorité des maisons de soins palliatifs refuseront d'aider les patients à mourir, selon la vice-présidente de l'Alliance des maisons de soins palliatifs, Suzanne Fitzback.
+Ref : The majority of palliative care homes will refuse to help patients die, according to the vice-president of the Alliance of Palliative Care Homes, Suzanne Fitzback.
+sys1: The majority of palliative care homes refuse to help patients to die, according to the Vice-Chairman of the Alliance of palliative care homes, Suzanne Fitzback.
+sys2: The majority of nursing homes will refuse to help patients die, according to the Alliance of Care providers, Suzanne Fitzback.
+------------------
+2048, SNMT: 0.004242012694845698, UNMT: 0.006757002692005187, diff: -0.002514989997159489
+Src : Perry était l'une des chanteuses à faire une apparition lors de la tournée des Rolling Stones cette année.
+Ref : Perry was one of the singers to make a guest appearance on the Rolling Stones' tour this year.
+sys1: Perry was one of the singers to make an appearance during the tour of the Rolling Stones this year.
+sys2: Perry was one of the chanteuses to make an appearance during the Rolling Stones' tour this year.
+------------------
+1137, SNMT: 0.0021069662223638375, UNMT: 0.004619037994167741, diff: -0.002512071771803903
+Src : « Nous sommes convaincus que le trader a agi seul et que l'affaire a été maîtrisée », a indiqué un représentant du Crédit Suisse.
+Ref : "We are confident the trader acted alone and that the matter has been contained," Credit Suisse said.
+sys1: "We are confident that the trader acted alone and that the case was controlled," said a representative of the Credit Switzerland.
+sys2: "We are convinced that the trader acted alone and that the matter was contained," a representative of Crédit Suisse said.
+------------------
+UNMT = SNMT median 10
+==================

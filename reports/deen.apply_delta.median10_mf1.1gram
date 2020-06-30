@@ -1,0 +1,128 @@
+SNMT better: 1008, UNMT better: 989, Equal: 0
+
+SNMT > UNMT median 10
+==================
+708, SNMT: 0.0028063919987673103, UNMT: -0.0030086915477696152, diff: 0.0058150835465369255
+Src : Wo würden sie also sagen liegt die Dynamik jetzt?
+Ref : So where would they say the momentum is now?
+sys1: So where would they say the momentum is now?
+sys2: Wo would they also say the momentum lies now?
+------------------
+1494, SNMT: 0.001344408603898728, UNMT: -0.004460026226766445, diff: 0.005804434830665173
+Src : "Ein Teil dessen, was er tut, das es sich wie eine Reality-Show anfühlt, ist, dass er Ihnen jeden Abend etwas zu essen gibt", sagte Brent Montgomery, Chief Executive von Wheelhouse Entertainment und der Schöpfer von "Pawn Stars", über die rotierenden Besetzungen und täglichen Handlungen der Trump Show (einen Kampf mit der NFL auszuwählen, Kim Jong-un zu loben).
+Ref : "Part of what he's doing that makes it feel like a reality show is that he is feeding you something every night," said Brent Montgomery, chief executive of Wheelhouse Entertainment and the creator of "Pawn Stars," about the Trump show's rotating cast and daily plot twists (picking a fight with the N.F.L., praising Kim Jong-un).
+sys1: "One part of what he does, that he feels like a reality show, is that he gives you something to eat every evening," said Brent Montgomery, Chief Executive of Wheelahouse Entertainment, and the creator of "Pawn Stars", about the rotating occupations and daily actions of the Trump show (a fight with the NFL to praise Kim Jong-un).
+sys2: "A part of what he does that it feels like a reality show is that he gives you something to eat every night," Brent Montgomery, Chief Executive of Wheelhouse Entertainment and the chpin of "Pawn Stars," said of the rousing recaps and daily actions of the Trump Show (a battle with the NFL to award Kim Jong-un to praise Kim Jong-un).
+------------------
+976, SNMT: 0.010075804380605291, UNMT: 0.004276272747262055, diff: 0.005799531633343236
+Src : Ist die Idee, Menschen mit einem kostenlosen Konzert zu belohnen, eine echte Möglichkeit, die Menschen zu überzeugen, einen Aufruf zum Handeln zu fordern, oder einfach ein anderer Fall des sogenannten "Clicktivismus" - Menschen, die durch die Unterzeichnung einer Online-Petition oder eines Online-Antrags bzw. dadurch einen Tweet zu senden so fühlen, als würden sie einen echten Unterschied machen?
+Ref : Is the idea of rewarding people with a free concert a genuine way to persuade people to demand a call for action, or just another case of so-called "clicktivism" - people feeling like they are making a true difference by signing an online petition or sending a tweet?
+sys1: Is the idea of rewarding people with a free concert, a real opportunity to convince people to call for action, or simply another case of what is called 'ClickActivism' - people who feel that signing an online petition or an online application, or by doing so, sending a Tweet as if they make a real difference?
+sys2: Is the idea of belting people with a free concert a real way of convincing people to call a call to action, or simply a different case of so-called "clicktivismus" - people who feel they are making a real difference by signing an online petition or an online anticlimactic letter or by sending a tweet?
+------------------
+274, SNMT: -0.0026642564619336895, UNMT: -0.00841740196224805, diff: 0.0057531455003143606
+Src : Das Zentrum überwachte mehrere Erschütterungen.
+Ref : The center was monitoring multiple rumblings and tremors.
+sys1: The centre monitored several tremors.
+sys2: The center monitored several dust storms.
+------------------
+60, SNMT: -0.010321819958576839, UNMT: -0.01600206181208108, diff: 0.005680241853504242
+Src : Die Idee, in den Beauty-Markt zu investieren, ist daraus entstanden, dass Supermärkte nach Möglichkeiten suchen, den Regalplatz, der früher für Fernseher, Mikrowellen und Haushaltswaren verwendet wurde, für neue Produkte zu nutzen.
+Ref : The investment in beauty comes as supermarkets hunt for ways to use up shelf space once sued for TVs, microwaves and homeware.
+sys1: The idea of investing in the beauty market has resulted in supermarkets looking for ways to use the shelf used for television, microwave and household items for new products.
+sys2: The idea of investing in the Beaufort market has come from Supermarkets looking for ways to use the regalia used for TVs, microwave machines and household goods.
+------------------
+213, SNMT: -0.024416768046918946, UNMT: -0.03006903492320845, diff: 0.005652266876289502
+Src : Niederschlagsmengen von mehr als 1,3 cm sind möglich, was zu geringfügigem Felsschutt und glatten Straßen führen könnte.
+Ref : Rainfall totals of over half an inch are possible, which could cause minor debris flows and slick roadways.
+sys1: Total rainfall of more than 1.3 cm is possible, which could lead to slight rock-bottom and smooth roads.
+sys2: Niederschlag amounts of more than 1.4 cm are possible, leading to minor feltwater shale and gale roads.
+------------------
+307, SNMT: 0.0003817190100079415, UNMT: -0.005188478012378539, diff: 0.0055701970223864805
+Src : Am Donnerstag hatten die Rangers Rapid Vienna in der Europa League zu Gast.
+Ref : Before then, Rangers host Rapid Vienna in the Europa League on Thursday.
+sys1: On Thursday, the Rangers Rapid Vienna had a guest in the Europa League.
+sys2: On Thursday, Rangers had Rapid Vienna to play in the Champions League.
+------------------
+767, SNMT: 0.0004299436525911915, UNMT: -0.005081471975223906, diff: 0.005511415627815097
+Src : Nordkorea hat in diesem Monat bei einem Treffen mit Moon zugesagt, einen Raketenstandort und auch einen Nuklearkomplex zu demontieren, wenn die Vereinigten Staaten "entsprechende Maßnahmen" ergreifen.
+Ref : North Korea pledged in a meeting with Moon this month to dismantle a missile site and also a nuclear complex if the United States took "corresponding measures."
+sys1: At a meeting with Moon this month, North Korea promised to dismantle a missile site and also a nuclear complex if the United States takes' appropriate measures'.
+sys2: North Korea has pledged this month at a meeting with Moon to demonize a missile base and even a nuke plant if the United States "takes appropriate action."
+------------------
+1109, SNMT: -0.0013152874007360538, UNMT: -0.006825766290980084, diff: 0.0055104788902440305
+Src : Er wurde jedoch vier Tage später von einem Heckenschützen getötet und wusste nicht, dass er die höchste britische militärische Auszeichnung gewonnen hatte.
+Ref : However, he was killed by a sniper four days later and never knew he had won the highest British military honour.
+sys1: However, he was killed four days later by a sniper in the car and did not know that he won the highest British military award.
+sys2: He was killed four days later by a Hector and did not know he had won the highest British military award.
+------------------
+1896, SNMT: 0.01190961729056994, UNMT: 0.006401873837241112, diff: 0.005507743453328828
+Src : Aber am Samstag gab der nordkoreanische Außenminister Ri Yong-ho den USA die Schuld an den mangelnden Fortschritten seitdem.
+Ref : But on Saturday, North Korean Foreign Minister Ri Yong-ho blamed US sanctions for the lack of progress since then.
+sys1: But on Saturday, North Korea ’ s foreign minister, Ri Yong-ho, blamed the US for the lack of progress since then.
+sys2: But on Saturday, North Korean Foreign Ministry spokesman Ri Yong-ho gave credit for the lack of progress since then.
+------------------
+UNMT > SNMT median 10
+==================
+574, SNMT: 0.003091293299618769, UNMT: 0.007398827147397924, diff: -0.004307533847779155
+Src : Jeremy Corbyn behauptete letzte Woche, dass die Labour-Partei eine Kultur der Toleranz fördern sollte.
+Ref : Jeremy Corbyn claimed last week that the Labour party should foster a culture of tolerance.
+sys1: Jeremy Corbyn asserted last week that the Labour Party should promote a culture of tolerance.
+sys2: Jeremy Corbyn claimed last week that the Labour Party should promote a culture of tolerance.
+------------------
+1980, SNMT: -0.007302169478819565, UNMT: -0.003032762944933154, diff: -0.004269406533886411
+Src : Wir haben es vermasselt.
+Ref : We scrapped.
+sys1: We have massaged it.
+sys2: We rethought it.
+------------------
+721, SNMT: -0.01856135560990424, UNMT: -0.01430585692723696, diff: -0.00425549868266728
+Src : Dieser Lauf und die Art und Weise, wie ihre Energie zu und von dieser ausgelassenen Zuschauermenge zu fließen scheint, macht sie zu den Favoriten am Sonntag und wenn die Sonne über Le Golf National untergeht, gäbe es keinen populäreren Spieler, der einen möglichen europäischen Sieg besiegelt als Fleetwood oder Molinari.
+Ref : That run, and the way their energy seems to flow both to and from this boisterous crowd cements that they are the players to beat on Sunday, and there would be no more popular player to seal a potential European victory as the sun sets over Le Golf National than Fleetwood or Molinari.
+sys1: This race and the way in which their energy seems to flow from this crowds of spectators makes them a favourite on Sunday and if the sun passes through Le Golf National, there would be no more popular player who seals a possible European victory than Fleetwood or Molinari.
+sys2: This run and the way their energy seems to flow to and from that ausgeless crowd makes them among the favourites on Sunday and if the sun falls over Le Golf National, there would be no more popularist who sealed a possible European victory than Fleetwood or Molinari.
+------------------
+1374, SNMT: -0.015423559879224058, UNMT: -0.011183413912633, diff: -0.004240145966591058
+Src : Das hört sich vielleicht komisch an, weil ich gut gespielt, ein vernünftiges Einkommen erzielt und auch einige Höhepunkte erlebt habe.
+Ref : It sounds bizarre because I did okay, made a reasonable living out of it, and enjoyed some reasonable highs.
+sys1: This may seem strange because I have played well, achieved reasonable incomes and also had some highlights.
+sys2: That sounds maybe funny because I played well, scored a reasonable income and also had some highlights.
+------------------
+669, SNMT: -0.006460345831705183, UNMT: -0.002226100281717436, diff: -0.004234245549987747
+Src : Durch die Möglichkeit, direkt mit Menschen aus dem Ausland zu kommunizieren, wird eine mehrsprachige Person automatisch den Wettbewerbern voraus sein.
+Ref : Being able to communicate directly with people from foreign countries will automatically put a multilingual person ahead of the competition.
+sys1: With the possibility of communicating directly with people from abroad, a multilingual person will automatically be ahead of the competition.
+sys2: By allowing people to communicate directly with people from the U.S., a multi-language person will automatically be ahead of competition.
+------------------
+1616, SNMT: -0.008581231394288125, UNMT: -0.004358085266396472, diff: -0.004223146127891653
+Src : Er wurde auch wegen eines Vergehens der Klasse B angeklagt, das mit einem Tag Gefängnis und einer Geldstrafe von 2.000 Dollar bestraft werden kann.
+Ref : He has also been charged with a Class B misdemeanour, punishable by a day in jail and a $2,000 fine.
+sys1: He was also charged with a crime against class B, which could be punished with a day in prison and a fine of $2,000.
+sys2: He was also charged with a miscount of class B, which can be punished with a day's jail and a fine of $2,000.
+------------------
+1378, SNMT: -0.009263903410946739, UNMT: -0.005041287949815398, diff: -0.0042226154611313405
+Src : Ich wollte immer mal Manager werden und jetzt kann ich das machen. Ich habe mich in meinem ganzen Erwachsenenleben noch nie so wohl in meiner Haut gefühlt.“
+Ref : I always wanted to manage and now I am doing it, it feels the most comfortable I have been in my own skin throughout my entire adult life."
+sys1: I always wanted to become a manager and now I can do it.
+sys2: I always wanted to be a manager and now I can do that. "
+------------------
+421, SNMT: -0.0004884078491116384, UNMT: 0.0037125197074985294, diff: -0.004200927556610168
+Src : Präsident Joko Widodo sollte am Sonntag Evakuierungszentren in Palu besuchen.
+Ref : President Joko Widodo was scheduled to visit evacuation centers in Palu on Sunday.
+sys1: President Joko Widodo should visit the Sunday evacuation centers in Palu.
+sys2: President Joko Widodo was to visit evacuation centers in Palu on Sunday.
+------------------
+959, SNMT: 0.0010968526708836634, UNMT: 0.005261310150586951, diff: -0.004164457479703287
+Src : Kennedy erschien aufgeschlossener als seine Kollegin aus South Carolina.
+Ref : Kennedy appeared more open than his colleague from South Carolina.
+sys1: Kennedy appeared more open than his South Carolina colleague.
+sys2: Kennedy appeared more reticent than his colleague from South Carolina.
+------------------
+547, SNMT: -0.007220731524199664, UNMT: -0.0030847763680625917, diff: -0.004135955156137072
+Src : Trump weiter: „Sie sehen diese schreckliche, schreckliche radikale Demokraten-Gruppe, Sie sehen, dass es gerade jetzt passiert.
+Ref : Trump continued, "You see this horrible, horrible radical group of Democrats, you see it happening right now.
+sys1: Trump continued: “You see this terrible, radical democrat group, you see that it is just now.
+sys2: Trump continued: "You see this terrible, terrible radical Democratic group, you see it just happened now.
+------------------
+UNMT = SNMT median 10
+==================

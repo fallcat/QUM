@@ -1,0 +1,128 @@
+SNMT better: 1034, UNMT better: 963, Equal: 0
+
+SNMT > UNMT median 10
+==================
+1111, SNMT: -0.0015824877938186432, UNMT: -0.005561184662063567, diff: 0.003978696868244924
+Src : Einer seiner Enkel, Michael Vann, sagte, dass es „unglaublich symbolträchtig“ sei, dass der Stein genau 100 Jahre nach der Heldentat seines Großvaters enthüllt wurde.
+Ref : One of his grandsons, Michael Vann, said it was "brilliantly symbolic" the stone would be revealed exactly 100 years on from his grandfather's award-winning feat.
+sys1: One of his grandchildren, Michael Vann, said that it was “incredibly symbolic ” that the stone was revealed exactly 100 years after his grandfather's heroic achievements.
+sys2: One of his grandchildren, Michael Vann, said that it was "incredibly symbolic" that the stone was unveiled exactly 100 years after the helpline of his grand master.
+------------------
+1325, SNMT: -0.0015797057403830195, UNMT: -0.005555467237591927, diff: 0.003975761497208907
+Src : Schottland ist auf alle Fälle euer Zuhause und wir möchten, dass ihr bleibt.“
+Ref : Scotland is absolutely your home and we very much want you to stay here."
+sys1: Scotland is certainly your home and we want it to remain. ”
+sys2: Scotland is your home on all day and we wish that you stay. "
+------------------
+931, SNMT: 0.0014360409018365772, UNMT: -0.002509187994661488, diff: 0.003945228896498065
+Src : Ihre Geheimdienstberater informieren sie, dass, da jeder einzelne aktive Spion kompromittiert wurde, sie jemanden aus dem Ruhestand holen muss.
+Ref : Her intelligence advisers inform her that as every single active spy has been compromised, she will have to bring someone out of retirement.
+sys1: Their intelligence advisers inform them that, as each individual active spy has been compromised, she has to pick someone out of the retirement.
+sys2: Her intelligence advisers are telling them that, since every single active spyler was combed, she needs someone out of retirement.
+------------------
+449, SNMT: 0.0035535686907763875, UNMT: -0.00037565547842888236, diff: 0.00392922416920527
+Src : Er kündigte die Änderung auf Twitter am Samstag an und schrieb: "Offiziell als Kanye West bekannt zu sein."
+Ref : Announcing the change on Twitter on Saturday, he wrote: "The being formally known as Kanye West."
+sys1: He announced the change on Twitter on Saturday and wrote: "Official to be known as the Kanye West."
+sys2: He announced the change on his Web site Saturday and wrote, "Offiziell known as Kanye West."
+------------------
+1532, SNMT: 0.0077108148534819065, UNMT: 0.003788236629041819, diff: 0.0039225782244400875
+Src : Was werden wir tun, wenn Trump den stellvertretenden Justizminister General Rod Rosenstein feuert, den Mann, der das Schicksal von Muellers Ermittlungen in der Hand hat?
+Ref : What will we do if Mr. Trump fires Deputy Attorney General Rod Rosenstein, the man who controls the fate of Mr. Mueller's investigation?
+sys1: What will we do if Trump fires the Deputy Justice Minister General Rod Rosenstein, the man who has the fate of Mueller investigation?
+sys2: What will we do if Trump fires acting attorney general Rod Rosenstein, the man who has the fate of Muellers' investigation in hand?
+------------------
+1352, SNMT: 0.0007884512293472312, UNMT: -0.0031107619038124312, diff: 0.0038992131331596624
+Src : Und das bedeutet, unseren kaputten Wohnungsmarkt in Ordnung zu bringen.
+Ref : And that means fixing our broken housing market.
+sys1: And that means putting our broken housing market in order.
+sys2: And that means getting our kaput-laden housing market in order.
+------------------
+1843, SNMT: -0.0049602163556699, UNMT: -0.008851619627542107, diff: 0.003891403271872207
+Src : Die Medizin, die die Ärtze ihr gegeben hatten, damit ihr Herz weiter pumpt, ließen langsam nach und verließen ihren Körper.
+Ref : The drugs doctors had given her to keep her heart pumping were slowly petering out and leaving her system.
+sys1: The medicine that the oorms had given her to pump her heart further slowly left her body.
+sys2: The drugs the fat men had given her to ensure her heart continued to pummel her, slowly stopped and left her body.
+------------------
+787, SNMT: 0.013036738376193568, UNMT: 0.009159753831475825, diff: 0.003876984544717743
+Src : Er sagte, dass der Kurs seine Augen geöffnet hatte und ihn dazu inspirierte auf einen campusweiten Kurs zu drängen.
+Ref : He said the course had opened his eyes and inspired him to push for a campus-wide course.
+sys1: He said that the course had opened his eyes and inspired him to push a Campuswide course.
+sys2: He said that the course had opened his eyes and inspired him to go on a campus-related course.
+------------------
+940, SNMT: 0.00431857469666852, UNMT: 0.0005101199701726955, diff: 0.0038084547264958246
+Src : Und wie bei den anderen Johnny English-Filmen konnte ich nicht umhin zu denken: Kann die britische Filmindustrie Rowan Atkinson nicht eine Rolle geben, die seinem Talent wirklich gerecht wird?
+Ref : And as with the other Johnny English films I couldn't help thinking: can't the British film industry give Rowan Atkinson a role that really does justice to his talent?
+sys1: And as with the other Johnny England movies, I could not fail to think: can the British film industry, Rowson, not give a role that really does justice to its talent?
+sys2: And as with the other Johnny English-style films, I couldn't help but think: Can British filly Rowan Atkinson not give a role that really meets his talent?
+------------------
+410, SNMT: 0.019865228875659113, UNMT: 0.01607174498186481, diff: 0.0037934838937943027
+Src : Nugroho sagte, dass die Opfer und die Schäden entlang der Küstenlinie 300 km nördlich von Palu, einem Gebiet namens Donggala, das näher am Epizentrum des Bebens liegt, größer sein könnten.
+Ref : Nugroho said the casualties and the damage could be greater along the coastline 300 km (190 miles) north of Palu, an area called Donggala, which is closer to the epicenter of the quake.
+sys1: NuGroho said that the victims and the damages along the coast could be greater 300 km north of Palu, an area called Donggala, which is closer to the epicenter of the earthquake.
+sys2: Nugroho said that the casualties and damage along the coastal line 300 km north of Palu, an area called Donggala that is closer to the epicenter of the quake.
+------------------
+UNMT > SNMT median 10
+==================
+569, SNMT: 0.0026854546102441645, UNMT: 0.007128825700810637, diff: -0.0044433710905664725
+Src : Wann immer ich mich öffentlich äußere – und es spielt keine Rolle, was ich sage –, folgt eine Tirade des Missbrauchs in den sozialen Medien, die zur Abwahl aufruft, die Politik des Zentrums anprangert und mir sagt, ich solle nicht in der Labour-Partei sein.
+Ref : Whenever I speak publicly - and it doesn't really matter what I say - there follows a tirade of abuse on social media calling for deselection, denouncing the politics of the centre, telling me I should not be in the Labour party.
+sys1: Whenever I speak publicly – and it does not matter what I say – a tirade of abuse in the social media that calls for selection, denounces the politics of the center, and tells me that I should not be in the Labour Party.
+sys2: When I am publicly äußere myself - and it plays no role in what I say - there follows a tirade of abuse in the social media, which calls for the abomination, calling on the policy of the centre and telling me I should not be in the Labour Party.
+------------------
+683, SNMT: -0.006888086043780106, UNMT: -0.002454464163612613, diff: -0.004433621880167493
+Src : Bald ist es so weit, und die Fans können LeBron James bei seinem ersten Spiel für die Los Angeles Lakers anfeuern.
+Ref : The wait is nearly over for fans looking to see LeBron James make his first start for the Los Angeles Lakers.
+sys1: Soon it is so far, and the fans can fire LeBron James at his first game for Los Angeles Lakers.
+sys2: Soon it's done, and fans can see LeBron James join his team in his first game for the Los Angeles Lakers.
+------------------
+501, SNMT: 0.012150303013257258, UNMT: 0.0165832961353658, diff: -0.004432993122108542
+Src : Vor dem Parlament in Skopje hat Wladimir Kavardarkow, 54, eine kleine Bühne vorbereitet und Stühle vor die Zelte, die von denjenigen aufgestellt wurden, die das Referendum boykottieren werden, gestellt.
+Ref : In front of parliament in Skopje, Vladimir Kavardarkov, 54, was preparing a small stage and pulling up chairs in front of tents set up by those who will boycott the referendum.
+sys1: Before Parliament in Skopje, Vladimir Kavardarkov, 54, prepared a small stage and put chairs before the tents set up by those who are boycotting the referendum.
+sys2: Outside parliament in Skopje, Vladimir Kavardarkov, 54, has prepared a small stage and placed chairs outside the tents placed by those who will boycott the referendum.
+------------------
+565, SNMT: -0.009350890070464857, UNMT: -0.004934730836012591, diff: -0.004416159234452266
+Src : Die meiste meiner Zeit in den acht Jahren als örtlicher Labour-Abgeordneter waren die GC-Treffen am Freitagabend genau so.
+Ref : For most of my eight years as the local Labour MP, the Friday night GC meetings have been exactly that.
+sys1: Most of my time as a local Labour MEP in eight years, Friday evening's GC meetings were exactly the same.
+sys2: The rest of my time in the eight years as a local Labour MP, the GC meetings were just the same on Friday night.
+------------------
+1739, SNMT: -0.010308146149306197, UNMT: -0.00589951424534263, diff: -0.004408631903963567
+Src : Die Anfangsphase war ziemlich geschäftig und um 13:10 Uhr konnte Sullivan die Heimmannschaft wieder ins Spiel bringen, bevor Matt Marquardt den Ausgleich von Cownie um 15:16 Uhr vorbereitete.
+Ref : In what was a busy opening period, Sullivan brought the home side back into the game on 13:10 before Matt Marquardt became provider for Cownie's equaliser on 15:16.
+sys1: The initial phase was fairly busy and at 13: 10 pm Sullivan could bring home team back into play before Matt Marquardt prepared to compensate Cownie at 15: 16.
+sys2: The Anfangsphase was pretty chummy and at 13: 10, Sullivan helped the home side get back into the game before Matt Marquardt lined the goal of Cownie at 15: 16.
+------------------
+1636, SNMT: 0.0079579273509367, UNMT: 0.012358718332578178, diff: -0.004400790981641478
+Src : Wochen nach dem Angriff klagte ein Bundesgeschworenengericht Jury Saipov in 22 Punkten an, darunter acht Anklagen wegen Mordes in Verbindung mit Schutzgelderpressung, die typischerweise von Bundesanwälten in Fällen der organisierten Kriminalität verwendet wurden, und eine Anklage wegen Gewalt und Zerstörung von Kraftfahrzeugen.
+Ref : Weeks after the attack, a federal grand jury slapped Saipov with a 22-count indictment that included eight charges of murder in aid of racketeering, typically used by federal prosecutors in organized crime cases, and a charge of violence and destruction of motor vehicles.
+sys1: Weeks after the attack, a federal jury charged Saipov on 22 points, including eight charges for murder in connection with protection charge charge, typically used by federal lawyers in cases of organised crime, and a charge for violence and destruction of motor vehicles.
+sys2: weeks after the attack, a federal grand jury sued Jury Saipov in 22 ways, including eight anklagen of murder in connection with protection of civil rights, which were typified by federal prosecutors in cases of organized crime, and a charge of violence and destruction of motor vehicles.
+------------------
+1260, SNMT: -0.006519266408460567, UNMT: -0.0021314196327679724, diff: -0.004387846775692594
+Src : Was sie heute sagen, Fake News,“ sagte der fünfmalige Ballon D'Or-Gewinner in die Kamera.
+Ref : What they said today, fake news," the five-time Ballon d'Or winner says into the camera.
+sys1: What they say today, Fake News, ” said the five-time balloon D'Or winner in the camera.
+sys2: What they're saying today is Fake News, "the five-time Ballon D'Orr winner said in the camera.
+------------------
+352, SNMT: 0.009697573332154263, UNMT: 0.014079258696590102, diff: -0.004381685364435839
+Src : Wir tolerieren keine Gewalt in unseren Gefängnissen und sind sicher, dass die Verantwortlichen an die Polizei verwiesen und mehr Zeit hinter Gittern verbringen werden."
+Ref : We do not tolerate violence in our prisons, and are clear that those responsible will be referred to the police and could spend longer behind bars."
+sys1: We do not tolerate violence in our prisons and we are sure that those responsible will be expelled to the police and spend more time behind bars'.
+sys2: We do not tolerate violence in our prisons and are sure that the officials will be referred to the police and spend more time behind bars. "
+------------------
+58, SNMT: -0.015241937188420707, UNMT: -0.010871181166265842, diff: -0.004370756022154865
+Src : Sainsbury's übernimmt Boots, Superdrug und Debenhams mit Regalen mit Schönheitsprodukten im Kaufhausstil, die mit Fachassistenten besetzt sind.
+Ref : Sainsbury's is taking on Boots, Superdrug and Debenhams with department store-style beauty aisles staffed with specialist assistants.
+sys1: Sainsbury's takes care of boat, superdrug and Debenham with shelves with beauty products in the Kaufhaus style, which are occupied with professional assistants.
+sys2: Sainsbury's takes over Boots, Superdrug and Debenhams' shelves of beauty products in the store's style, which are filled with general managers.
+------------------
+436, SNMT: -0.0053211068025262875, UNMT: -0.000951825386273697, diff: -0.004369281416252591
+Src : Andere, die im Roa Roa Hotel festsaßen, waren Mr. Mandagi und seine Schüler.
+Ref : Others of those trapped at the Roa Roa Hotel, Mr. Mandagi included, were his students.
+sys1: Others who were in the Roa Roca Hotel were Mr. Mandgi and his students.
+sys2: Others who were staying at the Roa Roa hotel included Mr. Mandagi and his students.
+------------------
+UNMT = SNMT median 10
+==================

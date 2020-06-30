@@ -1,0 +1,128 @@
+SNMT better: 1495, UNMT better: 1508, Equal: 0
+
+SNMT > UNMT median 10
+==================
+724, SNMT: 0.0022678630886332485, UNMT: -0.0015494518304635108, diff: 0.0038173149190967592
+Src : John Kerry a indiqué un radoucissement de l'attitude défensive des États-Unis vis-à-vis de ses programmes de surveillance en admettant, fait sans précédent, qu'à plusieurs occasions, l'espionnage « était allé trop loin de manière inappropriée ».
+Ref : John Kerry has indicated a softening of the U.S's defensive stance on its surveillance programmes with an unprecedented admission that on occasions its spying has "reached too far inappropriately."
+sys1: John Kerry has indicated a softening of the defensive attitude of the United States with regard to its assuming, monitoring programmes is unprecedented, that on several occasions, espionage "had gone too far in an inappropriate way".
+sys2: John Kerry said a radoucissement of the United States' defensive attitude towards its surveillance programs by admettent, a fact without a doubt, that on several occasions spying "had gone too far in an unresponsible way."
+------------------
+581, SNMT: -0.0006914447114994005, UNMT: -0.0045065850162586685, diff: 0.003815140304759268
+Src : Les nouveaux frais de bagages à main concernent les sacs rangés dans le compartiment supérieur, donc les petits sacs installés sous le siège seront toujours gratuits.
+Ref : The new carry-on fee is for bags in the overhead bin, so small bags under the seat will still be free.
+sys1: The new hand baggage charges concern bags stowed in the overhead compartment, so small bags installed under the seat will be always free.
+sys2: The new bag charges cover bags ranered in the upper compartiment, meaning small bags installed under the seat will always be free.
+------------------
+1981, SNMT: -0.010196395145584347, UNMT: -0.01400999907112066, diff: 0.003813603925536313
+Src : Il en va de même pour mes attitudes: j'essaie d'être à la hauteur de la générosité et de la droiture d'esprit de celle qui était une fervente croyante.
+Ref : It's the same with my opinions: I try to live up to the generosity and correctness of her mind as a fervent believer.
+sys1: It goes same for my attitudes: I try to be at the height of the generosity and righteousness of mind that was a devout believer.
+sys2: It is as if I am trying to be at the best of the generosity and the droppance of spirit of anyone who was a feral croyante.
+------------------
+167, SNMT: 0.0011070038980207642, UNMT: -0.0027046276080255893, diff: 0.0038116315060463535
+Src : Mais il sera toujours interdit de se connecter à Internet pour surfer, échanger des emails et des SMS ou télécharger des données en dessous de 10 000 pieds, a déclaré l'agence.
+Ref : But connecting to the Internet to surf, exchange emails, text or download data will still be prohibited below 10,000 feet, the agency said.
+sys1: But it will always be forbidden to connect to the Internet to surf, Exchange emails and SMS messages or download data below 10,000 feet, said the Agency.
+sys2: But it will always be illegal to connect to the Internet to surfer, trade emails and SMS or download data in excess of 10,000 feet, the agency said.
+------------------
+122, SNMT: 0.005144206023231845, UNMT: 0.001337111854070372, diff: 0.0038070941691614735
+Src : Toutefois, après le meurtre récent à Phuket de Michelle Smith, une agente de voyage australienne, la Thaïlande pourrait également chercher à redorer son image détériorée auprès des touristes, ce qui  pourrait conduire à un acquittement.
+Ref : However, following the recent murder of Australian travel agent Michelle Smith in Phuket, Thailand may also be looking to repair its battered tourist image, leading to an acquittal.
+sys1: However, after the recent murder to Phuket from Michelle Smith, an officer of Australian trip, the Thailand could also seek to burnish its image worsened among tourists, which could lead to an acquittal.
+sys2: Still, after the recent murder in Phuket of Michelle Smith, an Australian travel agent, Thailand may also seek to redorer its deteriorating image with tourists, which could lead to an acquitted.
+------------------
+1668, SNMT: 0.006103923250748267, UNMT: 0.002304704924462442, diff: 0.003799218326285825
+Src : La société à la démarche expérimentale de Charlie, basée à Bristol, est connue pour ses parfums de glace inhabituels tels que la bière, le fromage, le bœuf et la feuille d'or.
+Ref : Charlie's experimental company, based in Bristol, is famed for its unusual flavours including beer, cheese, beef and gold leaf.
+sys1: The company to approach experimental Charlie, based in Bristol, is known for its unusual ice perfumes such as beer, cheese, beef and gold leaf.
+sys2: Charlie company with Charlie's experimental move, based in Bristol, is known for its unsettling ice parfums such as beer, cheese, bard and gold feuille.
+------------------
+765, SNMT: 0.0067288909497236205, UNMT: 0.00293250748139684, diff: 0.0037963834683267805
+Src : Si j'ai blessé quelqu'un par mes paroles, j'en suis désolé.
+Ref : I'm sorry if my words have offended anyone.
+sys1: If I hurt someone by my words, I am sorry.
+sys2: If I've injured someone with my words, I'm sorry.
+------------------
+2851, SNMT: -0.0005922208819413299, UNMT: -0.004378769620984713, diff: 0.0037865487390433827
+Src : Tous les billets restent valables pour ces concerts.
+Ref : All tickets remain valid for these shows.
+sys1: All tickets remain valid for these concerts.
+sys2: All tickets remain valet for those concerts.
+------------------
+7, SNMT: -0.009879188853425092, UNMT: -0.013664915262474153, diff: 0.0037857264090490617
+Src : Lorsque WikiLeaks lève le voile sur l'analyse par la diplomatie américaine d'enjeux politiques ou autres dans le monde entier, nous considérons en effet que, au regard de la puissance américaine, cela constitue un éclairage important.
+Ref : When WikiLeaks reveals the American administration's monitoring of political and other matters somewhere in the world, we consider this to be significant enlightenment with regard to the American government.
+sys1: When WikiLeaks uncovers the analysis of politics or other American diplomacy around the world, we consider in fact that, at the sight of American power, this constitutes important insight.
+sys2: When WikiLeaks raises the voile on the analysis by American diplomacy of political or other issues around the world, we in the past consider that, given American power, this provides important éclairage.
+------------------
+2418, SNMT: 0.009227919451909372, UNMT: 0.005447901359644902, diff: 0.00378001809226447
+Src : La scène est en partie drapée de gris, les danseurs et un piano sont recouverts de tissus, comme des meubles dans une maison délaissée.
+Ref : The stage is partly draped in grey, the dancers and a piano are covered in fabric, like furniture in an abandoned house.
+sys1: The scene is partly draped gray, dancers and a piano are covered with fabrics, like furniture in an abandoned house.
+sys2: The scene is in part draped in gray, the dancers and a piano are covered in fabric, like furniture in a disused house.
+------------------
+UNMT > SNMT median 10
+==================
+2721, SNMT: -0.005181998166825963, UNMT: -0.002499080848579638, diff: -0.002682917318246325
+Src : Toutefois, le CSSS a décidé de ne pas engager de main-d'œuvre indépendante, qui peut coûter jusqu'à trois fois plus cher qu'un pharmacien engagé à temps plein.
+Ref : Even so, the CSSS has decided not to employ independent labour, which could be up to three times more expensive than taking on a full-time pharmacist.
+sys1: However, the CSSS has decided not to engage independent labour, which can cost up to three times more expensive than a pharmacist engaged full time.
+sys2: Still, the NHS has decided not to engage in independent labour, which can cost up to three times more than a physician engaged full time.
+------------------
+1015, SNMT: -0.005847042166664096, UNMT: -0.003165725899648919, diff: -0.002681316267015177
+Src : Drescher a déclaré que certains médecins « répètent toujours ce modèle ».
+Ref : Drescher said that now some doctors are still "practicing that model."
+sys1: Drescher said that some doctors "always repeating this model.
+sys2: Drescher said some doctors "always repeat that model."
+------------------
+1581, SNMT: -0.010448140664344407, UNMT: -0.007768833371933681, diff: -0.0026793072924107264
+Src : Une taxe unique ou annuelle supplémentaire pourrait être imposée sur les conducteurs de véhicules hybrides et sur d'autres dont les véhicules ne consomment pas beaucoup d'essence, de sorte que chacun paie sa juste part.
+Ref : An extra one-time or annual levy could be imposed on drivers of hybrids and others whose vehicles don't use much gas, so they pay their fair share.
+sys1: A single or annual tax additional could be imposed on drivers of hybrid vehicles and others whose vehicles do not consume lots of gasoline, so that everyone pays their fair share.
+sys2: A single or additional tax could be imposed on hybrid vehicles drivers and on others whose vehicles don't consume much gasoline, of which each pays their fair share.
+------------------
+2256, SNMT: -0.003030149320650821, UNMT: -0.00035195044106473006, diff: -0.002678198879586091
+Src : Les pages Facebook de ces spectacles sont savamment ­tenues par des professionnels qui répondent aux questions.
+Ref : Facebook pages for these shows are skillfully managed by professionals who answer questions.
+sys1: These shows Facebook pages are carefully ­tenues by professionals who answer questions.
+sys2: The Facebook pages of those shows are savaged by professionals who answer questions.
+------------------
+1631, SNMT: -0.005845801631110703, UNMT: -0.003169458306025774, diff: -0.002676343325084929
+Src : Le problème sera résolu ce soir.
+Ref : The issue will be resolved this evening.
+sys1: The problem will be solved tonight.
+sys2: The problem will be solved that night.
+------------------
+1505, SNMT: -0.008713020034427643, UNMT: -0.006038760271799504, diff: -0.0026742597626281395
+Src : Explosion d'une maison à Gesves: un chauffe-eau défectueux à l'origine de l'explosion
+Ref : Gesves: Faulty Water Heater Causes Explosion of House
+sys1: Explosion of a house in Gesves: a defective water heater at the origin of the explosion
+sys2: Explosion of house in Gesves: faulty gas stove at the scene
+------------------
+1449, SNMT: -0.0057272197565580996, UNMT: -0.003055443423349402, diff: -0.0026717763332086975
+Src : Spectaculaire saut en "wingsuit" au-dessus de Bogota
+Ref : Spectacular Wingsuit Jump Over Bogota
+sys1: Spectacular jump 'wingsuit' above Bogota
+sys2: Spectacular fall in 'wingsuit' above Bogota
+------------------
+243, SNMT: -0.006253452887222011, UNMT: -0.00358824885993414, diff: -0.0026652040272878708
+Src : Aujourd'hui, je suis devenu plus pingre.
+Ref : Nowadays, I've become more of a scrooge.
+sys1: Today, I have become more stingy.
+sys2: Right I've become more pingy.
+------------------
+1412, SNMT: -0.002658911478420123, UNMT: -3.0448477943423313e-06, diff: -0.0026558666306257805
+Src : Le système européen a plutôt fait peser sur ses membres des taux de change favorables aux exportateurs allemands – ce que les hommes politiques allemands veulent conserver.
+Ref : Rather, the euro system locked in its members at exchange rates favourable to German exporters - something German politicians want to keep.
+sys1: The European system was rather weigh on its exchange rates favorable for German exporters members - that German politicians want to keep.
+sys2: The European system has mostly brought on its members exchange rates favorable to German exporters - something German political leaders want to retain.
+------------------
+66, SNMT: 0.0028439126550452443, UNMT: 0.0054965805700604164, diff: -0.002652667915015172
+Src : « Nous espérons vraiment que ce genre de stratégie vaccinale pourra aider des millions de fumeurs qui ont essayé d'arrêter, épuisant toutes les méthodes aujourd'hui disponibles sur le marché, mais découvrent que leur addiction est suffisamment forte pour surmonter ces différentes approches », a déclaré le Professeur Cornell.
+Ref : "We are very hopeful that this kind of vaccine strategy can finally help the millions of smokers who have tried to stop, exhausting all the methods on the market today, but find their nicotine addiction to be strong enough to overcome these current approaches," Prof Cornell said.
+sys1: "We really hope that this kind of vaccination strategy will help the millions of smokers who have tried to quit, exhausting all methods available today on the market, but discover that their addiction is strong enough to overcome these different approaches," said Professor Cornell.
+sys2: "We really hope that this kind of vaccinal strategy will help millions of smokers who have tried to quit, exhausted all the methods now available on the market, but discover that their addiction is enough to overcome these different approaches," Professor Cornell said.
+------------------
+UNMT = SNMT median 10
+==================

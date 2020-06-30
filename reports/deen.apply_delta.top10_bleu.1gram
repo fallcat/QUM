@@ -1,0 +1,125 @@
+Metric: bleu
+SNMT > UNMT top 10
+==================
+1994, SNMT: 0.0221686351048902, UNMT: -0.025387613705149192, diff: 0.04755624881003939
+Src : In der letzten Woche wurden mittlere Konzentrationen in Küstennähe und auf offener See in Pinellas County gemeldet, geringe bis hohe Konzentrationen auf offener See in Hillsborough County, Hintergrund- bis hohe Konzentrationen in Manatee County, Hintergrund- bis hohe Konzentrationen in Küstennähe und auf offener See in Sarasota County, Hintergrund- bis mittlere Konzentrationen in Charlotte County, Hintergrund- bis hohe Konzentrationen in Küstennähe und auf hoher See in Lee County sowie geringe Konzentrationen in Collier County.
+Ref : Medium concentrations in or offshore of Pinellas County have been reported in the past week, low to high concentrations offshore of Hillsborough County, background to high concentrations in Manatee County, background to high concentrations in or offshore of Sarasota County, background to medium concentrations in Charlotte County, background to high concentrations in or offshore of Lee County, and low concentrations in Collier County.
+sys1: Last week, average concentrations were reported on the coast and open seas in Pinellas County, low to high levels at open sea in Hillsborough County, background to high concentrations in Mantee County, high concentrations in coastal and open seas in Sarsota County, background to medium concentrations in Charlotte County, background to high shore and high sea levels in Lee County, and low concentrations in Collier County.
+sys2: In the last week, moderate to high Konzentrof lead in Küstas County were reported in Pinellas County, low to high Konzentrof lead levels on open water in Hillsborough County, Hintergrundto high levels in Manatee County, Hintergrundto high to high Konzentrin Küstas and on open water in Sarasota County and low Konzentrationen in Charlotte County, Hintergrundto high to high Konzentrin Küstennähe and on open water in Sarasota County.
+------------------
+999, SNMT: 0.04398263684875303, UNMT: -0.002114337297022928, diff: 0.04609697414577596
+Src : Moskau hat wiederholt betont, dass die 11-Milliarden-Dollar-Pipeline Nord Stream 2, die die bestehende Pipeline-Kapazität auf 110 Milliarden Kubikmeter verdoppeln soll, ein rein wirtschaftliches Projekt ist.
+Ref : Moscow has repeatedly stressed that the $11 billion Nord Stream 2 pipeline, which is set to double the existing pipeline capacity to 110 billion cubic meters, is a purely economic project.
+sys1: Moscow has repeatedly stressed that the $11 billion Nord Stream 2 pipeline, which is supposed to double the existing pipeline capacity to 110 billion cubic metres, is a purely economic project.
+sys2: Moscow has repeatedly insisted that the 11-billion pipeline, Nord Stream 2, which will double the existing Pipeline-capacity to 110 billion cubic feet, is a purely commercial project.
+------------------
+1242, SNMT: 0.042165696708345024, UNMT: -0.0017455350678758919, diff: 0.043911231776220916
+Src : Der NTS, der für die Betreuung von mehr als 270 historischen Gebäuden, 38 wichtigen Gärten und 76.000 Hektar Land rund um das Land verantwortlich ist, nimmt die Fledermäuse sehr ernst.
+Ref : The NTS, which is responsible for the care of more than 270 historical buildings, 38 important gardens and 76,000 hectares of land around the country, takes bats very seriously.
+sys1: The NTS, which is responsible for the care of more than 270 historic buildings, 38 important gardens and 76,000 hectares of land around the country, takes the bats very seriously.
+sys2: The NTS, responsible for managing more than 270 historic buildings, 38 key gardens and 74,000 acres of land around the country, said the Fledermäuse are very important.
+------------------
+1880, SNMT: 0.04097475039428389, UNMT: -0.0012630425590742789, diff: 0.042237792953358166
+Src : George W. Bush telefonierte mit Senatoren, um diese zu überreden, Herrn Kavanaugh zu unterstützen, der im Weißen Haus für Herrn Bush gearbeitet hatte und durch ihn seine Frau Ashley traf, die die persönliche Sekretärin von Herrn Bush war.
+Ref : George W. Bush has been picking up the phone to call Senators, lobbying them to support Mr Kavanaugh, who worked in the White House for Mr Bush and through him met his wife Ashley, who was Mr Bush's personal secretary.
+sys1: George W. Bush contacted senators to persuade them to support Mr Kavanaugh, who worked in the White House for Mr Bush and met his wife Ashley, who was Mr Bush's personal secretary.
+sys2: George W. Bush spoke to senators to help him overture to support Mr. Kavanaugh, who had worked in the White House for Mr. Bush and met through him his wife, Ashley, who was the personal secretary to Mr. Bush.
+------------------
+767, SNMT: 0.021726273254166983, UNMT: -0.00687404901190547, diff: 0.028600322266072453
+Src : Nordkorea hat in diesem Monat bei einem Treffen mit Moon zugesagt, einen Raketenstandort und auch einen Nuklearkomplex zu demontieren, wenn die Vereinigten Staaten "entsprechende Maßnahmen" ergreifen.
+Ref : North Korea pledged in a meeting with Moon this month to dismantle a missile site and also a nuclear complex if the United States took "corresponding measures."
+sys1: At a meeting with Moon this month, North Korea promised to dismantle a missile site and also a nuclear complex if the United States takes' appropriate measures'.
+sys2: North Korea has pledged this month at a meeting with Moon to demonize a missile base and even a nuke plant if the United States "takes appropriate action."
+------------------
+1587, SNMT: 0.021560627471089333, UNMT: -0.005397170024068032, diff: 0.026957797495157365
+Src : Palu ist die Hauptstadt der Provinz Sulawesi Tengah, am Ende einer schmalen Bucht an der Westküste der Insel Sulawesi gelegen, mit geschätzten 379.800 Einwohnern im Jahr 2017.
+Ref : Palu is the capital of Central Sulawesi province, located at the end of a narrow bay on the west coast of Sulawesi island, with an estimated population of 379,800 in 2017.
+sys1: Palu is the capital of the province of Sulawesi Tengah, located at the end of a narrow bay on the west coast of the island of Sulawesi, with an estimated 379,800 inhabitants in 2017.
+sys2: Palu is the capital of the province of Sulawesi Tengah, at the bottom of a narrow harbour on the coast of the island of Sulawesi, with estimated 379,800 residents in 2017.
+------------------
+1917, SNMT: -0.004910440789444692, UNMT: -0.03070314607635538, diff: 0.02579270528691069
+Src : Sie fuhr fort: „Mir half einst eine Frau, in der Exekutive, die mir erzählte, dass sie auch weinte, wenn sie wütend wurde. Aber sie entwickelte eine Technik, bei der sie jedesmal, wenn sie wütend wurde und zu weinen anfing, zu der Person, mit der sie sprach, folgendes sagte: „Sie mögen denken, dass ich traurig bin, weil ich weine.
+Ref : She continued, "I was greatly helped by a woman who was an executive someplace, who said she also cried when she got angry, but developed a technique which meant that when she got angry and started to cry, she'd say to the person she was talking to, "You may think I am sad because I am crying.
+sys1: She continued: “I once helped a woman, in the executive, who told me that she was crying when she was angry, but she developed a technique in which she always started to cry when she was angry and started to cry, to the person with whom she spoke said:“ You may think that I am sad because I am crying.
+sys2: She continued: "I once helped a woman, in the Exekutive, who told me that she was even crying when she became angry." But she developed a technology where she was jealous when she became angry and started crying, to the person with whom she was talking, folding, "They may think I'm sad because I wanna be sad because I wanna cry.
+------------------
+1475, SNMT: 0.024568318343796136, UNMT: -0.0008356845554544634, diff: 0.0254040028992506
+Src : UN-Gesandter Staffan de Mistura hofft, bald die ersten Treffen eines neuen Ausschusses aus Regierungs- und Oppositionsmitgliedern einzuberufen, um eine Nachkriegsverfassung für Syrien zu entwerfen und den Weg zu Wahlen zu ebnen.
+Ref : UN envoy Staffan de Mistura is hoping to soon convene the first meetings of a new committee comprised of government and opposition members to draft a post-war constitution for Syria and pave the way to elections.
+sys1: UN envoy Staffan de Mistura hopes to convene soon the first meetings of a new committee of government and opposition members to draw up a post-war constitution for Syria and pave the way for elections.
+sys2: U.N. Secretary General Staffan de Mistura hopes to soon join the first meetings of a new committee of government and opposition leaders to design a Nachkriegsrewrite for Syria and clear the path to elections.
+------------------
+1394, SNMT: 0.02636433672764582, UNMT: 0.001176050812986773, diff: 0.025188285914659048
+Src : Der Coffer Peach Tracker-Branchenmonitor für den britischen Pub-, Bar-und Restaurantsektor sammelt und analysiert Leistungsdaten von 47 Betriebsgruppen mit einem Gesamtumsatz von über 9 Milliarden Pfund und ist der etablierte Branchenmaßstab.
+Ref : The Coffer Peach Tracker industry sales monitor for the UK pub, bar and restaurant sector collects and analyses performance data from 47 operating groups, with a combined turnover of over £9 billion, and is the established industry benchmark.
+sys1: The Coffer Peach Tracker industry monitor for the UK pub, bar and restaurant sector collects and analyzes performance data from 47 operating groups with a total turnover of over 9 billion pounds and is the established industry standard.
+sys2: The Coffer Peach Tracker-industry monitor for the British Pub-, bargain and restaurant sector collects and analyzed performance data from 47 operating groups with a total revenue of over 9 billion pounds and is the established industry's largest maßstab.
+------------------
+1749, SNMT: 0.023907963975872804, UNMT: -0.0007115193328175451, diff: 0.02461948330869035
+Src : Er blieb an Ort und Stelle, um sich zu vergewissern, dass der Batik-Air-Flug 6321, der sich zum Zeitpunkt auf der Startbahn befand, sicher starten konnte.
+Ref : He stayed put to make sure that the Batik Air Flight 6321, which was on the runway at the time, was able to take off safely.
+sys1: He stayed there to make sure that the Flight Flight 6321, which was on the runway at the time, was able to start safely.
+sys2: He stayed at the launch site to reawaken that the Batik Air-Force 6321, which was on the launch track at the time, could safely land.
+------------------
+UNMT > SNMT top 10
+==================
+1055, SNMT: -0.0031059988294472873, UNMT: 0.03564753142769206, diff: -0.038753530257139346
+Src : Eine Woche nachdem eine offizielle chinesische Zeitung eine vierseitige Anzeige in einer US-amerikanischen Tageszeitung auf den gegenseitigen Nutzen des US-China-Handels gestellt hatte, warf der US-amerikanische Botschafter in China Peking vor, die amerikanische Presse zur Verbreitung von Propaganda zu verwenden.
+Ref : A week after an official Chinese newspaper ran a four-page ad in a U.S. daily touting the mutual benefits of U.S.-China trade, the U.S. ambassador to China accused Beijing of using the American press to spread propaganda.
+sys1: A week after an official Chinese newspaper published a four-page display in a US daily on the mutual benefit of US China trade, the US ambassador to China published in Beijing to use the American press for propaganda.
+sys2: A week after an official Chinese newspaper published a four-page ad on the mutual benefit of the US-China trade, the U.S. ambassador to China accused Beijing of using the American press to spread propaganda.
+------------------
+549, SNMT: -0.006184273352225489, UNMT: 0.030541657632603858, diff: -0.03672593098482935
+Src : Sie kümmern sich nicht darum, wen sie verletzen, wen sie überfahren müssen, um Macht und Kontrolle zu bekommen, das ist, was sie wollen, Macht und Kontrolle, wir werden es ihnen nicht geben.
+Ref : They don't care who they hurt, who they have to run over in order to get power and control, that's what they want is power and control, we're not going to give it to them."
+sys1: They do not care about who they hurt whom they must pass over to gain power and control, that is what they want, power and control, we will not give them.
+sys2: They don't care who they hurt, who they have to pass to get power and control, that's what they want, power and control, we won't give it to them.
+------------------
+1269, SNMT: -0.009219266913177648, UNMT: 0.024808300699376673, diff: -0.03402756761255432
+Src : Mayorga behauptet, Ronaldo sei nach dem angeblichen Vorfall auf die Knie gefallen und habe ihr gesagt, er sei „zu 99 Prozent“ ein „guter Kerl“, der von den „ein Prozent“ im Stich gelassen wurde.
+Ref : Mayorga claims Ronaldo fell to his knees after the alleged incident and told her he was "99 percent" a "good guy" let down by the "one percent."
+sys1: Mayorga claims that Ronaldo fell to the knees after the alleged incident, saying that he was “99% ” a“ good guy ” left in the lurch by the “one percent ”.
+sys2: Mayorga claims Ronaldo fell on his knee after the alleged incident and told her he was "to 99 percent" a "good guy" who was left in the dark by the "one percent."
+------------------
+1611, SNMT: -0.0026372873239921546, UNMT: 0.029576958519974994, diff: -0.03221424584396715
+Src : Palin, 29, aus Wasilla, Alaska, wurde wegen des Verdachts auf häusliche Gewalt verhaftet. Gegen ihn liegt bereits ein Bericht über häusliche Gewalt und Widerstand bei der Festnahme vor, so eine Meldung, die am Samstag von den Alaska State Troopers veröffentlicht wurde.
+Ref : Palin, 29, of Wasilla, Alaska, was arrested on suspicion of domestic violence, interfering with a report of domestic violence and resisting arrest, according to a report released Saturday by Alaska State Troopers.
+sys1: Palin, 29, from Wasilla, Alaska, was arrested for alleged domestic violence, and a report on domestic violence and opposition to arrest has already been published on Saturday by the Alaska State Trooperator.
+sys2: Palin, 29, of Wasilla, Alaska, was arrested on charges of domestic violence. -- Against him, a report of domestic violence and resistance in arrest was already released Saturday, according to a report released Saturday by Alaska State Troopers.
+------------------
+1723, SNMT: -0.013212201604893892, UNMT: 0.018359085907626138, diff: -0.03157128751252003
+Src : "Ich habe [...] nicht versteckt Fords Behauptungen, ich habe ihre Geschichte nicht geleakt“, erzählte Feinstein dem Komitee, berichtete The Hill.
+Ref : "I did not hide Dr. Ford's allegations, I did not leak her story," Feinstein told the committee, The Hill reported.
+sys1: "I have [...] not hidden Ford's claims that I have not lived their history," told Finestein the committee, reported The Hill.
+sys2: "I did not hide [Forman's claims, I didn't geleast her story," Feinstein told the committee, The Hill reported.
+------------------
+1311, SNMT: -0.010459930222502578, UNMT: 0.020270761305589247, diff: -0.030730691528091825
+Src : Briefings werden immer noch stattfinden, sagte Sanders, aber sollte die Presse die Chance haben, dem Präsidenten der Vereinigten Staaten die Fragen direkt zu stellen, so sei das unendlich besser, als mit ihr zu sprechen.
+Ref : Briefings will still happen, Sanders said, but "if the press has the chance to ask the president of the United States questions directly, that's infinitely better than talking to me.
+sys1: briefing is still going to take place, Sanders said, but the press should have the opportunity to put the questions directly to the President of the United States, if that is infinitely better than to talk to her.
+sys2: Briefings will still take place, Sanders said, but if the press has the chance to ask the president of the United States directly, so that is unendlich better than talking to her.
+------------------
+757, SNMT: 0.00655692670911634, UNMT: 0.03606206645239496, diff: -0.02950513974327862
+Src : Der Minister hob stattdessen drei Treffen zwischen Kim und dem südkoreanischen Führer Moon Jae-in in den letzten fünf Monaten hervor und fügte hinzu: "Wenn die Partei in dieser Frage der Entnuklearisierung Südkorea und nicht die USA wäre, wäre die Entnuklearisierung der koreanischen Halbinsel nicht in eine solche Sackgasse geraten".
+Ref : The minister instead highlighted three meetings between Kim and South Korean leader Moon Jae-in in the past five months and added: "If the party to this issue of denuclearization were South Korea and not the U.S., the denuclearization of the Korean peninsula would not have come to such a deadlock."
+sys1: Instead, the Minister raised three meetings between Kim and South Korean leader Moon Jae over the last five months and added: 'If the party were to be on this issue of denuclearization and not the US, denuclearization of the Korean Peninsula would not have reached such a dead end'.
+sys2: The minister instead highlighted three meetings between Kim and South Korean leader Moon Jae-in in the last five months and added: "If the party were to be in this issue of disresolution South Korea and not the United States, the dissolution of the Korean peninsula would not have been in such a Sackgasse."
+------------------
+1121, SNMT: -0.008165789798958656, UNMT: 0.020657121804603662, diff: -0.028822911603562318
+Src : Um 6 Uhr morgens, genau dann als Gegard Mousasi und Rory MacDonald sich darauf vorbereiteten, sich gegenüberzutreten, konnten die Zuschauer in Großbritannien fassungslos mitansehen, wie die Berichterstattung auf Peppa Pig umgestellt wurde.
+Ref : At 6am, just as Gegard Mousasi and Rory MacDonald were preparing to face each other, viewers in the UK were left stunned when the coverage changed to Peppa Pig.
+sys1: At 6 o'clock in the morning, just then as Gegard Moussasi and Rory MacDonald were prepared to confront each other, viewers in the United Kingdom were able to see how media coverage on Peppa Pig was switched.
+sys2: At 6: 00 pm, just as Gegard Mousasi and Rory MacDonald were preparing to face each other, viewers in Britain were left fassungslos to see how coverage was changed to Peppa Pig.
+------------------
+502, SNMT: -0.0043319099206655665, UNMT: 0.024266256083258497, diff: -0.028598166003924064
+Src : "Wir sind für die NATO und die EU, aber wir wollen mit den Köpfen nach oben teilnehmen, nicht durch die Diensttür", sagte Kavadarkov.
+Ref : "We are for NATO and EU, but we want to join with our heads up, not through the service door" Kavadarkov said.
+sys1: "We are in favour of NATO and the EU, but we want to take up with heads, not by the door of service," said Kavadarkov.
+sys2: "We are for NATO and the EU, but we want to participate with our heads up, not through the service door," Kavadarkov said.
+------------------
+628, SNMT: 0.0011536156479081683, UNMT: 0.028902342354200528, diff: -0.02774872670629236
+Src : Der nordkoreanische Außenminister Ri Yong Ho sagt, dass seine Nation ihre Atomwaffen nie zuerst entschärfen wird, wenn sie Washington nicht vertrauen kann.
+Ref : North Korean Foreign Minister Ri Yong Ho says his nation will never disarm its nuclear weapons first if it can't trust Washington.
+sys1: North Korea ’ s foreign minister, Ri Yong Ho, says that his nation will never use its nuclear weapons first if it cannot trust Washington.
+sys2: North Korean Foreign Minister Ri Yong Ho says his nation will never eliminate its nuclear weapons first if it can't trust Washington.
+------------------
