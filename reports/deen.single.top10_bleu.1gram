@@ -1,0 +1,125 @@
+Metric: bleu
+SNMT > UNMT top 10
+==================
+1761, SNMT: 100.00000000000004, UNMT: 14.794015674776452, diff: 85.2059843252236
+Src : Sauberes Wasser ist knapp.
+Ref : Clean water is scarce.
+sys1: Clean water is scarce.
+sys2: Sauberkeit is tight.
+------------------
+708, SNMT: 100.00000000000004, UNMT: 22.957488466614326, diff: 77.04251153338572
+Src : Wo würden sie also sagen liegt die Dynamik jetzt?
+Ref : So where would they say the momentum is now?
+sys1: So where would they say the momentum is now?
+sys2: Wo would they also say the momentum lies now?
+------------------
+1820, SNMT: 100.00000000000004, UNMT: 31.947155212313625, diff: 68.05284478768641
+Src : Dein neugeborenes Baby?
+Ref : Your newborn baby?
+sys1: Your newborn baby?
+sys2: Dein neutered baby?
+------------------
+266, SNMT: 100.00000000000004, UNMT: 38.75385825373298, diff: 61.246141746267064
+Src : Sims war 20 Jahre alt.
+Ref : Sims was 20 years old.
+sys1: Sims was 20 years old.
+sys2: Sims was 20.
+------------------
+854, SNMT: 59.460355750136046, UNMT: 0.0, diff: 59.460355750136046
+Src : Er ist frei.
+Ref : He is free.
+sys1: It is free.
+sys2: He's free.
+------------------
+999, SNMT: 84.52785147119853, UNMT: 26.118470871290352, diff: 58.409380599908175
+Src : Moskau hat wiederholt betont, dass die 11-Milliarden-Dollar-Pipeline Nord Stream 2, die die bestehende Pipeline-Kapazität auf 110 Milliarden Kubikmeter verdoppeln soll, ein rein wirtschaftliches Projekt ist.
+Ref : Moscow has repeatedly stressed that the $11 billion Nord Stream 2 pipeline, which is set to double the existing pipeline capacity to 110 billion cubic meters, is a purely economic project.
+sys1: Moscow has repeatedly stressed that the $11 billion Nord Stream 2 pipeline, which is supposed to double the existing pipeline capacity to 110 billion cubic metres, is a purely economic project.
+sys2: Moscow has repeatedly insisted that the 11-billion pipeline, Nord Stream 2, which will double the existing Pipeline-capacity to 110 billion cubic feet, is a purely commercial project.
+------------------
+1242, SNMT: 84.03034716144347, UNMT: 28.310261275138586, diff: 55.72008588630489
+Src : Der NTS, der für die Betreuung von mehr als 270 historischen Gebäuden, 38 wichtigen Gärten und 76.000 Hektar Land rund um das Land verantwortlich ist, nimmt die Fledermäuse sehr ernst.
+Ref : The NTS, which is responsible for the care of more than 270 historical buildings, 38 important gardens and 76,000 hectares of land around the country, takes bats very seriously.
+sys1: The NTS, which is responsible for the care of more than 270 historic buildings, 38 important gardens and 76,000 hectares of land around the country, takes the bats very seriously.
+sys2: The NTS, responsible for managing more than 270 historic buildings, 38 key gardens and 74,000 acres of land around the country, said the Fledermäuse are very important.
+------------------
+658, SNMT: 63.019085559238604, UNMT: 8.097785064266201, diff: 54.9213004949724
+Src : Wenn du mit ihm in seiner eigenen Sprache sprichst, geht es ihm ans Herz.“
+Ref : If you talk to him in his own language that goes to his heart."
+sys1: When you talk to him in his own language, it goes to his heart. ”
+sys2: If you spar with him in your own language, it's going to get him to the core. "
+------------------
+1129, SNMT: 100.00000000000004, UNMT: 45.48019047027906, diff: 54.51980952972098
+Src : Aber wir arbeiten daran.
+Ref : But we are working on it.
+sys1: But we are working on it.
+sys2: But we're working on it.
+------------------
+426, SNMT: 100.00000000000004, UNMT: 46.30777161991026, diff: 53.69222838008978
+Src : Es ist sehr schlimm.
+Ref : It is very bad.
+sys1: It is very bad.
+sys2: It's very bad.
+------------------
+UNMT > SNMT top 10
+==================
+1714, SNMT: 10.400597689005304, UNMT: 100.00000000000004, diff: -89.59940231099473
+Src : Ich habe es nicht getan."
+Ref : I didn't do it."
+sys1: I did not. '
+sys2: I didn't do it. "
+------------------
+339, SNMT: 24.177037175577333, UNMT: 100.00000000000004, diff: -75.82296282442272
+Src : Ein Radfahrer ist bei einem Unfall mit einem Auto in London ums Leben gekommen.
+Ref : A cyclist has died in a collision involving a car in London.
+sys1: A cyclists died in an accident by car in London.
+sys2: A cyclist has died in a collision involving a car in London.
+------------------
+524, SNMT: 31.947155212313625, UNMT: 100.00000000000004, diff: -68.05284478768641
+Src : Das ist passiert.
+Ref : That's what happened.
+sys1: That has happened.
+sys2: That's what happened.
+------------------
+583, SNMT: 34.57207846419412, UNMT: 100.00000000000004, diff: -65.42792153580592
+Src : Chris Leslie ist Abgeordneter für Nottingham East
+Ref : Chris Leslie is MP for Nottingham East
+sys1: Chris Leslie is an MEP for Nottingham East
+sys2: Chris Leslie is MP for Nottingham East
+------------------
+861, SNMT: 9.864703138979419, UNMT: 75.06238537503395, diff: -65.19768223605453
+Src : Der Vorfall ereignete sich in Ballyhackamore, gab die Polizei bekannt.
+Ref : The incident happened in Ballyhackamore, police said.
+sys1: The incident took place in Ballyhakamore, announced the police.
+sys2: The incident happened in Ballyhackamore, police announced.
+------------------
+1361, SNMT: 13.679192123121886, UNMT: 76.59552353576204, diff: -62.916331412640154
+Src : Ich bekam eine B-Kappe und das war's", sagte Ross zu BBC Schottlands Sportsound.
+Ref : I got a B cap and that was it," Ross told BBC Scotland's Sportsound.
+sys1: I got a B-cap and that was' s', said Ross to BBC Scotland's sports record.
+sys2: I got a BK and that was it, "Ross told BBC Scotland's Sportsound.
+------------------
+1089, SNMT: 21.18854509032766, UNMT: 81.53551038173119, diff: -60.34696529140352
+Src : „Wir müssen es jetzt tun“, sagte er über das Startup.
+Ref : "We have to do it now," he said of the startup.
+sys1: “We must do it now, ” he said about the start-up.
+sys2: "We have to do it right now," he said of the startup.
+------------------
+319, SNMT: 8.116697886877475, UNMT: 66.87403049764218, diff: -58.757332610764706
+Src : Phänomenales aus Livingston – Analyse
+Ref : 'Phenomenal' from Livingston - analysis
+sys1: Livingston ’ s Obstacles – Analysis
+sys2: Phänomensis from Livingston - analysis
+------------------
+874, SNMT: 28.10335395782486, UNMT: 84.92326635760686, diff: -56.819912399782
+Src : Ich denke, das ist wirklich eine der großen Fragen in unserer Zeit – wie können wir das ändern?
+Ref : I think that's really one of the big questions in our time - how do we change that?
+sys1: I think that this is really one of the great questions at our time – how can we change that?
+sys2: I think that's really one of the big questions in our time - how can we change that?
+------------------
+1337, SNMT: 28.209929953276795, UNMT: 83.85766789076261, diff: -55.647737937485815
+Src : Dieser Schritt wird den Erfolg von Corbyns Bestreben, junge Wähler anzuziehen, neutralisieren
+Ref : The move will neutralise the success of Corbyn's drive to attract young voters
+sys1: This move will neutralise Corbyns ’ ambition to attract young voters.
+sys2: This move will neutralise the success of Corbyn's drive to attract young voters.
+------------------

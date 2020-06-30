@@ -1,0 +1,188 @@
+SNMT better: 896, UNMT better: 1034, Equal: 67
+
+SNMT > UNMT median 10
+==================
+1675, SNMT: 55.62557813671719, UNMT: 46.892438882117254, diff: 8.733139254599934
+Src : Vor einer zweistündige Kundgebung im Stadtzentrum, marschierten unterdessen die Remainers durch Birmingham.
+Ref : Meanwhile, Remainers marched through Birmingham before holding a two-hour rally in the city centre.
+sys1: Before a two-hour rally in the city centre, the Remainers marched through Birmingham.
+sys2: Speaking at a two-hour rally in the downtown, meanwhile, Remainers marched through Birmingham.
+------------------
+1972, SNMT: 30.096870722978444, UNMT: 21.365654495279124, diff: 8.73121622769932
+Src : Es geht um das Team., und ich bin froh, dass ich helfen konnte“, sagte ein emotionaler Garcia nach dem Sieg der Europäer.
+Ref : It's about the team., and I'm happy I was able to help," said an emotional Garcia following the European victory.
+sys1: It is about the team., and I am glad that I could help, ” said an emotional Garcia after the victory of Europeans.
+sys2: It's about the team... and I'm glad I helped, "an emotional Garcia said after winning the Europeans' first round of the tournament.
+------------------
+1838, SNMT: 46.43411317447943, UNMT: 37.73656939703193, diff: 8.6975437774475
+Src : Dann bekam ich den Anruf von Nad, in dem sie sagte, dass sie in den nächsten zwei Minuten sterben würde, und ich musste mich von ihr verabschieden.
+Ref : "Then I got the call from Nad to say she was going to die within the next two minutes and I had to say goodbye to her.
+sys1: Then I got the call from Nad in which she said that she would die in the next two minutes and I had to leave her.
+sys2: Then I got the call from Nad in which she said that she would die in the next two minutes, and I had to verabschieden myself from her.
+------------------
+1297, SNMT: 41.11336169005196, UNMT: 32.42905573839704, diff: 8.68430595165492
+Src : Anfang diesen Monats berichtete die New York Times, dass Rosenstein das Tragen eines Kabels diskutiert habe, um Gespräche mit Trump aufzuzeichnen und es so möglich zu machen, den Präsidenten über den 25sten Verfassungszusatz zu entfernen.
+Ref : Earlier this month, the New York Times reported that Rosenstein discussed wearing a wire to record conversations with Trump and the possibility of removing the president via the 25th amendment.
+sys1: Earlier this month, the New York Times reported that Rosenstein had discussed wearing a cable to record talks with Trump and make it possible to remove the president from the 25th Constitution addition.
+sys2: Early this month, The New York Times reported that Rosenstein discussed wearing a Kabbalah to help set up conversations with Trump and make it so possible for the president to remove the president's name over the 25th constitutional amendment.
+------------------
+1229, SNMT: 52.49110810825805, UNMT: 43.83022272687836, diff: 8.660885381379686
+Src : Die Studie von Wissenschaftlern des National Trust for Scotland wird gemeinen und Sopran-Ppistrellen sowie braunen langohrigen und Daubenton-Fledermäusen in den Inverewe Gardens in Wester Ross folgen.
+Ref : The study by scientists at the National Trust for Scotland will follow common and soprano pipistrelles as well as brown long-eared and Daubenton bats at Inverewe Gardens in Wester Ross.
+sys1: The study by scientists of the National Trust for Scotland will follow common and soprano pistols as well as brown longhorns and Daubenton bats in the Inverewe Gardens in West Ross.
+sys2: The study by scientists from the National Trust for Scotland will follow gems and Sopran-Ppistrells and brown langohens and Daubenton Fledermäuse in the Inverewe Gardens in Wester Ross.
+------------------
+179, SNMT: 38.22040982040624, UNMT: 29.581511708763028, diff: 8.638898111643211
+Src : Ein Mann konnte als 'Yuxan' identifiziert werden. Seine Arterie war durchstochen und er war mit Blut bedeckt wurde tot aufgefunken, in der Nähe eines Markts in Liupanshui in der Provinz Guizhou, die South China Morning Post berichtete Sonntag.
+Ref : The man, identified only by his surname "Yuan," was found dead with a severed artery, covered in blood near a sty at the market in Liupanshui in Guizhou province, the South China Morning Post reported Sunday.
+sys1: He was a man who was identified as the 'Yuxan', and his Arterie was riding through blood and was buried dead, near a market in Liupanshui in Guizhou province, the South China Morning Post reported Sunday.
+sys2: One man was identified as' Yuxan '. his arteris was cut and he was covered in blood and was found dead, in front of a market in Liupanshui, province of Guizhou, the South China Morning Post reported Sunday.
+------------------
+750, SNMT: 41.164456149521705, UNMT: 32.53033485694175, diff: 8.634121292579955
+Src : Ri verwies auf eine gemeinsame Erklärung von Kim Jong Un und Donald Trump auf einem ersten Gipfeltreffen zwischen einem amtierenden US-Präsidenten und einem nordkoreanischen Führer am 12. Juni in Singapur, als Kim sich verpflichtete, auf eine "Entnuklearisierung der koreanischen Halbinsel" hinzuarbeiten, während Trump Garantien für die Sicherheit Nordkoreas versprach.
+Ref : Ri referred to a joint statement issued by Kim Jong Un and Donald Trump at a first ever summit between a serving U.S. president and a North Korean leader in Singapore on June 12, when Kim pledged to work toward "denuclearization of the Korean peninsula" while Trump promised guarantees of North Korea's security.
+sys1: Ri drew attention to a joint declaration by Kim Jong-Il and Donald Trump at a first summit between an incumbent US president and a North Korean leader in Singapore on June 12, when Kim committed to working toward “denuclearization of the Korean Peninsula, ” while Trump promised guarantees for North Korea ’ s security.
+sys2: Ri cited a joint statement from Kim Jong Il and Donald Trump on a first summit between a sitting president and a North Korean leader on June 12 in Singapore, when Kim committed to working on an "entailed resolution of the Korean peninsula" while Trump promised assurances for the security of North Korea.
+------------------
+540, SNMT: 24.68962058478191, UNMT: 16.10232837844378, diff: 8.58729220633813
+Src : Scherzer, der seinen 34. Start machen würde, warf am Donnerstag eine Aufwärtstour und warf seinen normalen Ruhetag ein.
+Ref : Scherzer, who would be making his 34th start, threw a bullpen session on Thursday and would be pitching on his normal rest Sunday.
+sys1: Scherzer, who would make his 34th start, gave an uptrip on Thursday and began his normal day of rest.
+sys2: Scherzer, who would make his 30th start, threw an upstart Thursday and threw his normal ruff.
+------------------
+979, SNMT: 37.408362996124055, UNMT: 28.85947584362141, diff: 8.548887152502644
+Src : Anfang 2018 führte die Gruppe 390 Einsätze und Ankündigungen aus ihren Aktionen an, von denen mindestens 10 Milliarden Dollar bereits ausgezahlt oder finanziert wurden.
+Ref : In early 2018, the group cited 390 commitments and announcements stemming from its actions, at least $10 billion of which have already been disbursed or fundraised.
+sys1: In early 2018, the Group made 390 bets and announcements from its actions, of which at least $10 billion has already been paid out or financed.
+sys2: Next year, the group led 390 operations and announcements from its actions, of which at least $10 billion had already been ausgezahlt or funded.
+------------------
+399, SNMT: 27.513053939210913, UNMT: 18.975563802090377, diff: 8.537490137120535
+Src : „Als gestern die Tsunami-Bedrohung auftrat, gingen die Leute am Strand noch immer ihren Aktivitäten nach und liefen nicht sofort weg und sie sind die Opfer“, sagte Sutopo Purwo Nugroho, Sprecher der Indonesischen Katastrophenschutzbehörde BNPB in einer Lagebesprechung in Jakarta.
+Ref : "When the tsunami threat arose yesterday, people were still doing their activities on the beach and did not immediately run and they became victims," Sutopo Purwo Nugroho, the spokesman for Indonesia's disaster mitigation agency BNPB said in a briefing in Jakarta.
+sys1: “When the tsunami threat occurred yesterday, people went on to the beach and did not immediately run away and they were the victims, ” said Sutopo Purwo Nuenho, spokesman of the Indonesian Civil Protection Authority BNPB in a state briefing in Jakarta.
+sys2: "When yesterday's tsunami threat came out, people at the beach still went through their activities and didn't immediately run away and they are the victims," said Sutopo Purwo Nugroho, spokesman for Indonesia's disaster management agency, BNPB, in a Lap news conference in Jakarta.
+------------------
+UNMT > SNMT median 10
+==================
+1739, SNMT: 14.661093179138764, UNMT: 23.913834188228986, diff: -9.252741009090222
+Src : Die Anfangsphase war ziemlich geschäftig und um 13:10 Uhr konnte Sullivan die Heimmannschaft wieder ins Spiel bringen, bevor Matt Marquardt den Ausgleich von Cownie um 15:16 Uhr vorbereitete.
+Ref : In what was a busy opening period, Sullivan brought the home side back into the game on 13:10 before Matt Marquardt became provider for Cownie's equaliser on 15:16.
+sys1: The initial phase was fairly busy and at 13: 10 pm Sullivan could bring home team back into play before Matt Marquardt prepared to compensate Cownie at 15: 16.
+sys2: The Anfangsphase was pretty chummy and at 13: 10, Sullivan helped the home side get back into the game before Matt Marquardt lined the goal of Cownie at 15: 16.
+------------------
+589, SNMT: 36.40995694537797, UNMT: 45.6595068876277, diff: -9.249549942249729
+Src : Robyn Christie von Melrose sagte: „Dank an Ayr, sie haben ihre Chancen besser genutzt.“
+Ref : Robyn Christie of Melrose said: "Credit to Ayr, they took their chances better than we did."
+sys1: Robyn Christie of Melrose said: “Thanks to Ayr, they have made better use of their opportunities. ”
+sys2: Robyn Christie of Melrose said: "Thanks to Ayr, they have better used their chances."
+------------------
+43, SNMT: 8.29519350710986, UNMT: 17.542198478193427, diff: -9.247004971083568
+Src : Hai verletzt 13-jährigen Jungen beim Hummertauchen in Kalifornien
+Ref : Shark injures 13-year-old on lobster dive in California
+sys1: Hai was 13 years old when he was humming in California
+sys2: shark kills 13-year-old boy in humid pool in California
+------------------
+1826, SNMT: 7.535838128770539, UNMT: 16.753520397573755, diff: -9.217682268803216
+Src : Paddington-Verlage fürchteten, Leser könnten sich nicht mit einem sprechenden Bären identifizieren, was ein neuer Brief enthüllt
+Ref : Paddington publishers feared readers wouldn't relate to a talking bear, new letter reveals
+sys1: Padington publishers feared that readers could not identify with a speaking bear, which revealed a new letter.
+sys2: Paddington-based publishers feared readers might not identify with a sprechenden bear, something a new letter reveals
+------------------
+1989, SNMT: 53.145038831996445, UNMT: 62.34165750393532, diff: -9.196618671938879
+Src : Der jüngste Bericht der Florida Fish and Wildlife Commission zeigt einen allgemeinen Rückgang der Rote-Flut-Konzentrationen für Teile der Tampa Bay Area.
+Ref : The newest report from the Florida Fish and Wildlife Commission shows a general decrease in Red Tide concentrations for parts of the Tampa Bay area.
+sys1: The recent report by the Florida Fish and Wildlife Commission shows a general decline in the red floods concentrations for parts of the Tampa Bay Area.
+sys2: The latest report from the Florida Fish and Wildlife Commission shows a general decline in rose-water Konzentrfor parts of the Tampa Bay area.
+------------------
+262, SNMT: 31.727218786905187, UNMT: 40.89601472043678, diff: -9.168795933531594
+Src : Seine Obligation wurde auf 350.000 Dollar festgesetzt, berichtete die Anwältin.
+Ref : His bond has been set at $350,000, the Advocate reports.
+sys1: His commitment was fixed at $350,000, the lawyer reported.
+sys2: His obscene bail was set at $350,000, the lawyer testified.
+------------------
+194, SNMT: 31.4572842258966, UNMT: 40.620683923209185, diff: -9.163399697312585
+Src : Nachdem ein Oregon Bauer im Jahr 2012 von seinen Schweinen gefressen wurde, sagte ein Manitoba-Farmer CBC News, dass Schweine normalerweise nicht aggressiv sind, der Geschmack von Blut jedoch kann ein "Auslöser" für aggressives Verhalten sein.'
+Ref : After an Oregon farmer was eaten by his pigs in 2012, one Manitoba farmer told CBC News that pigs are not normally aggressive but the taste of blood can act as a "trigger."
+sys1: After a Oregon farmer was devoured by his pigs in 2012, a Manitoba Farmer CBC News said that pigs are usually not aggressive, but the taste of blood may be a "trigger" for aggressive behavior. "
+sys2: After an Oregon farmer was fished by his swans in 2012, a Manitoba farmer told CBC News that pigs are normally not aggressive, but the taste of blood, however, can be a "trigger" for aggressiveness. '
+------------------
+323, SNMT: 38.8583962845632, UNMT: 48.02123842475412, diff: -9.162842140190918
+Src : Ihr Spielstil und Personal haben sich seit ihrer Rückkehr in die Spitzenliga kaum verändert, aber Holt gebürt große Anerkennung für die Art und Weise, wie er das Team seit seiner Ankunft angespornt hat.
+Ref : Their style of play and personnel has scarcely changed since their return to the top flight, but great credit has to go to Holt for the way he has galvanised the team since his arrival.
+sys1: Their style of play and staff have changed very little since their return to the top league, but Holt is a great tribute to the way in which he has spurred the team since his arrival.
+sys2: Their playing style and staff have hardly changed since their return to the top flight, but Holt is gebürving great recognition for the way he has angesproyed the team since his arrival.
+------------------
+1784, SNMT: 16.20117898482892, UNMT: 25.35297359185418, diff: -9.15179460702526
+Src : Daten des Flugsicherheitsnetzwerks deuten darauf hin, dass in den letzten zwei Jahrzehnten 111 Menschen bei Abstürzen von PNG-registrierten Fluggesellschaften ums Leben gekommen sind, aber keiner von Air Niugini betroffen war.
+Ref : Data from the Aviation Safety Network indicates 111 people have died in crashes of PNG-registered airlines in the past two decades but none involved Air Niugini.
+sys1: Data on the air safety network indicate that over the last two decades, 111 people have died in the event of crashes of airline carriers registered with PNG, but none of them affected by Air Niugini.
+sys2: Data from the airline safety service suggests that 111 people have died in the last two decades in absences of PNG-registered airlines, but none was affected by Air Niugini.
+------------------
+732, SNMT: 12.140469093985637, UNMT: 21.290964365008602, diff: -9.150495271022965
+Src : Die europäische Mannschaft von Thomas Bjorn, die um den Erhalt der Trophäe antrat, die sie vor zwei Jahren in Hazeltine verloren hatte, dominierte beim morgentlichen Fourballs eine mit Aussetzern kämpfende amerikanische Mannschaft, und gewann die Serie mit 3-1.
+Ref : Thomas Bjorn's European side, bidding to retain the trophy they lost at Hazeltine two years ago, dominated a misfiring American side in the morning fourballs, taking the series 3-1.
+sys1: The European team of Thomas Bjorn, who dominated an American team fighting to secure the trophy, which she lost two years ago in Hazelnine, dominated the moralistic Fourballs, and won the series with 3-1.
+sys2: The European team led by Thomas Bjorn, who was fighting for the Erhalt of the trophy it lost in Hazeltine two years ago dominated a moribund American team at the morgendary Fourballs, and won the series 3-1.
+------------------
+UNMT = SNMT median 10
+==================
+1510, SNMT: 21.305413619585096, UNMT: 21.305413619585096, diff: 0.0
+Src : U.S. Schwere Sanktionierung für El Salvador wegen Unterstützung von China, dann Rückzug
+Ref : U.S. Weighed Penalizing El Salvador Over Support for China, Then Backed Off
+sys1: U.S. Severe Impassification for El Salvador for support from China, then retreat
+sys2: U.S. heavy sanity for El Salvador over support from China, then withdrawal
+------------------
+842, SNMT: 13.134549472120788, UNMT: 13.134549472120788, diff: 0.0
+Src : "Sie schikanierten mich hinter der Bühne.
+Ref : "They bullied me backstage.
+sys1: "They harassed me behind the stage.
+sys2: "They shackled me behind the stage.
+------------------
+964, SNMT: 22.03359678996931, UNMT: 22.03359678996931, diff: 0.0
+Src : Graham's Stimme schien jedoch in Stein gemeißelt zu sein.
+Ref : Graham's vote, however, appears set in stone.
+sys1: Graham's voice, however, seemed to be cast in stone.
+sys2: Graham's voice, however, seemed to be written in stone.
+------------------
+5, SNMT: 2.559082301052818, UNMT: 2.559082301052818, diff: 0.0
+Src : Hinweis für den Leser: „twp“ im Walisischen bedeutet „bescheuert“ und „pwp“ bedeutet „Kacke“.
+Ref : For readers outside of Wales: In Welsh twp means daft and pwp means poo.
+sys1: Note for the reader: "twip" in the Welsh means "propelling" and "pwp" means "kaze".
+sys2: Hinweis for the reader: "twp" in the walisman means "bescheutigt" and "pwp" means "cacke."
+------------------
+1307, SNMT: 61.47881529512643, UNMT: 61.47881529512643, diff: 0.0
+Src : Der Gast Chris Wallace fragte warum.
+Ref : Host Chris Wallace asked why.
+sys1: The guest Chris Wallace asked why.
+sys2: The guest Chris Wallace asked why.
+------------------
+220, SNMT: 70.56735336645434, UNMT: 70.56735336645434, diff: 0.0
+Src : Zwischen Kansas City, Missouri und Omaha, Nebraska, und zwischen St. Louis und Des Moines, Iowa, gibt es fast einen 20-Grad-Temperaturunterschied.
+Ref : There is nearly a 20-degree temperature difference between Kansas City, Missouri, and Omaha, Nebraska, and between St. Louis and Des Moines, Iowa.
+sys1: Between Kansas City, Missouri and Omaha, Nebraska, and between St. Louis and Des Moines, Iowa, there is almost a 20-degree temperature difference.
+sys2: Between Kansas City, Missouri and Omaha, Nebraska, and between St. Louis and Des Moines, Iowa, there is almost a 20-degree temperature difference.
+------------------
+460, SNMT: 13.304062588217075, UNMT: 13.304062588217075, diff: 0.0
+Src : JAY-Z, der früher auch mit West zusammenarbeitete, hat sich auch mit oder ohne Bindestrich und Großbuchstaben abgefunden.
+Ref : A former West collaborator, JAY-Z, has also made do with or without a hyphen and capitals.
+sys1: JAY Z, which used to be working with West, has also resigned with or without hyphen and uppercase letters.
+sys2: JAY-Z, who used to work with West, has also been taken up with or without bumps and major busts.
+------------------
+1175, SNMT: 92.00444146293236, UNMT: 92.00444146293236, diff: 0.0
+Src : Er möchte da draußen sein, genau wie alle anderen.
+Ref : He wants to be out there, just like everyone else."
+sys1: He wants to be out there, just like everyone else.
+sys2: He wants to be out there, just like everyone else.
+------------------
+1839, SNMT: 100.00000000000004, UNMT: 100.00000000000004, diff: 0.0
+Src : Und ich tat es.
+Ref : And I did.
+sys1: And I did.
+sys2: And I did.
+------------------
+1596, SNMT: 43.56033805378097, UNMT: 43.56033805378097, diff: 0.0
+Src : Indonesien liegt auf dem seismischen Pazifischen Feuerring und wird regelmäßig von Erdbeben getroffen.
+Ref : Indonesia sits on the seismically Pacific Ring of Fire and is regularly hit by earthquakes.
+sys1: Indonesia is located on the shallow Pacific ring and is regularly hit by earthquakes.
+sys2: Indonesia is located on the seabed Pacific Feudata-rich and is regularly hit by earthquakes.
+------------------

@@ -1,0 +1,125 @@
+Metric: mf1
+SNMT > UNMT top 10
+==================
+1522, SNMT: 100.0, UNMT: 0.0, diff: 100.0
+Src : Studiere Geschichte
+Ref : Study History
+sys1: Study History
+sys2: Studiotime history
+------------------
+1761, SNMT: 100.0, UNMT: 28.57142857142857, diff: 71.42857142857143
+Src : Sauberes Wasser ist knapp.
+Ref : Clean water is scarce.
+sys1: Clean water is scarce.
+sys2: Sauberkeit is tight.
+------------------
+1820, SNMT: 100.0, UNMT: 33.33333333333333, diff: 66.66666666666667
+Src : Dein neugeborenes Baby?
+Ref : Your newborn baby?
+sys1: Your newborn baby?
+sys2: Dein neutered baby?
+------------------
+426, SNMT: 100.0, UNMT: 50.0, diff: 50.0
+Src : Es ist sehr schlimm.
+Ref : It is very bad.
+sys1: It is very bad.
+sys2: It's very bad.
+------------------
+708, SNMT: 100.0, UNMT: 53.84615384615385, diff: 46.15384615384615
+Src : Wo würden sie also sagen liegt die Dynamik jetzt?
+Ref : So where would they say the momentum is now?
+sys1: So where would they say the momentum is now?
+sys2: Wo would they also say the momentum lies now?
+------------------
+429, SNMT: 100.0, UNMT: 57.14285714285714, diff: 42.85714285714286
+Src : Das ist noch nicht geschehen.
+Ref : That has not happened yet.
+sys1: That has not happened yet.
+sys2: That's not happened yet.
+------------------
+1982, SNMT: 100.0, UNMT: 57.14285714285714, diff: 42.85714285714286
+Src : Er ist ein großartiger Kapitän.
+Ref : He is a great captain.
+sys1: He is a great captain.
+sys2: He's a great captain.
+------------------
+143, SNMT: 68.42105263157895, UNMT: 27.083333333333332, diff: 41.33771929824562
+Src : Chelsea trifft in der UEFA Europa League am Donnerstag um 15 Uhr in London auf Videoton.
+Ref : Chelsea faces Videoton in the UEFA Europa Leaguge at 3 p.m. on Thursday in London.
+sys1: Chelsea meets Videoton in the UEFA Europa League on Thursday at 15 p.m. in London.
+sys2: Chelsea face Videoproof in UEFA Europa League action at 15: 00 pm in London.
+------------------
+1242, SNMT: 92.66666666666666, UNMT: 53.15315315315314, diff: 39.513513513513516
+Src : Der NTS, der für die Betreuung von mehr als 270 historischen Gebäuden, 38 wichtigen Gärten und 76.000 Hektar Land rund um das Land verantwortlich ist, nimmt die Fledermäuse sehr ernst.
+Ref : The NTS, which is responsible for the care of more than 270 historical buildings, 38 important gardens and 76,000 hectares of land around the country, takes bats very seriously.
+sys1: The NTS, which is responsible for the care of more than 270 historic buildings, 38 important gardens and 76,000 hectares of land around the country, takes the bats very seriously.
+sys2: The NTS, responsible for managing more than 270 historic buildings, 38 key gardens and 74,000 acres of land around the country, said the Fledermäuse are very important.
+------------------
+1918, SNMT: 66.66666666666666, UNMT: 28.57142857142857, diff: 38.09523809523809
+Src : Ich bin verärgert."
+Ref : I am angry."
+sys1: I am angry '.
+sys2: I'm upset. "
+------------------
+UNMT > SNMT top 10
+==================
+1714, SNMT: 22.22222222222222, UNMT: 100.0, diff: -77.77777777777777
+Src : Ich habe es nicht getan."
+Ref : I didn't do it."
+sys1: I did not. '
+sys2: I didn't do it. "
+------------------
+680, SNMT: 7.6923076923076925, UNMT: 83.33333333333334, diff: -75.64102564102565
+Src : Il faut bien le faire.
+Ref : Il faut bien le faire.
+sys1: La gentillesse du personnel et la disponibil.
+sys2: Il faut bien faire.
+------------------
+524, SNMT: 33.33333333333333, UNMT: 100.0, diff: -66.66666666666667
+Src : Das ist passiert.
+Ref : That's what happened.
+sys1: That has happened.
+sys2: That's what happened.
+------------------
+339, SNMT: 40.0, UNMT: 100.0, diff: -60.0
+Src : Ein Radfahrer ist bei einem Unfall mit einem Auto in London ums Leben gekommen.
+Ref : A cyclist has died in a collision involving a car in London.
+sys1: A cyclists died in an accident by car in London.
+sys2: A cyclist has died in a collision involving a car in London.
+------------------
+319, SNMT: 10.0, UNMT: 66.66666666666666, diff: -56.66666666666666
+Src : Phänomenales aus Livingston – Analyse
+Ref : 'Phenomenal' from Livingston - analysis
+sys1: Livingston ’ s Obstacles – Analysis
+sys2: Phänomensis from Livingston - analysis
+------------------
+1090, SNMT: 18.181818181818183, UNMT: 71.42857142857143, diff: -53.246753246753244
+Src : „Es ist ein historischer Moment.“
+Ref : "It's a historical moment."
+sys1: “It is an historic moment. ”
+sys2: "It's a historic moment."
+------------------
+1089, SNMT: 42.10526315789473, UNMT: 93.33333333333333, diff: -51.228070175438596
+Src : „Wir müssen es jetzt tun“, sagte er über das Startup.
+Ref : "We have to do it now," he said of the startup.
+sys1: “We must do it now, ” he said about the start-up.
+sys2: "We have to do it right now," he said of the startup.
+------------------
+507, SNMT: 25.0, UNMT: 72.91666666666666, diff: -47.91666666666666
+Src : Ihm zufolge wäre das Ergebnis „Ja“ eine „Bestärkung unserer Zukunft“.
+Ref : He said that a "yes" result would be "confirmation of our future."
+sys1: According to him, the “yes ” outcome would be a“ affirmation of our future. ”
+sys2: He said the result of "yes" would be a "re-awakened of our future."
+------------------
+137, SNMT: 38.88888888888889, UNMT: 86.36363636363636, diff: -47.47474747474747
+Src : Chelsea führte 1-0 zur Halbzeit nach einem Punkt in der 25. Minute vom belgischen Star Eden Hazard.
+Ref : Chelsea led 1-0 at halftime after getting a score in the 25th minute from Belgian star Eden Hazard.
+sys1: Chelsea led 1-0 to the half-way point of the 25th minute of the Belgian Star Eden hazard.
+sys2: Chelsea led 1-0 at halftime after a point in the 25th minute from Belgian star Eden Hazard.
+------------------
+1987, SNMT: 22.22222222222222, UNMT: 66.66666666666666, diff: -44.444444444444436
+Src : Wir wurden übertrumpft.“
+Ref : We got outplayed."
+sys1: We were taken over. ”
+sys2: We were outplayed. "
+------------------

@@ -1,0 +1,146 @@
+SNMT better: 8, UNMT better: 5, Equal: 54
+
+SNMT > UNMT median 10
+==================
+1522, SNMT: 100.0, UNMT: 0.0, mf1 diff: 100.0, bleu 0.0
+Src : Studiere Geschichte
+Ref : Study History
+sys1: Study History
+sys2: Studiotime history
+------------------
+1549, SNMT: 80.0, UNMT: 76.47058823529412, mf1 diff: 3.529411764705884, bleu 82.32490471721698
+Src : Sie waren wahrscheinlich besser in der ersten Hälfte und wir mobilisierten uns in der zweiten Hälfte und waren die bessere Seite.
+Ref : They were probably better in the first half and we came out in the second half and were the better side.
+sys1: They were probably better in the first half and we were mobilized in the second half and were the better side.
+sys2: They were probably better in the first half and we mobilised ourselves in the second half and were the better side.
+------------------
+1730, SNMT: 72.22222222222221, UNMT: 69.23076923076923, mf1 diff: 2.991452991452988, bleu 38.827267775222325
+Src : Elite League: Dundee Stars gewinnen 5:3 gegen die Belfast Giants
+Ref : Elite League: Dundee Stars 5-3 Belfast Giants
+sys1: Elite League: Dundee Stars win 5: 3 against Belfast Giants
+sys2: Elite League: Dundee Stars win 3-1 over Belfast Giants
+------------------
+1122, SNMT: 70.37037037037037, UNMT: 68.42105263157895, mf1 diff: 1.9493177387914216, bleu 49.24790605054522
+Src : Einige waren unbeeindruckt, nachdem sie bis in die frühen Morgenstunden wach geblieben waren, extra für den Kampf.
+Ref : Some were unimpressed after they had stayed awake until the early hours especially for the fight.
+sys1: Some were unprinted after they were awake until the early hours, especially for the fight.
+sys2: Some were unbeeindruckt after they stayed awake until the early hours, extra for the fight.
+------------------
+1555, SNMT: 26.666666666666668, UNMT: 25.0, mf1 diff: 1.6666666666666679, bleu 5.300156689756295
+Src : Frauen haben schlaflose Nächte wegen dieser Angst bezüglich der Altersvorsorge
+Ref : Women are losing sleep over this retirement savings fear
+sys1: Women have sleepless nights because of this fear of retirement.
+sys2: Women have schlaf-or-die nights because of this fear regarding savings.
+------------------
+1510, SNMT: 36.507936507936506, UNMT: 36.36363636363637, mf1 diff: 0.14430014430013927, bleu 21.305413619585096
+Src : U.S. Schwere Sanktionierung für El Salvador wegen Unterstützung von China, dann Rückzug
+Ref : U.S. Weighed Penalizing El Salvador Over Support for China, Then Backed Off
+sys1: U.S. Severe Impassification for El Salvador for support from China, then retreat
+sys2: U.S. heavy sanity for El Salvador over support from China, then withdrawal
+------------------
+655, SNMT: 29.904761904761905, UNMT: 29.898989898989903, mf1 diff: 0.005772005772001876, bleu 5.238664767398941
+Src : Unabhängige Schulen sind darauf ausgerichtet, die Schüler vorzubereiten – auf eine weiterführende Ausbildung, auch an Hochschulen, auf ihre gewünschte berufliche Laufbahn und auf ihre Rolle als Weltbürger.
+Ref : Independent schools aim to prepare their pupils for further and higher education, their chosen career and their place as global citizens.
+sys1: Independent schools are designed to prepare students – for further education, also at universities, for their desired careers, and for their role as a citizen of the world.
+sys2: Unabhängigen schools are designed to prepare students for further education - to a further education, even at colleges, to their desired career and to their role as world leaders.
+------------------
+1365, SNMT: 33.333333333333336, UNMT: 33.33333333333333, mf1 diff: 7.105427357601002e-15, bleu 11.643136661992056
+Src : Der frühere Manager von Alloa Athletic sagt, dass er keine Angst davor gehabt habe, in die Fußstapfen dieser etablierten Manager in einem solch großen Klub zu treten. Zuvor hatte er bereits Angebote von Barnsley und Ipswich Town abgelehnt.
+Ref : The former Alloa Athletic boss says he felt no trepidation in following such established names at such a big club, having previously rejected overtures from Barnsley and Ipswich Town.
+sys1: The former manager of Alloa Athletic says that he had no fear of participating in the footsteps of these established managers in such a big club.
+sys2: The former manager of Alloa Athletic says that he has no fear of stepping into the shoes of these established managers in such a big club.
+------------------
+UNMT > SNMT median 10
+==================
+912, SNMT: 45.45454545454545, UNMT: 54.54545454545454, mf1 diff: -9.090909090909086, bleu 23.356898886410015
+Src : Sie müssen ruhig und gelassen sein“.
+Ref : They must be calm and serene."
+sys1: They must be quiet and left. ”
+sys2: They have to be calm and collected. "
+------------------
+1054, SNMT: 27.450980392156865, UNMT: 33.33333333333333, mf1 diff: -5.882352941176464, bleu 22.416933501922287
+Src : US-Botschafter wirft China „Mobbing“ mit „Propaganda-Werbung“ vor
+Ref : U.S. ambassador accuses China of 'bullying' with 'propaganda ads'
+sys1: US ambassador accuses China of “bullying ” with“ propaganda advertising. ”
+sys2: US ambassador accuses China of "Mobbing" with "propaganda"
+------------------
+113, SNMT: 17.543859649122805, UNMT: 19.298245614035086, mf1 diff: -1.7543859649122808, bleu 3.716499092256817
+Src : In Indonesien töten ein Tsunami und ein Erdbeben hunderte und verwüsten eine Insel.
+Ref : Indonesia Tsunami and Quake Devastate an Island, Killing Hundreds
+sys1: In Indonesia, a tsunami and an earthquake kill hundreds and devastated an island.
+sys2: In Indonesia, a tsunami and an earthquake killed thousands and devastated a island.
+------------------
+744, SNMT: 30.0, UNMT: 31.57894736842105, mf1 diff: -1.5789473684210513, bleu 11.980914528565991
+Src : Nordkorea sagt, dass es „keinesfalls“ eine einseitige Entwaffnung ohne Vertrauen geben werde
+Ref : North Korea says 'no way' will disarm unilaterally without trust
+sys1: North Korea says that “by no means ” there will be unilateral disarmament without trust.
+sys2: North Korea says that there will "keinesfalls" be a one-way Entwistnung without trust.
+------------------
+1606, SNMT: 32.098765432098766, UNMT: 33.33333333333333, mf1 diff: -1.2345679012345627, bleu 11.7942240532671
+Src : Dieses Mal wurde kein Tsunami ausgelöst, aber über 100 Menschen verloren ihr Leben durch die einstürzenden Gebäude.
+Ref : No tsunami was triggered this time, but more than 100 were killed by fallen buildings.
+sys1: This time, no tsunami was triggered, but over 100 people lost their lives through the collapsing buildings.
+sys2: That time, no tsunami was triggered, but over 100 people lost their lives by the einstürzürzürzürzürzeln.
+------------------
+UNMT = SNMT median 10
+==================
+542, SNMT: 57.14285714285714, UNMT: 57.14285714285714, mf1 diff: 0.0, bleu 32.46679154750991
+Src : Trump macht Wahlkampf in West Virginia
+Ref : Trump rallies in West Virginia
+sys1: Trump is campaigning in West Virginia
+sys2: Trump makes campaign in West Virginia
+------------------
+1709, SNMT: 8.333333333333332, UNMT: 8.333333333333332, mf1 diff: 0.0, bleu 6.567274736060395
+Src : Das war wirklich schlechte Körpersprache.
+Ref : That Was Really Bad Body Language
+sys1: That was really bad body language.
+sys2: That was really bad body language.
+------------------
+555, SNMT: 44.44444444444444, UNMT: 44.44444444444444, mf1 diff: 0.0, bleu 36.06452879987789
+Src : Nein, was.
+Ref : Uh, uh, what.
+sys1: No, what.
+sys2: No, what.
+------------------
+559, SNMT: 80.0, UNMT: 80.0, mf1 diff: 0.0, bleu 72.76817202342096
+Src : Als Momentum-Aktivisten in meiner lokalen Partei dafür stimmten, mich zu kritisieren, war es kaum eine Überraschung.
+Ref : When Momentum's activists in my local party voted to censure me, it was hardly a surprise.
+sys1: When momentum activists in my local party voted to criticise me, it was hardly a surprise.
+sys2: When Momentum-rights activists in my local party voted to criticize me, it was hardly a surprise.
+------------------
+842, SNMT: 40.0, UNMT: 40.0, mf1 diff: 0.0, bleu 13.134549472120788
+Src : "Sie schikanierten mich hinter der Bühne.
+Ref : "They bullied me backstage.
+sys1: "They harassed me behind the stage.
+sys2: "They shackled me behind the stage.
+------------------
+1959, SNMT: 55.55555555555556, UNMT: 55.55555555555556, mf1 diff: 0.0, bleu 19.64073254502566
+Src : Europa siegt beim Ryder Cup in Paris
+Ref : Europe clinches Ryder Cup victory in Paris
+sys1: Europe Winning the Ryder Cup in Paris
+sys2: Europe fails at Ryder Cup in Paris
+------------------
+1718, SNMT: 100.0, UNMT: 100.0, mf1 diff: 0.0, bleu 100.00000000000004
+Src : Oh, nein.
+Ref : Oh, no.
+sys1: Oh, no.
+sys2: Oh, no.
+------------------
+1596, SNMT: 56.14035087719298, UNMT: 56.14035087719298, mf1 diff: 0.0, bleu 43.56033805378097
+Src : Indonesien liegt auf dem seismischen Pazifischen Feuerring und wird regelmäßig von Erdbeben getroffen.
+Ref : Indonesia sits on the seismically Pacific Ring of Fire and is regularly hit by earthquakes.
+sys1: Indonesia is located on the shallow Pacific ring and is regularly hit by earthquakes.
+sys2: Indonesia is located on the seabed Pacific Feudata-rich and is regularly hit by earthquakes.
+------------------
+1123, SNMT: 61.904761904761905, UNMT: 61.904761904761905, mf1 diff: 0.0, bleu 32.949234760391725
+Src : Ein Fan auf Twitter beschrieb den Wechsel zum Kinderkartoon als "irgendein kranker Witz".
+Ref : One fan on Twitter described the switch to the children's cartoon as "some sort of sick joke."
+sys1: A fan on Twitter described the change to the children's box as "some sick joke".
+sys2: One fan on the site described the change to child cartoon as "some sick joke."
+------------------
+1553, SNMT: 31.746031746031743, UNMT: 31.746031746031743, mf1 diff: 0.0, bleu 7.692375026049747
+Src : Das Team ist gut, und die Jungs haben wirklich Spaß; das Training ist prima.
+Ref : The squad's good and the boys are really enjoying it; the training's good.
+sys1: The team is good, and the guys have really fun; the training is fine.
+sys2: The team is good, and the guys really have fun; the training is fine.
+------------------

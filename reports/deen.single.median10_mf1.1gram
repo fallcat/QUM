@@ -1,0 +1,188 @@
+SNMT better: 958, UNMT better: 951, Equal: 88
+
+SNMT > UNMT median 10
+==================
+897, SNMT: 36.781609195402304, UNMT: 28.333333333333332, diff: 8.448275862068972
+Src : Die in Los Angeles ansässige Demokratin ist der Überzeugung, dass die Behauptungen von Angehörigen des ultralinken Flügels und über Websites lanciert wurden.
+Ref : The Los Angeles Democrat asserted that the claims were being pedaled by "ultra-right wing" pundits and websites.
+sys1: The democrat, based in Los Angeles, is convinced that the claims of members of the ultra-dark wing and websites were launched.
+sys2: The city's Democratic Party is of the belief that the claims were lanciert by relatives of the ultralegal's leadership and over websites.
+------------------
+943, SNMT: 61.66666666666667, UNMT: 53.24074074074073, diff: 8.425925925925938
+Src : Berichten zufolge will die Partei, dass Unternehmenschefs die durch die Revolution der künstlichen Intelligenz (KI) erzielten Einsparungen an die Arbeitnehmer weitergeben, indem sie ihnen einen zusätzlichen Tag frei geben.
+Ref : The party reportedly wants company bosses to pass on savings made through the artificial intelligence (AI) revolution to workers by giving them an extra day off.
+sys1: According to reports, the party wants heads of companies to pass on the savings made by the artificial intelligence revolution (AI) to workers by giving them an extra day.
+sys2: Reports say the party wants corporate leaders to pass on the nation's savings through the revolution of artificial intelligence (KI), giving them an extra day off.
+------------------
+1409, SNMT: 65.39682539682539, UNMT: 57.03703703703704, diff: 8.359788359788354
+Src : Doyle ist Schottland's am meisten dekorierte Leichtathletin und Vorsitzender Ian Beattie beschrieb den Umzug als eine großartige Gelegenheit für diejenigen, die den Sport leiten, von ihrer umfassenden Erfahrung auf internationaler Ebene im letzten Jahrzehnt zu profitieren.
+Ref : Doyle is Scotland's most decorated track and field athlete and chairman Ian Beattie described the move as a great opportunity for those guiding the sport to benefit from her wide-ranging experience at international level over the past decade.
+sys1: Doyle is Scotland's most decorated track singer and chairman Ian Beattie described the move as a great opportunity for those who lead sport to benefit from their extensive international experience over the last decade.
+sys2: Doyle is Scotland's most decorated Leichtathletin and chairman Ian Beattie described the move as a terrific opportunity for those who run the sport to benefit from their comprehensive experience on international level in the last decade.
+------------------
+584, SNMT: 58.333333333333336, UNMT: 50.0, diff: 8.333333333333336
+Src : Ayr 38 - 17 Melrose: Ayr ungeschlagen an der Spitze
+Ref : Ayr 38 - 17 Melrose: Unbeaten Ayr go top
+sys1: Ayr 38 - 17 Melrose: Ayr Unlay at the top
+sys2: Ayr 38 - 17 Melrose: Ayr unbeaten at home
+------------------
+640, SNMT: 52.77777777777778, UNMT: 44.44444444444444, diff: 8.333333333333336
+Src : Sehr unpraktische Hüte haben Instagram in diesem Sommer überschwemmt, und diese Designer haben ihre auffälligen Kreationen über den Laufsteg geschickt.
+Ref : Highly impractical hats have swept Instagram this summer and these designers have sent their eye-popping creations down the catwalk.
+sys1: Instagram has been inundated this summer and these designers have sent their eye-catching creations through the catwalk.
+sys2: Very unpractical hips have overtaken Instagram this summer, and these designers have sent their striking creations across the runway.
+------------------
+636, SNMT: 66.66666666666666, UNMT: 58.33333333333333, diff: 8.333333333333329
+Src : Pompeo plant einen Besuch in Pjöngjang nächsten Monat, um einen zweiten Gipfel zwischen Trump und Kim vorzubereiten.
+Ref : Pompeo is planning to visit Pyongyang next month to prepare for a second Kim-Trump summit.
+sys1: Pompeo is planning a visit to Pyongyang next month to prepare a second summit between Trump and Kim.
+sys2: Pompeo plans a visit to Pyongyang next month to prepare for a second summit between Trump and Kim.
+------------------
+461, SNMT: 33.33333333333333, UNMT: 25.0, diff: 8.333333333333329
+Src : Mexikos Präsident AMLO gelobt, kein Militär gegen Zivilisten einzusetzen
+Ref : Mexico's AMLO vows not to use military against civilians
+sys1: Mexico ’ s President AMLO has vowed not to deploy a military against civilians.
+sys2: Mexican president says AMLO has praised no military action against civilians
+------------------
+1621, SNMT: 61.8279569892473, UNMT: 53.541666666666664, diff: 8.286290322580633
+Src : Im Januar 2016 wurde er wegen häuslicher Gewalt angeklagt, indem er sich in den Bericht über eine häusliche Gewaltkriminalität einmischte und eine Waffe besaß, während er im Zusammenhang mit dem Vorfall betrunken war.
+Ref : In January 2016 he was charged with domestic assault, interfering with the report of a domestic violence crime, and possessing a weapon while intoxicated in connection with the incident.
+sys1: In January 2016, he was accused of domestic violence by interfering in the report on domestic violence and having a weapon while drunk in connection with the incident.
+sys2: In January 2016, he was charged with domestic violence by entering the report on a domestic violence incident and owned a gun while he was drunk in connection with the incident.
+------------------
+1036, SNMT: 31.086956521739133, UNMT: 22.833333333333332, diff: 8.2536231884058
+Src : Anwälte argumentierten weiter in dem Schriftsatz, dass die Politik, die den Immigranten den Eintritt verweigert, der US-Wirtschaft schadet, weil es wahrscheinlicher ist, dass diese Immigranten Unternehmer werden und „notwendige Arbeit leisten."
+Ref : Attorneys further argued in the brief that the policy denying immigrants entry hurts the U.S. economy, saying they are more likely to become entrepreneurs and "supply necessary labor."
+sys1: lawyers continued to argue in the paper that policies refusing entry to immigrants are damaging the US economy, because it is more likely that these immigrants will become entrepreneurs and “do necessary work. ”
+sys2: Lawyers continued in the Schriftsman's letter that the government that refuses to allow the imams to enter the country serves the economy because it is more likely that these imperfect workers will become entrepreneurs and do "necessary work."
+------------------
+467, SNMT: 15.384615384615385, UNMT: 7.142857142857142, diff: 8.241758241758243
+Src : USA sollte Ausgaben für Künstliche Intelligenz verdoppeln
+Ref : U.S. should double A.I. funding
+sys1: The US should double Artificial Intelligence spending
+sys2: US to double spending on artificial intelligence
+------------------
+UNMT > SNMT median 10
+==================
+1438, SNMT: 42.10526315789473, UNMT: 50.0, diff: -7.894736842105267
+Src : Das ist keine Werbung, die die Milchwirtschaft lobt oder beurteilt."
+Ref : This is not an advert praising or judging the dairy industry."
+sys1: This is not an advertisement that praises or evaluates the milk industry '.
+sys2: This is not a advertisement that lobt or evaluated the dairy industry. "
+------------------
+520, SNMT: 16.666666666666664, UNMT: 24.561403508771924, diff: -7.89473684210526
+Src : Dann machte er einen Pass nach links und gab an Sterling ab.
+Ref : He then pushed a pass to his left, finding Sterling.
+sys1: Then he left a passport and stopped dying.
+sys2: Then he made a pass to right and gave it to Sterling.
+------------------
+1547, SNMT: 40.74074074074074, UNMT: 48.611111111111114, diff: -7.870370370370374
+Src : „Wir sind in dem Glauben, etwas erreichen zu können, ins Spiel gegangen, und haben einen Punkt mitgenommen.
+Ref : "We went into the game believing we could get something and came away with a point.
+sys1: "We went into play in the belief that we can achieve something, and took a point along.
+sys2: "We came into the game in the belief that something could happen, and took a point.
+------------------
+1273, SNMT: 49.18699186991869, UNMT: 57.04761904761906, diff: -7.860627177700366
+Src : Ronaldo stand kurz vor seinem Wechsel zu Real Madrid von Manchester United zum Zeitpunkt des mutmaßlichen Angriffs und wechselte diesen Sommer mit einem 100-Millionen-Euro-Deal an den italienischen Giganten Juve.
+Ref : Ronaldo was on the verge of joining Real Madrid from Manchester United at the time of the alleged assault, and this summer moved to Italian giants Juve in a €100 million deal.
+sys1: Ronaldo was about to change to Real Madrid by Manchester United at the time of the alleged attack and this summer switched to the Italian giant Juve with a 100-million Euro deal.
+sys2: Ronaldo was close to his move to Real Madrid from Manchester United at the time of the alleged attack and this summer moved to Italian giants Juve.
+------------------
+1013, SNMT: 47.222222222222214, UNMT: 55.072463768115945, diff: -7.850241545893731
+Src : Warren sagte in einem Tweet am Freitag: "Natürlich brauchen wir eine FBI-Untersuchung, bevor wir abstimmen."
+Ref : In a tweet on Friday, Warren said "of course we need an FBI investigation before voting."
+sys1: Warren said in a Tweet on Friday: 'Of course we need a FBI investigation before we vote'.
+sys2: Warren said in a tweet Friday, "Obviously we need an FBI-led investigation before we vote."
+------------------
+288, SNMT: 58.82352941176471, UNMT: 66.66666666666666, diff: -7.843137254901947
+Src : Die Demonstration ging weiter, war aber gezwungen, einen anderen Weg einzuschlagen.
+Ref : The demonstration went ahead but was forced to take a different route.
+sys1: The demonstration went on but was forced to go down a different path.
+sys2: The demonstration continued but was forced to take a different path.
+------------------
+585, SNMT: 57.89473684210527, UNMT: 65.71428571428571, diff: -7.819548872180441
+Src : Zwei späte Tries mögen das Endergebnis etwas verzerrt haben, aber es besteht kein Zweifel, dass Ayr es verdient hat, in diesem wunderbar unterhaltsamen Tennent's Premiership Match des Tages zu siegen.
+Ref : Two late tries may have skewed the final result somewhat, but there is no doubt Ayr deserved to triumph in this wonderfully-entertaining Tennent's Premiership match of the day.
+sys1: Two late Trios may have distorted the final result somewhat, but there is no doubt that Ayr has deserved to win this wonderful entertaining Tenent's Premiership Match of the day.
+sys2: Two late tries may have slightly distorted the encore, but there is no doubt Ayr deserved to win in this wunderbar entertaining Tennent's Premiership match of the day.
+------------------
+764, SNMT: 72.39583333333333, UNMT: 80.20833333333334, diff: -7.812500000000014
+Src : Pompeo traf Ri am Rande der UN-Generalversammlung und sagte anschließend, er werde nächsten Monat wieder nach Pjöngjang reisen, um sich auf einen zweiten Gipfel vorzubereiten.
+Ref : Pompeo met Ri on the sidelines of the U.N. General Assembly and said afterwards that he would visit Pyongyang again next month to prepare for a second summit.
+sys1: Pompeo met Ri on the sidelines of the UN General Assembly and then said that he would return to Pyongyang next month to prepare for a second summit.
+sys2: Pompeo met Ri on the sidelines of the U.N. General Assembly and said afterward that he would travel back to Pyongyang next month to prepare for a second summit.
+------------------
+368, SNMT: 37.984496124031004, UNMT: 45.78754578754579, diff: -7.803049663514784
+Src : Rosa, hatte am Sonntagmorgen noch die Stärke eines Hurrikans mit maximalen Windgeschwindigkeiten von 136 km/h, ist 620 km südlich von Punta Eugenia, Mexiko und bewegt sich nach Norden mit einer Geschwindigkeit von 19 km/h.
+Ref : Rosa, still at hurricane strength Sunday morning with maximum winds of 85 miles per hour, is 385 miles south of Punta Eugenia, Mexico and moving north at 12 miles per hour.
+sys1: Rosa, had the power of a hurricane with maximum wind speeds of 136 km / h on Sunday morning, is 620 km south of Punta Eugenia, Mexico and moves to the north at a speed of 19 km / h.
+sys2: Rosa, which was still the strength of an hurricane with maximum sustained winds of 136 mph, is 620 km south of Punta Eugenia, Mexico, and is moving north at a speed of 19 mph.
+------------------
+1057, SNMT: 41.269841269841265, UNMT: 49.05982905982905, diff: -7.789987789987784
+Src : US-Amtsleute behaupten gegenüber Reuters, dass Trumps Vorwurf, Peking versuchte, sich in die US-Wahlen einzumischen, eine neue Phase in einer eskalierenden Kampagne von Washington sei, um Druck auf China auszuüben.
+Ref : Trump's accusation that Beijing was trying to meddle in U.S. elections marked what U.S. officials told Reuters was a new phase in an escalating campaign by Washington to put pressure on China.
+sys1: US officials claim to Reuters that Trump ’ s charge of interfering with the US election in Beijing is a new phase in an escalating Washington campaign to put pressure on China.
+sys2: US presidential officials claim to Reuters that Trumps charge that Beijing tried to get into the US elections was a new phase in an escalating campaign by Washington to put pressure on China.
+------------------
+UNMT = SNMT median 10
+==================
+334, SNMT: 100.0, UNMT: 100.0, diff: 0.0
+Src : Die Stadt ist die Heimat der größten türkischen Bevölkerung außerhalb der Türkei.
+Ref : The city is home to the largest Turkish population outside Turkey.
+sys1: The city is home to the largest Turkish population outside Turkey.
+sys2: The city is home to the largest Turkish population outside Turkey.
+------------------
+453, SNMT: 33.33333333333333, UNMT: 33.33333333333333, diff: 0.0
+Src : Laut West ist dies nicht nur eine Abkürzung seines derzeitigen Berufsnamens, er hatte zuvor auch angegeben, das Wort wäre für ihn von religiöser Bedeutung.
+Ref : As well as being an abbreviation of his current professional name, West has previously said the word has religious significance for him.
+sys1: According to West, this is not only an abbreviation of his current profession, he had previously indicated that the word would be of religious importance to him.
+sys2: According to West, this is not just an abomination of his current career, but he had previously said the word would be of religious importance to him.
+------------------
+542, SNMT: 57.14285714285714, UNMT: 57.14285714285714, diff: 0.0
+Src : Trump macht Wahlkampf in West Virginia
+Ref : Trump rallies in West Virginia
+sys1: Trump is campaigning in West Virginia
+sys2: Trump makes campaign in West Virginia
+------------------
+1709, SNMT: 8.333333333333332, UNMT: 8.333333333333332, diff: 0.0
+Src : Das war wirklich schlechte Körpersprache.
+Ref : That Was Really Bad Body Language
+sys1: That was really bad body language.
+sys2: That was really bad body language.
+------------------
+216, SNMT: 30.0, UNMT: 30.0, diff: 0.0
+Src : Starker Regen wird von Dienstag bis Mittwoch zu allen Seiten hin ausbreiten.
+Ref : Heavy rain will spread into the Four Corners on Tuesday and last through Wednesday.
+sys1: Strong rain will spread from Tuesday to Wednesday to all sides.
+sys2: Starkly rain will spread to all sides from Tuesday to Wednesday.
+------------------
+555, SNMT: 44.44444444444444, UNMT: 44.44444444444444, diff: 0.0
+Src : Nein, was.
+Ref : Uh, uh, what.
+sys1: No, what.
+sys2: No, what.
+------------------
+559, SNMT: 80.0, UNMT: 80.0, diff: 0.0
+Src : Als Momentum-Aktivisten in meiner lokalen Partei dafür stimmten, mich zu kritisieren, war es kaum eine Überraschung.
+Ref : When Momentum's activists in my local party voted to censure me, it was hardly a surprise.
+sys1: When momentum activists in my local party voted to criticise me, it was hardly a surprise.
+sys2: When Momentum-rights activists in my local party voted to criticize me, it was hardly a surprise.
+------------------
+109, SNMT: 77.77777777777779, UNMT: 77.77777777777779, diff: 0.0
+Src : Jetzt haben wir diese großartige Beziehung“.
+Ref : Now we have this great relationship."
+sys1: Now we have this great relationship. ”
+sys2: Now we have this terrific relationship. "
+------------------
+842, SNMT: 40.0, UNMT: 40.0, diff: 0.0
+Src : "Sie schikanierten mich hinter der Bühne.
+Ref : "They bullied me backstage.
+sys1: "They harassed me behind the stage.
+sys2: "They shackled me behind the stage.
+------------------
+1959, SNMT: 55.55555555555556, UNMT: 55.55555555555556, diff: 0.0
+Src : Europa siegt beim Ryder Cup in Paris
+Ref : Europe clinches Ryder Cup victory in Paris
+sys1: Europe Winning the Ryder Cup in Paris
+sys2: Europe fails at Ryder Cup in Paris
+------------------
