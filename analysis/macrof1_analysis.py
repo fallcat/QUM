@@ -10,7 +10,7 @@ python analysis/macrof1_analysis.py \
   --sys2-path ../../translations/unmt/de-en/test.translation.en.debpe.detok \
   --ref-path ../../data/refs/newstest2019-ende-src.en \
   --src-path ../../data/refs/newstest2019-ende-ref.de \
-  --save-stats-path stats/deen.stats.pkl \
+  --save-stats-path stats/deen.delta.stats.pkl \
   --stats-type delta
 
 2) load delta stats and get a full report
@@ -20,6 +20,21 @@ python analysis/macrof1_analysis.py \
   --report-type top10_mf1 top10_bleu median10_mf1 median10_bleu same_bleu_diff_mf1 \
   --report-path-prefix reports/deen
 
+3) just get bleu and mf1
+python analysis/macrof1_analysis.py \
+  --sys1-path ../../translations/snmt/de-en/newstest2019.1m64k.out.txt.detok \
+  --sys2-path ../../translations/unmt/de-en/test.translation.en.debpe.detok \
+  --ref-path ../../data/refs/newstest2019-ende-src.en \
+  --report-type total_metrics \
+  --report-path-prefix reports/deen
+
+4) print all sentences base on a metric
+python analysis/macrof1_analysis.py \
+  --load-stats-path stats/deen.delta.stats.pkl \
+  --stats-type apply_delta \
+  --save-stats-path stats/deen.apply_delta.stats.pkl \
+  --report-type all_mf1 \
+  --report-path-prefix reports/deen
 """
 
 
@@ -53,20 +68,46 @@ def get_parser():
 
     parser.add_argument('--load-stats-path', type=str, default=None, help='path to load stats')
 
-    parser.add_argument('--save-stats-path', type=str, default=None, help='path to store stats')
+    parser.add_argument('--save-stats-prefix', type=str, default=None, help='prefix to store stats')
 
     parser.add_argument('--stats-type', type=str, default=None, choices=['single', 'delta', 'apply_delta'],
                         help='type of stats to use')
 
-    parser.add_argument('--report-type', type=str, nargs='*', default='top10', choices=['top10_mf1', 'top10_bleu',
+    parser.add_argument('--report-type', type=str, nargs='*', default='top10', choices=['all_mf1', 'all_bleu',
+                                                                                        'top10_mf1', 'top10_bleu',
                                                                                         'median10_mf1', 'median10_bleu',
-                                                                                        'same_bleu_diff_mf1'])
+                                                                                        'same_bleu_diff_mf1', 'total_metrics'])
     parser.add_argument('--print-report', default=False, action='store_true',
                         help='whether or not to print the report')
 
     parser.add_argument('--report-path-prefix', type=str, default=None, help='path to store the reports')
 
     return parser
+
+
+def get_total_metrics(sys1_path, sys2_path, ref_path, lowercase=False, max_order=1, sys1_name='sys1', sys2_name='sys2', filepath=None):
+    with open(sys1_path, 'rt') as sys1_file:
+        with open(sys2_path, 'rt') as sys2_file:
+            with open(ref_path, 'rt') as ref_file:
+                sys1_list = [line.strip() for line in sys1_file.readlines()]
+                sys2_list = [line.strip() for line in sys2_file.readlines()]
+                ref_list = [line.strip() for line in ref_file.readlines()]
+
+    mf1_sys1 = sacrebleu.corpus_rebleu(sys1_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order)
+    mf1_sys2 = sacrebleu.corpus_rebleu(sys2_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order)
+    bleu_sys1 = sacrebleu.corpus_bleu(sys1_list, [ref_list], lowercase=lowercase)
+    bleu_sys2 = sacrebleu.corpus_bleu(sys2_list, [ref_list], lowercase=lowercase)
+
+    report = ''
+    report += f'mf1_{sys1_name}: {mf1_sys1}\n'
+    report += f'mf1_{sys2_name}: {mf1_sys2}\n'
+    report += f'bleu_{sys1_name}: {bleu_sys1}\n'
+    report += f'bleu_{sys2_name}: {bleu_sys2}\n'
+
+    print(report)
+    if filepath is not None:
+        with open(filepath, 'wt') as output_file:
+            output_file.write(report)
 
 
 def get_stats(sys1_path, sys2_path, ref_path, src_path, lowercase=False, max_order=1):
@@ -293,7 +334,7 @@ def get_median10_report(stats, filepath=None, print_report=True, metric='mf1', s
         return subreport
 
     report = ''
-    report += f'sys1 better: {len(sys1_better)}, sys2 better: {len(sys2_better)}, Equal: {len(equal)}\n\n'
+    report += f'{sys1_name} better: {len(sys1_better)}, {sys2_name} better: {len(sys2_better)}, Equal: {len(equal)}\n\n'
 
     report += f"{sys1_name} > {sys2_name} median 10\n"
     report += "==================\n"
@@ -339,7 +380,7 @@ def get_same_bleu_diff_mf1_report(stats, filepath=None, print_report=True, sys1_
     sys2_better = np.flip(sys2_better)
 
     report = ''
-    report += f'sys1 better: {len(sys1_better)}, sys2 better: {len(sys2_better)}, Equal: {len(equal)}\n\n'
+    report += f'{sys1_name} better: {len(sys1_better)}, {sys2_name} better: {len(sys2_better)}, Equal: {len(equal)}\n\n'
 
     def add_mf1_report(mf1s, src_list, ref_list, sys1_list, sys2_list, bleus, idx):
         subreport = ''
@@ -367,6 +408,7 @@ def get_same_bleu_diff_mf1_report(stats, filepath=None, print_report=True, sys1_
     report += add_median10_reports(sys1_better, mf1s, src_list, ref_list, sys1_list, sys2_list, bleus)
 
     report += f"{sys2_name} > {sys1_name} median 10\n"
+    report += "==================\n"
     report += add_median10_reports(sys2_better, mf1s, src_list, ref_list, sys1_list, sys2_list, bleus)
 
     report += f"{sys2_name} = {sys1_name} median 10\n"
@@ -376,6 +418,70 @@ def get_same_bleu_diff_mf1_report(stats, filepath=None, print_report=True, sys1_
     if filepath is not None:
         with open(filepath, 'wt') as output_file:
             output_file.write(report)
+    if print_report:
+        print(report)
+
+# return {'sys1': sys1_list,
+#             'sys2': sys2_list,
+#             'ref': ref_list,
+#             'src': src_list,
+#             'mf1s': mf1s,
+#             'mf1_diff': mf1_diff,
+#             'mf1_ranked_indices': mf1_ranked_indices,
+#             'bleus': bleus,
+#             'bleu_diff': bleu_diff,
+#             'bleu_ranked_indices': bleu_ranked_indices}
+
+
+def get_all_report(stats, fileprefix=None, print_report=True, metric='mf1', sys1_name='sys1', sys2_name='sys2'):
+    sys1_list = stats['sys1']
+    sys2_list = stats['sys2']
+    ref_list = stats['ref']
+    src_list = stats['src']
+    mf1s = stats['mf1s']
+    mf1_diff = stats['mf1_diff']
+    mf1_ranked_indices = stats['mf1_ranked_indices']
+    bleus = stats['bleus']
+    bleu_diff = stats['bleu_diff']
+    bleu_ranked_indices = stats['bleu_ranked_indices']
+    n = len(ref_list)
+
+    def add_report(metrics, metric_diff, idx, src_list, ref_list, sys1_list, sys2_list):
+        subreport = ''
+        subreport += f'{idx}, {sys1_name}: {metrics[idx][0]}, {sys2_name}: {metrics[idx][1]}, diff: {metric_diff[idx]}\n'
+        subreport += f"Src : {src_list[idx]}\n"
+        subreport += f"Ref : {ref_list[idx]}\n"
+        subreport += f"sys1: {sys1_list[idx]}\n"
+        subreport += f"sys2: {sys2_list[idx]}\n"
+        subreport += "------------------\n"
+        return subreport
+
+    report = []
+    for i in range(n):
+        if metric == 'mf1':
+            idx = mf1_ranked_indices[i]
+        else:
+            idx = bleu_ranked_indices[i]
+        report.append('\t'.join([str(idx), src_list[idx], ref_list[idx], sys1_list[idx], sys2_list[idx],
+                      *[str(x) for x in mf1s[idx]], str(mf1_diff[idx]), *[str(x) for x in bleus[idx]], str(bleu_diff[idx])]) + '\n')
+
+    if fileprefix is not None:
+        with open(fileprefix + '.tsv', 'wt') as output_file:
+            output_file.writelines(report)
+        with open(fileprefix + '.txt', 'wt') as output_file:
+            if metric == 'mf1':
+                metrics = mf1s
+                metric_diff = mf1_diff
+            else:
+                metrics = bleus
+                metric_diff = bleu_diff
+            for i in range(n):
+                if metric == 'mf1':
+                    idx = mf1_ranked_indices[i]
+                else:
+                    idx = bleu_ranked_indices[i]
+                output_file.write(add_report(metrics, metric_diff, idx, src_list, ref_list, sys1_list, sys2_list))
+
     if print_report:
         print(report)
 
@@ -398,16 +504,31 @@ if __name__ == '__main__':
                 stats = get_delta_stats(args.sys1_path, args.sys2_path, args.ref_path, args.src_path, lowercase=args.lc, max_order=args.max_order)
                 if args.stats_type == 'apply_delta':
                     stats = apply_delta(stats, lowercase=args.lc)
-        if args.save_stats_path is not None:
-            with open(args.save_stats_path, 'wb') as output_file:
+        if args.save_stats_prefix is not None:
+            with open(f'{args.save_stats_prefix}.{args.stats_type}.{args.max_order}gram.stats.pkl', 'wb') as output_file:
                 pickle.dump(stats, output_file)
     else:
-        assert args.load_stats_path is not None
-        with open(args.save_stats_path, 'wb') as output_file:
-            stats = pickle.load(args.load_stats_path)
+        if args.load_stats_path is not None:
+            with open(args.load_stats_path, 'rb') as input_file:
+                stats = pickle.load(input_file)
+        else:
+            assert args.report_type == ['total_metrics']
 
     # get reports
     # ['top10_mf1', 'top10_bleu', 'median10_mf1', 'median10_bleu', 'same_bleu_diff_mf1']
+    if 'total_metrics' in args.report_type:
+        get_total_metrics(args.sys1_path, args.sys2_path, args.ref_path, lowercase=args.lc, max_order=args.max_order,
+                          sys1_name=args.sys1_name, sys2_name=args.sys2_name,
+                          filepath=f'{args.report_path_prefix}.{args.stats_type}.total_metrics.{args.max_order}gram')
+
+    if 'all_mf1' in args.report_type:
+        get_all_report(stats, fileprefix=f'{args.report_path_prefix}.{args.stats_type}.all.{args.max_order}gram',
+                       print_report=args.print_report, metric='mf1')
+
+    if 'all_bleu' in args.report_type:
+        get_all_report(stats, fileprefix=f'{args.report_path_prefix}.{args.stats_type}.all.{args.max_order}gram',
+                       print_report=args.print_report, metric='bleu')
+
     if 'top10_mf1' in args.report_type:
         get_top10_report(stats, filepath=f'{args.report_path_prefix}.{args.stats_type}.top10_mf1.{args.max_order}gram',
                          print_report=args.print_report, metric='mf1',
@@ -416,11 +537,11 @@ if __name__ == '__main__':
         get_top10_report(stats, filepath=f'{args.report_path_prefix}.{args.stats_type}.top10_bleu.{args.max_order}gram',
                          print_report=args.print_report, metric='bleu',
                          sys1_name=args.sys1_name, sys2_name=args.sys2_name)
-    if 'median_mf1' in args.report_type:
+    if 'median10_mf1' in args.report_type:
         get_median10_report(stats, filepath=f'{args.report_path_prefix}.{args.stats_type}.median10_mf1.{args.max_order}gram',
                             print_report=args.print_report, metric='mf1',
                             sys1_name=args.sys1_name, sys2_name=args.sys2_name)
-    if 'median_bleu' in args.report_type:
+    if 'median10_bleu' in args.report_type:
         get_median10_report(stats, filepath=f'{args.report_path_prefix}.{args.stats_type}.median10_bleu.{args.max_order}gram',
                             print_report=args.print_report, metric='bleu',
                             sys1_name=args.sys1_name, sys2_name=args.sys2_name)
