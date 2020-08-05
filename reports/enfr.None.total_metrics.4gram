@@ -1,4 +1,12 @@
 mf1_SNMT: ReBLEU 25.99 ( BP = 1.000 ratio = 0.999 hyp_len = 77223 ref_len = 77306 )
 mf1_UNMT: ReBLEU 22.96 ( BP = 1.000 ratio = 1.033 hyp_len = 79862 ref_len = 77306 )
+mf1_SNMT_f1: ReBLEU 8.90 ( BP = 1.000 ratio = 0.999 hyp_len = 77223 ref_len = 77306 )
+mf1_UNMT_f1: ReBLEU 9.17 ( BP = 1.000 ratio = 1.033 hyp_len = 79862 ref_len = 77306 )
+mf1_new_SNMT: ReBLEU 16.99 ( BP = 1.000 ratio = 0.999 hyp_len = 77223 ref_len = 77306 )
+mf1_new_UNMT: ReBLEU 18.06 ( BP = 1.000 ratio = 1.033 hyp_len = 79862 ref_len = 77306 )
+mf1_new_SNMT_f1: ReBLEU 20.76 ( BP = 1.000 ratio = 0.999 hyp_len = 77223 ref_len = 77306 )
+mf1_new_UNMT_f1: ReBLEU 21.97 ( BP = 1.000 ratio = 1.033 hyp_len = 79862 ref_len = 77306 )
 bleu_SNMT: BLEU = 25.60 58.4/32.1/19.4/11.9 (BP = 0.999 ratio = 0.999 hyp_len = 77223 ref_len = 77306)
 bleu_UNMT: BLEU = 27.15 56.7/33.3/21.2/13.6 (BP = 1.000 ratio = 1.033 hyp_len = 79862 ref_len = 77306)
+chrf_SNMT: 0.56
+chrf_UNMT: 0.57
