@@ -1,6 +1,10 @@
 """
 Analyze macrof1 and bleu
 
+Requirement:
+
+You need to install sacrebleu from https://github.com/fallcat/sacre-BLEU/tree/bleu-recall first.
+
 Usage:
 
 Example:
@@ -10,31 +14,36 @@ python analysis/macrof1_analysis.py \
   --sys2-path ../../translations/unmt/de-en/test.translation.en.debpe.detok \
   --ref-path ../../data/refs/newstest2019-ende-src.en \
   --src-path ../../data/refs/newstest2019-ende-ref.de \
-  --save-stats-path stats/deen.delta.stats.pkl \
-  --stats-type delta
+  --save-stats-prefix stats/deen \
+  --stats-type delta \
+  --max-order 1
 
 2) load delta stats and get a full report
 python analysis/macrof1_analysis.py \
   --load-stats-path stats/deen.stats.pkl \
   --stats-type apply_delta \
   --report-type top10_mf1 top10_bleu median10_mf1 median10_bleu same_bleu_diff_mf1 \
-  --report-path-prefix reports/deen
+  --report-path-prefix reports/deen \
+  --max-order 1
 
 3) just get bleu and mf1
 python analysis/macrof1_analysis.py \
   --sys1-path ../../translations/snmt/de-en/newstest2019.1m64k.out.txt.detok \
   --sys2-path ../../translations/unmt/de-en/test.translation.en.debpe.detok \
   --ref-path ../../data/refs/newstest2019-ende-src.en \
+  --src-path ../../data/refs/newstest2019-ende-ref.de \
   --report-type total_metrics \
-  --report-path-prefix reports/deen
+  --report-path-prefix reports/deen \
+  --max-order 1
 
 4) print all sentences base on a metric
 python analysis/macrof1_analysis.py \
   --load-stats-path stats/deen.delta.stats.pkl \
   --stats-type apply_delta \
-  --save-stats-path stats/deen.apply_delta.stats.pkl \
+  --save-stats-prefix stats/deen \
   --report-type all_mf1 \
-  --report-path-prefix reports/deen
+  --report-path-prefix reports/deen \
+  --max-order 1
 """
 
 
@@ -43,6 +52,30 @@ import argparse
 import sacrebleu
 import numpy as np
 from tqdm import tqdm
+# from bleurt import score
+import tensorflow as tf
+from collections import Counter
+from nltk.corpus import words
+from nltk.corpus import wordnet as wn
+import nltk
+nltk.download('words')
+nltk.download('wordnet')
+
+tf.compat.v1.flags.DEFINE_string('sys1-path','','')
+tf.compat.v1.flags.DEFINE_string('sys2-path', '', '')
+tf.compat.v1.flags.DEFINE_string('ref-path', '', '')
+tf.compat.v1.flags.DEFINE_string('src-path', '', '')
+tf.compat.v1.flags.DEFINE_string('sys1-name', '', '')
+tf.compat.v1.flags.DEFINE_string('sys2-name', '', '')
+tf.compat.v1.flags.DEFINE_string('lc', '', '')
+tf.compat.v1.flags.DEFINE_string('max-order', '', '')
+tf.compat.v1.flags.DEFINE_string('load-stats-path', '', '')
+tf.compat.v1.flags.DEFINE_string('save-stats-prefix', '', '')
+tf.compat.v1.flags.DEFINE_string('stats-type', '', '')
+tf.compat.v1.flags.DEFINE_string('report-type', '', '')
+tf.compat.v1.flags.DEFINE_string('print-report', '', '')
+tf.compat.v1.flags.DEFINE_string('report-path-prefix', '', '')
+
 
 
 def get_parser():
@@ -74,15 +107,89 @@ def get_parser():
                         help='type of stats to use')
 
     parser.add_argument('--report-type', type=str, nargs='*', default='top10', choices=['all_mf1', 'all_bleu',
+                                                                                        'all_sys1', 'all_sys2',
                                                                                         'top10_mf1', 'top10_bleu',
                                                                                         'median10_mf1', 'median10_bleu',
-                                                                                        'same_bleu_diff_mf1', 'total_metrics'])
+                                                                                        'same_bleu_diff_mf1', 'total_metrics',
+                                                                                        'improved_translation'])
     parser.add_argument('--print-report', default=False, action='store_true',
                         help='whether or not to print the report')
 
     parser.add_argument('--report-path-prefix', type=str, default=None, help='path to store the reports')
 
     return parser
+
+
+def get_percent_en(sent_list):
+    tokenizer = nltk.RegexpTokenizer(r"\w+")
+
+    total = Counter()
+    en = Counter()
+
+    print("Accumulating stats for percent en ...")
+    for sent in tqdm(sent_list):
+        w_list = tokenizer.tokenize(sent)
+        for w in w_list:
+            total[w.lower()] += 1
+    for w in tqdm(total):
+        if len(wn.synsets(w.lower())) > 0 or w in words.words():
+            en[w] = total[w]
+
+    micro_perc = sum(en.values()) / sum(total.values())
+
+    total_list = []
+    en_list = []
+    for sent in tqdm(sent_list):
+        w_list = tokenizer.tokenize(sent)
+        total_list.append(len(w_list))
+        en_list.append(sum([1 if w.lower() in en else 0 for w in w_list]))
+
+    macro_perc = sum([en_list[i] / total_list[i] for i in range(len(total_list))]) / len(total_list)
+
+    return micro_perc, macro_perc, total_list, en_list, total, en
+
+
+def get_improved_translation(sys1_path, sys2_path, ref_path, src_path, sys1_name='sys1', sys2_name='sys2', print_report=False, filepath=None):
+    tokenizer = nltk.RegexpTokenizer(r"\w+")
+    with open(sys1_path, 'rt') as sys1_file:
+        with open(sys2_path, 'rt') as sys2_file:
+            with open(ref_path, 'rt') as ref_file:
+                with open(src_path, 'rt') as src_file:
+                    sys1_list = [line.strip() for line in sys1_file.readlines()]
+                    sys2_list = [line.strip() for line in sys2_file.readlines()]
+                    ref_list = [line.strip() for line in ref_file.readlines()]
+                    src_list = [line.strip() for line in src_file.readlines()]
+    micro_perc_sys1, macro_perc_sys1, total_list_sys1, en_list_sys1, total_sys1, en_sys1 = get_percent_en(sys1_list)
+    micro_perc_sys2, macro_perc_sys2, total_list_sys2, en_list_sys2, total_sys2, en_sys2 = get_percent_en(sys2_list)
+    report = ''
+    better = 0
+    worse = 0
+    print("total_list_sys1", total_list_sys1)
+    print("en_list_sys1", en_list_sys1)
+    print("total_list_sys2", total_list_sys2)
+    print("en_list_sys2", en_list_sys2)
+    for i in range(len(en_list_sys1)):
+        if total_list_sys2[i] - en_list_sys2[i] < total_list_sys1[i] - en_list_sys1[i]:
+            report += f'{i}, # untranslations: {total_list_sys1[i] - en_list_sys1[i]} => {total_list_sys2[i] - en_list_sys2[i]} \n'
+            report += f"Src : {src_list[i]}\n"
+            report += f"Ref : {ref_list[i]}\n"
+            report += f"{sys1_name}: {sys1_list[i]}\n"
+            report += f"{sys2_name}: {sys2_list[i]}\n"
+            report += f"Old Untranslation: {','.join([w for w in tokenizer.tokenize(sys1_list[i]) if w.lower() not in en_sys1])}\n"
+            report += f"New Untranslation: {','.join([w for w in tokenizer.tokenize(sys2_list[i]) if w.lower() not in en_sys2])}\n"
+            report += "------------------\n"
+            better += 1
+        elif total_list_sys2[i] - en_list_sys2[i] > total_list_sys1[i] - en_list_sys1[i]:
+            worse += 1
+    print("improved #: ", better)
+    print("degraded #: ", worse)
+
+    if print_report:
+        print(report)
+    if filepath is not None:
+        print(filepath)
+        with open(filepath, 'wt') as output_file:
+            output_file.write(report)
 
 
 def get_total_metrics(sys1_path, sys2_path, ref_path, lowercase=False, max_order=1, sys1_name='sys1', sys2_name='sys2', filepath=None):
@@ -93,16 +200,44 @@ def get_total_metrics(sys1_path, sys2_path, ref_path, lowercase=False, max_order
                 sys2_list = [line.strip() for line in sys2_file.readlines()]
                 ref_list = [line.strip() for line in ref_file.readlines()]
 
-    mf1_sys1 = sacrebleu.corpus_rebleu(sys1_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order)
-    mf1_sys2 = sacrebleu.corpus_rebleu(sys2_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order)
+    mf1_sys1 = sacrebleu.corpus_rebleu2(sys1_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order)
+    mf1_sys2 = sacrebleu.corpus_rebleu2(sys2_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order)
+    mf1_sys1_f1 = sacrebleu.corpus_rebleu2(sys1_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order, measure_name='f1')
+    mf1_sys2_f1 = sacrebleu.corpus_rebleu2(sys2_list, [ref_list], lowercase=lowercase, average='macro', max_order=max_order, measure_name='f1')
+    mf1_sys1_new = sacrebleu.corpus_rebleu2(sys1_list, [ref_list], average='macro', word_class=True, max_order=max_order)
+    mf1_sys2_new = sacrebleu.corpus_rebleu2(sys2_list, [ref_list], average='macro', word_class=True, max_order=max_order)
+    mf1_sys1_new_f1 = sacrebleu.corpus_rebleu2(sys1_list, [ref_list], average='macro', word_class=True, max_order=max_order, measure_name='f1')
+    mf1_sys2_new_f1 = sacrebleu.corpus_rebleu2(sys2_list, [ref_list], average='macro', word_class=True, max_order=max_order, measure_name='f1')
     bleu_sys1 = sacrebleu.corpus_bleu(sys1_list, [ref_list], lowercase=lowercase)
     bleu_sys2 = sacrebleu.corpus_bleu(sys2_list, [ref_list], lowercase=lowercase)
+    chrf_sys1 = sacrebleu.corpus_chrf(sys1_list, ref_list)
+    chrf_sys2 = sacrebleu.corpus_chrf(sys2_list, ref_list)
+    micro_perc_sys1, macro_perc_sys1, total_list_sys1, en_list_sys1, total_sys1, en_sys1 = get_percent_en(sys1_list)
+    micro_perc_sys2, macro_perc_sys2, total_list_sys2, en_list_sys2, total_sys2, en_sys2 = get_percent_en(sys2_list)
+
+
+    # bleurt_checkpoint = "/Users/weiqiuyou/Documents/USC_ISI/QUM/tools/bleurt/bleurt/bleurt-base-128"
+    # scorer = score.BleurtScorer(bleurt_checkpoint)
+    # bleurt_sys1 = np.mean(scorer.score(ref_list, sys1_list))
+    # bleurt_sys2 = np.mean(scorer.score(ref_list, sys2_list))
 
     report = ''
     report += f'mf1_{sys1_name}: {mf1_sys1}\n'
     report += f'mf1_{sys2_name}: {mf1_sys2}\n'
+    report += f'mf1_{sys1_name}_f1: {mf1_sys1_f1}\n'
+    report += f'mf1_{sys2_name}_f1: {mf1_sys2_f1}\n'
+    report += f'mf1_new_{sys1_name}: {mf1_sys1_new}\n'
+    report += f'mf1_new_{sys2_name}: {mf1_sys2_new}\n'
+    report += f'mf1_new_{sys1_name}_f1: {mf1_sys1_new_f1}\n'
+    report += f'mf1_new_{sys2_name}_f1: {mf1_sys2_new_f1}\n'
     report += f'bleu_{sys1_name}: {bleu_sys1}\n'
     report += f'bleu_{sys2_name}: {bleu_sys2}\n'
+    report += f'chrf_{sys1_name}: {chrf_sys1}\n'
+    report += f'chrf_{sys2_name}: {chrf_sys2}\n'
+    report += f'micro_perc_{sys1_name}: {micro_perc_sys1}\tmacro_perc_{sys1_name}: {macro_perc_sys1}\n'
+    report += f'micro_perc_{sys2_name}: {micro_perc_sys2}\tmacro_perc_{sys2_name}: {macro_perc_sys2}\n'
+    # report += f'bleurt_{sys1_name}: {bleurt_sys1}\n'
+    # report += f'bleurt_{sys2_name}: {bleurt_sys2}\n'
 
     print(report)
     if filepath is not None:
@@ -163,9 +298,9 @@ def get_delta_stats(sys1_path, sys2_path, ref_path, src_path, lowercase=False, m
                     src_list = [line.strip() for line in src_file.readlines()]
 
     mf1s = []
-    mf1_diff = []
     bleus = []
-    bleu_diff = []
+    bp_sys1 = []
+    bp_sys2 = []
 
     for i in tqdm(range(len(sys1_list))):
         # get macro f1
@@ -175,27 +310,23 @@ def get_delta_stats(sys1_path, sys2_path, ref_path, src_path, lowercase=False, m
         mf1_sys1 = sacrebleu.corpus_rebleu(sys1_sublist, [ref_sublist], lowercase=lowercase, average='macro', max_order=max_order)
         mf1_sys2 = sacrebleu.corpus_rebleu(sys2_sublist, [ref_sublist], lowercase=lowercase, average='macro', max_order=max_order)
         mf1s.append([mf1_sys1.score, mf1_sys2.score])
-        mf1_diff.append(mf1_sys1.score - mf1_sys2.score)
 
         # get bleu
         bleu_sys1 = sacrebleu.corpus_bleu(sys1_sublist, [ref_sublist], lowercase=lowercase)
         bleu_sys2 = sacrebleu.corpus_bleu(sys2_sublist, [ref_sublist], lowercase=lowercase)
         bleus.append([bleu_sys1.score, bleu_sys2.score])
-        bleu_diff.append(bleu_sys1.score - bleu_sys2.score)
-
-    mf1_ranked_indices = np.flip(np.argsort(mf1_diff), 0)  # indices of sentences ranked by macro f1 of sys1 - of sys2
-    bleu_ranked_indices = np.flip(np.argsort(bleu_diff), 0)  # indices of sentences ranked by bleu of sys1 - of sys2
+        bp_sys1.append(bleu_sys1.bp)
+        bp_sys2.append(bleu_sys2.bp)
 
     return {'sys1': sys1_list,
             'sys2': sys2_list,
             'ref': ref_list,
             'src': src_list,
             'mf1s': mf1s,
-            'mf1_diff': mf1_diff,
-            'mf1_ranked_indices': mf1_ranked_indices,
             'bleus': bleus,
-            'bleu_diff': bleu_diff,
-            'bleu_ranked_indices': bleu_ranked_indices}
+            'bp_sys1': bp_sys1,
+            'bp_sys2': bp_sys2
+            }
 
 
 def apply_delta(stats, lowercase=False, max_order=1):
@@ -218,6 +349,11 @@ def apply_delta(stats, lowercase=False, max_order=1):
     bleus = []
     bleu_diff = []
 
+    sys1s = []
+    sys1_diff = []
+    sys2s = []
+    sys2_diff = []
+
     for i in tqdm(range(len(sys1_list))):
         # get macro f1
         new_mf1_sys1_score = mf1_sys1.score - stats['mf1s'][i][0]  # old(all) - new(-1)
@@ -231,8 +367,16 @@ def apply_delta(stats, lowercase=False, max_order=1):
         bleus.append([new_bleu_sys1_score, new_bleu_sys2_score])
         bleu_diff.append(new_bleu_sys1_score - new_bleu_sys2_score)
 
+        # get sys1
+        sys1s.append([new_mf1_sys1_score, new_bleu_sys1_score])
+        sys1_diff.append(new_mf1_sys1_score - new_bleu_sys1_score)
+        sys2s.append([new_mf1_sys2_score, new_bleu_sys2_score])
+        sys2_diff.append(new_mf1_sys2_score - new_bleu_sys2_score)
+
     mf1_ranked_indices = np.flip(np.argsort(mf1_diff), 0)  # indices of sentences ranked by macro f1 of sys1 - of sys2
     bleu_ranked_indices = np.flip(np.argsort(bleu_diff), 0)  # indices of sentences ranked by bleu of sys1 - of sys2
+    sys1_ranked_indices = np.flip(np.argsort(sys1_diff), 0)
+    sys2_ranked_indices = np.flip(np.argsort(sys2_diff), 0)
 
     return {'sys1': sys1_list,
             'sys2': sys2_list,
@@ -243,7 +387,16 @@ def apply_delta(stats, lowercase=False, max_order=1):
             'mf1_ranked_indices': mf1_ranked_indices,
             'bleus': bleus,
             'bleu_diff': bleu_diff,
-            'bleu_ranked_indices': bleu_ranked_indices}
+            'bleu_ranked_indices': bleu_ranked_indices,
+            'sys1s': sys1s,
+            'sys1_diff': sys1_diff,
+            'sys1_ranked_indices': sys1_ranked_indices,
+            'sys2s': sys2s,
+            'sys2_diff': sys2_diff,
+            'sys2_ranked_indices': sys2_ranked_indices,
+            'bp_sys1': stats['bp_sys1'] if 'bp_sys1' in stats else None,
+            'bp_sys2': stats['bp_sys2'] if 'bp_sys1' in stats else None
+            }
 
 
 def get_top10_report(stats, filepath=None, print_report=True, metric='mf1', sys1_name='sys1', sys2_name='sys2'):
@@ -421,18 +574,6 @@ def get_same_bleu_diff_mf1_report(stats, filepath=None, print_report=True, sys1_
     if print_report:
         print(report)
 
-# return {'sys1': sys1_list,
-#             'sys2': sys2_list,
-#             'ref': ref_list,
-#             'src': src_list,
-#             'mf1s': mf1s,
-#             'mf1_diff': mf1_diff,
-#             'mf1_ranked_indices': mf1_ranked_indices,
-#             'bleus': bleus,
-#             'bleu_diff': bleu_diff,
-#             'bleu_ranked_indices': bleu_ranked_indices}
-
-
 def get_all_report(stats, fileprefix=None, print_report=True, metric='mf1', sys1_name='sys1', sys2_name='sys2'):
     sys1_list = stats['sys1']
     sys2_list = stats['sys2']
@@ -444,7 +585,20 @@ def get_all_report(stats, fileprefix=None, print_report=True, metric='mf1', sys1
     bleus = stats['bleus']
     bleu_diff = stats['bleu_diff']
     bleu_ranked_indices = stats['bleu_ranked_indices']
+    sys1s = stats['sys1s']
+    sys1_diff = stats['sys1_diff']
+    sys1_ranked_indices = stats['sys1_ranked_indices']
+    sys2s = stats['sys2s']
+    sys2_diff = stats['sys2_diff']
+    sys2_ranked_indices = stats['sys2_ranked_indices']
+    bp_sys1 = stats['bp_sys1']
+    bp_sys2 = stats['bp_sys2']
     n = len(ref_list)
+
+    # bleurt_checkpoint = "/Users/weiqiuyou/Documents/USC_ISI/QUM/tools/bleurt/bleurt/bleurt-base-128"
+    # scorer = score.BleurtScorer(bleurt_checkpoint)
+    # bleurt_sys1 = scorer.score(ref_list, sys1_list)
+    # bleurt_sys2 = scorer.score(ref_list, sys2_list)
 
     def add_report(metrics, metric_diff, idx, src_list, ref_list, sys1_list, sys2_list):
         subreport = ''
@@ -460,10 +614,20 @@ def get_all_report(stats, fileprefix=None, print_report=True, metric='mf1', sys1
     for i in range(n):
         if metric == 'mf1':
             idx = mf1_ranked_indices[i]
-        else:
+        elif metric == 'bleu':
             idx = bleu_ranked_indices[i]
+        elif metric == 'sys1':
+            idx = sys1_ranked_indices[i]
+        else:
+            idx = sys2_ranked_indices[i]
         report.append('\t'.join([str(idx), src_list[idx], ref_list[idx], sys1_list[idx], sys2_list[idx],
-                      *[str(x) for x in mf1s[idx]], str(mf1_diff[idx]), *[str(x) for x in bleus[idx]], str(bleu_diff[idx])]) + '\n')
+                                 *[str(x) for x in mf1s[idx]], str(mf1_diff[idx]), *[str(x) for x in bleus[idx]],
+                                 str(bleu_diff[idx]), *[str(x) for x in sys1s[idx]],
+                                 str(sys1_diff[idx]), *[str(x) for x in sys2s[idx]],
+                                 str(sys2_diff[idx]), str(bp_sys1[idx]), str(bp_sys2[idx])]) + '\n')
+        # report.append('\t'.join([str(idx), src_list[idx], ref_list[idx], sys1_list[idx], sys2_list[idx],
+        #               *[str(x) for x in mf1s[idx]], str(mf1_diff[idx]), *[str(x) for x in bleus[idx]], str(bleu_diff[idx]),
+        #                          str(bleurt_sys1[idx]), str(bleurt_sys2[idx])]) + '\n')
 
     if fileprefix is not None:
         with open(fileprefix + '.tsv', 'wt') as output_file:
@@ -472,14 +636,24 @@ def get_all_report(stats, fileprefix=None, print_report=True, metric='mf1', sys1
             if metric == 'mf1':
                 metrics = mf1s
                 metric_diff = mf1_diff
-            else:
+            elif metric == 'bleu':
                 metrics = bleus
                 metric_diff = bleu_diff
+            elif metric == 'sys1':
+                metrics = sys1s
+                metric_diff = sys1_diff
+            else:
+                metrics = sys2s
+                metric_diff = sys2_diff
             for i in range(n):
                 if metric == 'mf1':
                     idx = mf1_ranked_indices[i]
-                else:
+                elif metric == 'bleu':
                     idx = bleu_ranked_indices[i]
+                elif metric == 'sys1':
+                    idx = sys1_ranked_indices[i]
+                else:
+                    idx = sys2_ranked_indices[i]
                 output_file.write(add_report(metrics, metric_diff, idx, src_list, ref_list, sys1_list, sys2_list))
 
     if print_report:
@@ -496,14 +670,14 @@ if __name__ == '__main__':
             with open(args.load_stats_path, 'rb') as input_file:
                 stats = pickle.load(input_file)
             assert args.stats_type == 'apply_delta'
-            stats = apply_delta(stats, lowercase=args.lc)
+            stats = apply_delta(stats, lowercase=args.lc, max_order=args.max_order)
         else:
             if args.stats_type == 'single':
                 stats = get_stats(args.sys1_path, args.sys2_path, args.ref_path, args.src_path, lowercase=args.lc, max_order=args.max_order)
             else:
                 stats = get_delta_stats(args.sys1_path, args.sys2_path, args.ref_path, args.src_path, lowercase=args.lc, max_order=args.max_order)
                 if args.stats_type == 'apply_delta':
-                    stats = apply_delta(stats, lowercase=args.lc)
+                    stats = apply_delta(stats, lowercase=args.lc, max_order=args.max_order)
         if args.save_stats_prefix is not None:
             with open(f'{args.save_stats_prefix}.{args.stats_type}.{args.max_order}gram.stats.pkl', 'wb') as output_file:
                 pickle.dump(stats, output_file)
@@ -512,7 +686,7 @@ if __name__ == '__main__':
             with open(args.load_stats_path, 'rb') as input_file:
                 stats = pickle.load(input_file)
         else:
-            assert args.report_type == ['total_metrics']
+            assert args.report_type == ['total_metrics'] or args.report_type == ['improved_translation']
 
     # get reports
     # ['top10_mf1', 'top10_bleu', 'median10_mf1', 'median10_bleu', 'same_bleu_diff_mf1']
@@ -521,6 +695,11 @@ if __name__ == '__main__':
                           sys1_name=args.sys1_name, sys2_name=args.sys2_name,
                           filepath=f'{args.report_path_prefix}.{args.stats_type}.total_metrics.{args.max_order}gram')
 
+    if 'improved_translation' in args.report_type:
+        get_improved_translation(args.sys1_path, args.sys2_path, args.ref_path, args.src_path,
+                                 sys1_name=args.sys1_name, sys2_name=args.sys2_name, print_report=args.print_report,
+                                 filepath=f'{args.report_path_prefix}.{args.stats_type}.improve_translation.{args.max_order}gram')
+
     if 'all_mf1' in args.report_type:
         get_all_report(stats, fileprefix=f'{args.report_path_prefix}.{args.stats_type}.all.{args.max_order}gram',
                        print_report=args.print_report, metric='mf1')
@@ -528,6 +707,14 @@ if __name__ == '__main__':
     if 'all_bleu' in args.report_type:
         get_all_report(stats, fileprefix=f'{args.report_path_prefix}.{args.stats_type}.all.{args.max_order}gram',
                        print_report=args.print_report, metric='bleu')
+
+    if 'all_sys1' in args.report_type:
+        get_all_report(stats, fileprefix=f'{args.report_path_prefix}.{args.stats_type}.all.{args.max_order}gram',
+                       print_report=args.print_report, metric='sys1')
+
+    if 'all_sys2' in args.report_type:
+        get_all_report(stats, fileprefix=f'{args.report_path_prefix}.{args.stats_type}.all.{args.max_order}gram',
+                       print_report=args.print_report, metric='sys2')
 
     if 'top10_mf1' in args.report_type:
         get_top10_report(stats, filepath=f'{args.report_path_prefix}.{args.stats_type}.top10_mf1.{args.max_order}gram',
