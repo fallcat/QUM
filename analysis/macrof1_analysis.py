@@ -611,6 +611,11 @@ def get_all_report(stats, fileprefix=None, print_report=True, metric='mf1', sys1
         return subreport
 
     report = []
+    report.append(f'idx\tsrc\tref\t{sys1_name}\t{sys2_name}\t{sys1_name} mf1 delta\t{sys2_name} mf1 delta\tmf1 delta diff\t'
+                  f'{sys1_name} bleu delta\t{sys2_name} bleu delta\tbleu delta diff\t'
+                  f'mf1 {sys1_name} delta\tbleu {sys1_name} delta\t{sys1_name} delta diff\t'
+                  f'mf1 {sys2_name} delta\tbleu {sys2_name} delta\t{sys2_name} delta diff\t'
+                  f'bp {sys1_name}\tbp {sys2_name}\n')
     for i in range(n):
         if metric == 'mf1':
             idx = mf1_ranked_indices[i]
